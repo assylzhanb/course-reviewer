@@ -7,17 +7,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class EmployeeController {
-    @GetMapping("/employees")
-
     // GET requests for all employees
+    @GetMapping("/employees")
     public Employee[] getEmployees(){
-        Employee assyl = new Employee();
-        Employee mashina = new Employee();
+        Employee assyl = new Employee("Mura");
+        Employee mashina = new Employee("Aidana");
 
         return new Employee[]{assyl, mashina};
     }
 
-    // GET requests for single employee with their id
+//  GET requests for single employee with their id
 //    @GetMapping("/employees/{id}")
 //    public Employee getEmployee(@PathVariable Long id){
 //        return employee;
