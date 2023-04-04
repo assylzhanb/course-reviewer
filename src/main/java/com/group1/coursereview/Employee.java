@@ -1,21 +1,45 @@
 package com.group1.coursereview;
 
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import org.springframework.boot.autoconfigure.web.WebProperties;
+
+@Entity
 public class Employee {
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String name;
-    private static int counter = 0;
+    private String role;
 
-    public Employee(String s) {
-        counter++;
-        this.name = s;
-        this.id = counter;
+    public Employee(){}
+
+    public Employee(Long id, String name, String role){
+        this.id = id;
+        this.name = name;
+        this.role = role;
     }
-
-    public int getId() {
-        return this.id;
+    public Long getId(){
+        return id;
     }
     public String getName(){
         return this.name;
     }
+    public String getRole(){
+        return role;
+    }
+    public void setId(Long id){
+        this.id = id;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setRole(String role){
+        this.role = role;
+    }
+
+
 }
