@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.aggregation.Aggregation;
 import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +19,7 @@ import com.group1.coursereview.repository.MovieRepository;
 import com.group1.coursereview.repository.RatingRepository;
 
 @RestController
+@RequestMapping("/ratings")
 public class RatingController {
 
     @Autowired
@@ -29,7 +31,12 @@ public class RatingController {
     @Autowired
     private MongoTemplate mongoTemplate;
 
-    @GetMapping("/ratings/{somerating}")
+    @GetMapping("/")
+    public List<Rating> getAllRatings() {
+        return ratingRepository.findAll();
+    }
+
+    @GetMapping("/{somerating}")
     public List<Map> getMoviesByRating(@PathVariable int somerating) {
         if (somerating < 1 || somerating > 5) {
             throw new IllegalArgumentException("Invalid rating. Rating should be between 1 and 5.");
@@ -58,5 +65,20 @@ public class RatingController {
         Map<String, String> response = new HashMap<>();
         response.put("error", ex.getMessage());
         return response;
+    }
+    @PostMapping("/")
+    public Rating addRating(@RequestBody Rating rating) {
+        mongoTemplate.insert(rating);
+        return rating;
+    }
+    @PutMapping("/{id}")
+    public Rating updateRating(@PathVariable String id, @RequestBody Rating rating) {
+        rating.setId(id);
+        mongoTemplate.save(rating);
+        return rating;
+    }
+    @DeleteMapping("/{id}")
+    public void deleteRating(@PathVariable String id) {
+        mongoTemplate.remove(Query.query(Criteria.where("_id").is(id)), Rating.class);
     }
 }
