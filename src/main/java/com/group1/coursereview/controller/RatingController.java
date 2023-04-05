@@ -1,5 +1,6 @@
 package com.group1.coursereview.controller;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -9,9 +10,8 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.aggregation.Aggregation;
 import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import com.group1.coursereview.model.Rating;
 import com.group1.coursereview.repository.MovieRepository;
@@ -31,6 +31,9 @@ public class RatingController {
 
     @GetMapping("/ratings/{somerating}")
     public List<Map> getMoviesByRating(@PathVariable int somerating) {
+        if (somerating < 1 || somerating > 5) {
+            throw new IllegalArgumentException("Invalid rating. Rating should be between 1 and 5.");
+        }
 
         Aggregation agg = Aggregation.newAggregation(
                 Aggregation.match(Criteria.where("rating").gte(somerating)),
@@ -49,5 +52,11 @@ public class RatingController {
         AggregationResults<Map> results = mongoTemplate.aggregate(agg, Rating.class, Map.class);
         return results.getMappedResults();
     }
-
+    @ExceptionHandler(IllegalArgumentException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public Map<String, String> handleIllegalArgumentException(IllegalArgumentException ex) {
+        Map<String, String> response = new HashMap<>();
+        response.put("error", ex.getMessage());
+        return response;
+    }
 }
