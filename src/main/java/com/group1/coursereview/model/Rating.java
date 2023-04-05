@@ -28,9 +28,9 @@ public class Rating {
         this.id = id;
     }
 
-    public String getUserId() {
-        return userId;
-    }
+//    public String getUserId() {
+//        return userId;
+//    }
 
     public void setUserId(String userId) {
         this.userId = userId;
@@ -52,9 +52,9 @@ public class Rating {
         this.rating = rating;
     }
 
-    public long getTimestamp() {
-        return timestamp;
-    }
+//    public long getTimestamp() {
+//        return timestamp;
+//    }
 
     public void setTimestamp(long timestamp) {
         this.timestamp = timestamp;

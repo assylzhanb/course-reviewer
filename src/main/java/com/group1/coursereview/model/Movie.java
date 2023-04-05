@@ -1,6 +1,10 @@
 package com.group1.coursereview.model;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @Document(collection = "movies")
 public class Movie {
@@ -8,6 +12,7 @@ public class Movie {
     private String id;
     private String title;
     private String genres;
+    private double averageRating;
 
     public Movie() {}
 
@@ -38,5 +43,21 @@ public class Movie {
 
     public void setGenres(String genres) {
         this.genres = genres;
+    }
+    public Map<String, Object> toMap() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("id", this.id);
+        map.put("title", this.title);
+        map.put("genres", this.genres);
+        map.put("averageRating", this.averageRating);
+        return map;
+    }
+
+    public double getAverageRating() {
+        return averageRating;
+    }
+
+    public void setAverageRating(double averageRating) {
+        this.averageRating = averageRating;
     }
 }
