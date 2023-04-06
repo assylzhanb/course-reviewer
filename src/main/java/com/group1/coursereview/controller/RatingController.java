@@ -43,7 +43,7 @@ public class RatingController {
         }
 
         Aggregation agg = Aggregation.newAggregation(
-                Aggregation.match(Criteria.where("rating").gte(somerating)),
+                //Aggregation.match(Criteria.where("rating").gte(somerating)),
                 Aggregation.group("movieId").avg("rating").as("averageRating"),
                 Aggregation.lookup("movies", "_id", "_id", "movies"),
                 Aggregation.unwind("movies"),
