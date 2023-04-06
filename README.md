@@ -25,6 +25,8 @@ root@containerID$ sh run.sh
 | Aidana Saparbai Kyzy | Tester    |
 | Myrat Bayramov       | Debugger  |
 
+# Part II
+
 ## Some examples input/output:
 
 Input:
@@ -71,6 +73,12 @@ Now making GET request will result in:
 [{"id":1,"name":"Samwise Gamgee","role":"ring bearer"}]
 ```
 
+---
+
+# Part III
+
+### We handled impossible inputs.
+
 Input:
 
 ```
@@ -82,6 +90,10 @@ Output:
 ```
 {"error":"Invalid rating. Rating should be between 1 and 5."}
 ```
+
+---
+
+### We implemented the GET request that returns list of all movies that have higher average rating than **input** number
 
 Input:
 
@@ -122,4 +134,16 @@ Output:
 
 ```
 {"userId":"1","movieId":"2","rating":4}
+```
+
+# Database
+
+We used **MongoDB Atlas** in this milestone. Connection string is available in _application.properties_ file in the _resources_ folder.
+
+---
+
+### In order to convert **.dat** files to **.csv** we used the following command:
+
+```bash
+awk 'BEGIN {FS = "::"} ; {print $1","$2","$3","$4}' input.dat > output.csv
 ```
