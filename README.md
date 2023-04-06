@@ -21,7 +21,7 @@ root@containerID$ sh run.sh
 
 | Name                 | Role      |
 | -------------------- | --------- |
-| Assylzhan Bakhtiyar  | Team Lead |
+| Assylzhan Baktiyar  | Team Lead |
 | Aidana Saparbai Kyzy | Tester    |
 | Myrat Bayramov       | Debugger  |
 
