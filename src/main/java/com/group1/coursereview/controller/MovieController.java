@@ -3,12 +3,14 @@ package com.group1.coursereview.controller;
 
 
 import com.group1.coursereview.model.Movie;
+import com.group1.coursereview.model.MovieDto;
 import com.group1.coursereview.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -19,9 +21,14 @@ public class MovieController {
     private MovieRepository movieRepository;
 
     @GetMapping("/")
-    public ResponseEntity<List<Movie>> getAllMovies() {
+    public ResponseEntity<List<MovieDto>> getAllMovies() {
         List<Movie> movies = movieRepository.findAll();
-        return new ResponseEntity<>(movies, HttpStatus.OK);
+        List<MovieDto> movieDtos = new ArrayList<>();
+        for (Movie movie : movies) {
+            MovieDto movieDto = new MovieDto(movie.getId(), movie.getTitle(), movie.getGenres());
+            movieDtos.add(movieDto);
+        }
+        return new ResponseEntity<>(movieDtos, HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
