@@ -1,0 +1,398 @@
+inst_ID,Name,Contact_info,Department,position
+1,Young-Choon Kim,yckim@unist.ac.kr,School of Business Administration,Associate Professor
+2,Jeong Hwan Joo,jeongjoo@unist.ac.kr,School of Business Administration - Finance & Accounting,Associate Professor
+3,Doyoon Kim,doyoon@unist.ac.kr,School of Business Administration,
+4,Victoria Kim,victoria@unist.ac.kr,School of Business Administration,
+5,Jaesun Yeom,jaesunyeom22@unist.ac.kr,School of Business Administration,
+6,Joonhwan In,joonhwan@unist.ac.kr,"Graduate School of Technology and
+Innovation Management",Assistant Professor
+7,Sang Moo Huh,,,
+8,Molan Kim,mkim@unist.ac.kr,School of Business Administration,Associate Professor
+9,,,,
+10,Jason Park,,,
+11,Young Rok Choi,yrchoi@unist.ac.kr,"School of Business Administration/Graduate School of Technology and
+Innovation Management","Professor &
+Associate Professor"
+12,,,,
+13,Hye-sun Kang,,,
+14,Han-Gyun Woo,hwoo@unist.ac.kr,"Graduate School of Technology and
+Innovation Management",Associate Professor
+15,Min Chung Kim,mckim@unist.ac.kr,School of Business Administration - Management,Associate Professor
+16,Dojoon Lee,,,
+17,Seung Bai Bach,,,
+18,Sung Whan Yoon,shyoon8@unist.ac.kr,Graduate School of Artificial Intelligence - Electrical Engineering,Assistant Professor
+19,Hyeonwoo Yu,hyeonwoo.yu@unist.ac.kr,Department of Electrical Engineering,Assistant Professor
+20,Sam H. Noh,samhnoh@unist.ac.kr,Department of Computer Science and Engineering,
+21,Myung Gon Ko,mgko@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Associate Professor
+22,Hyug Moo Kwon,hmkwon@unist.ac.kr,Department of Biological Sciences - Biological Sciences,
+23,Haejin Yoon,haejinyoon@unist.ac.kr,Department of Biological Sciences,Assistant Professor
+24,Hongtae Kim,khtcat@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Professor
+25,Tae-Eun Park,tepark@unist.ac.kr,Department of Biomedical Engineering - Biomedical Engineering,Associate Professor
+26,Jinmyoung Joo,jjoo@unist.ac.kr,Department of Biomedical Engineering - Biomedical Engineering,Associate Professor
+27,Joo Hun Kang,jookang@unist.ac.kr,Department of Biomedical Engineering - Biomedical Engineering,Associate Professor
+28,Hyung Joon Cho,hjcho@unist.ac.kr,Department of Biomedical Engineering - Biomedical Engineering,Professor
+29,Jaeheung Cho,jaeheung@unist.ac.kr,Department of Chemistry,Professor
+30,Yongwon Seo,ywseo@unist.ac.kr,Graduate School of Carbon Neutrality - Environmental Science and Engineering,Professor
+31,Woongki Baek,wbaek@unist.ac.kr,Department of Computer Science and Engineering - Computer Science and Engineering,Professor
+32,Chajoong Kim,cjkim@unist.ac.kr,Department of Design - Industrial Design,Professor
+33,Hui Sung Lee,huisung.lee@unist.ac.kr,Department of Design,Associate Professor
+34,Dong-Hyun Cha,dhcha@unist.ac.kr,Department of Urban and Environmental Engineering - Disaster Management Engineering,Professor
+35,Hyun-Kon Song,philiphobi@unist.ac.kr,School of Energy and Chemical Engineering - Chemical Engineering,Professor
+,,,,
+37,Jae Joon Kim,jaejoon@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Associate Professor
+38,Jee Hoon Jung,jhjung@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Professor
+39,Namhun Kim,nhkim@unist.ac.kr,Department of Mechanical Engineering - System Design and Control Engineering,Professor
+40,Hoon Eui Jeong,hoonejeong@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Professor
+41,Joonbum Bae,jbbae@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Professor
+42,Im Doo Jung,idjung@unist.ac.kr,Department of Mechanical Engineering,Assistant Professor
+43,Chun Sang Yoo,csyoo@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Professor
+44,Suk Bin Lee,sukbinlee@unist.ac.kr,Department of Materials Science and Engineering,Associate Professor
+45,Jung-Woo Yoo,jwyoo@unist.ac.kr,Department of Materials Science and Engineering,Professor
+46,Jae Sung Son,jsson@unist.ac.kr,Department of Materials Science and Engineering,Professor
+47,Young Chul Jun,ycjun@unist.ac.kr,Department of Materials Science and Engineering,Associate Professor
+48,Kyoung Jin Choi,choi@unist.ac.kr,Department of Materials Science and Engineering,Professor
+49,Chang Hyeong Lee,chlee@unist.ac.kr,Department of Mathematical Sciences - Mathematical Sciences,Professor
+50,In Cheol Bang,icbang@unist.ac.kr,Department of Nuclear Engineering - Nuclear Science and Engineering,Professor
+51,Kibog Park,kibogpark@unist.ac.kr,Department of Physics - Physics,Professor
+52,Hongsik Jeong,jeonghs1@unist.ac.kr,Department of Urban and Environmental Engineering,Professor
+53,Jae Eun Oh,ohjaeeun@unist.ac.kr,Urban Infrastructure Engineering,Professor
+54,Jae Sung Lee,jlee1234@unist.ac.kr,School of Energy and Chemical Engineering - Chemical Engineering,Professor
+55,Kyungdon Joo,kyungdon@unist.ac.kr,Graduate School of Artificial Intelligence,Assistant Professor
+56,,,,
+57,Chan Young Park,cypark@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Associate Professor
+58,Dougu Nam,dougnam@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Professor
+59,Byoung Heon Kang,kangbh@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Professor
+60,Sung-ho Park,parksu@unist.ac.kr,Department of Biological Sciences,Assistant Professor
+61,Eunhee Kim,ehkim@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Associate Professor
+62,Oh-Sang Kwon,oskwon@unist.ac.kr,Department of Biomedical Engineering - Human and Factors Engineering,Associate Professor
+63,Youngshin Kwak,yskwak@unist.ac.kr,Department of Biomedical Engineering - Human and Factors Engineering,Professor
+64,Semin Lee,seminlee@unist.ac.kr,Department of Biomedical Engineering - Biomedical Engineering,Associate Professor
+65,Woonggyu Jung,wgjung@unist.ac.kr,Department of Biomedical Engineering - Biomedical Engineering,Associate Professor
+66,Ja Hyoung Ryu,jhryu@unist.ac.kr,Department of Chemistry - Chemistry,Professor
+67,TAEHWAN KIM,taehwankim@unist.ac.kr,Graduate School of Artificial Intelligence,Assistant Professor
+68,Kyungho Lee,kyungho@unist.ac.kr,Department of Design,Assistant Professor
+69,Jibum Chung,learning@unist.ac.kr,Department of Urban and Environmental Engineering - Disaster Management Engineering,Associate Professor
+70,Jongwon Lee,jongwonlee@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Associate Professor
+71,,,,
+72,Jaesung Jang,jjang@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Professor
+73,Kee Yeun Lee,keeylee@unist.ac.kr,School of Business Administration - Management,Assistant Professor
+74,Saiah Lee,saiahlee@unist.ac.kr,School of Business Administration - Management,Assistant Professor
+75,Myoungsu Shin,msshin@unist.ac.kr,Department of Urban and Environmental Engineering - Urban Infrastructure Engineering,Professor
+76,Jeongseob Kim,jskim14@unist.ac.kr,Department of Urban and Environmental Engineering - Urban Infrastructure Engineering,Associate Professor
+77,Ji Wook Jang,jiwjang@unist.ac.kr,School of Energy and Chemical Engineering,Associate Professor
+78,Ja Hun Kwak,jhkwak@unist.ac.kr,School of Energy and Chemical Engineering - Chemical Engineering,Associate Professor
+79,Youngkook Kwon,ykwon@unist.ac.kr,School of Energy and Chemical Engineering - Chemical Engineering,Associate Professor
+80,Sung Kuk Lee,sklee@unist.ac.kr,School of Energy and Chemical Engineering - Chemical Engineering,Professor
+81,Hyemin Ahn,hyemin.ahn@unist.ac.kr,Graduate School of Artificial Intelligence,Assistant Professor
+82,,,,
+83,Sungil Kim,sungil.kim@unist.ac.kr,Department of Industrial Engineering,Associate Professor
+84,Myeongjae Jeon,mjjeon@unist.ac.kr,Department of Computer Science and Engineering - Computer Science and Engineering,Associate Professor
+85,Youngchan Hwang,,,
+86,,,,
+87,Yeolib Kim,yeolib.kim@unist.ac.kr,Graduate School of Technology and Innovation Management - Management,Associate Professor
+88,Jayil Lee,biojayil@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Associate Professor
+89,Jiyoung Park,jpark@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Associate Professor
+90,Sebyung Kang,sabsab7@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Professor
+91,Young Chan Chae,ychae@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Associate Professor
+92,Orlando D. Scharer,orlando.scharer@unist.ac.kr,Department of Biological Sciences - Biological Sciences,
+93,,,,
+94,Jongnam Park,jnpark@unist.ac.kr,Department of Biomedical Engineering - Energy Engineering,Associate Professor
+95,GWANSEOB SHIN,gshin@unist.ac.kr,Department of Biomedical Engineering - Human and Factors Engineering,Professor
+96,Sungkyun Jung,skjung@unist.ac.kr,School of Energy and Chemical Engineering,Assistant Professor
+97,Jaephil Cho,jpcho@unist.ac.kr,School of Energy and Chemical Engineering,Assistant Professor
+98,Seung Mo Oh,seungoh@unist.ac.kr,"School of Energy and Chemical
+Engineering",Chair professor
+99,Yunseok Choi,ys1choi@unist.ac.kr,School of Energy and Chemical Engineering - Energy Engineering,Professor
+100,YungDoug Suh,ydsuh@unist.ac.kr,Department of Chemistry,Professor
+101,Geunsik Lee,gslee@unist.ac.kr,Department of Chemistry - Chemistry,Associate Professor
+102,Tae-Hyuk Kwon,kwon90@unist.ac.kr,Department of Chemistry - Chemistry,Professor
+103,Christopher W Bielawski,bielawski@unist.ac.kr,Department of Chemistry - Chemistry,Professor
+104,Hyunchul Oh,hcoh@unist.ac.kr,Department of Chemistry,Associate Professor
+105,Myoung Soo Lah,mslah@unist.ac.kr,Department of Chemistry - Chemistry,Professor
+106,Hoi Ri MOON,hoirimoon@unist.ac.kr,Department of Chemistry,Professor
+107,Bum Suk Zhao,zhao@unist.ac.kr,Department of Chemistry - Chemistry,Associate Professor
+108,BongSoo Kim,bongsoo@unist.ac.kr,Department of Chemistry - Chemistry,Associate Professor
+109,Oh Hoon Kwon,ohkwon@unist.ac.kr,Department of Chemistry - Chemistry,Professor
+110,Kyoseung Sim,kyos@unist.ac.kr,Department of Chemistry - Chemistry,Assistant Professor
+111,Jungki Ryu,jryu@unist.ac.kr,School of Energy and Chemical Engineering - Energy Engineering,Associate Professor
+112,Dong Suk Kim,kimds@unist.ac.kr,Graduate School of Carbon Neutrality,Professor
+113,Chang Keun Song,cksong@unist.ac.kr,Graduate School of Carbon Neutrality - Disaster Management Engineering,Associate Professor
+114,Jooyong Yi,jooyong@unist.ac.kr,Department of Computer Science and Engineering - Computer Science and Engineering,Assistant Professor
+115,Tsz-Chiu Au,chiu@unist.ac.kr,Department of Computer Science and Engineering - Computer Science and Engineering,Associate Professor
+116,Youngbin Im,ybim@unist.ac.kr,Department of Computer Science and Engineering - Computer Science and Engineering,Assistant Professor
+117,Hyungon Moon,hyungon@unist.ac.kr,Department of Computer Science and Engineering - Computer Science and Engineering,Assistant Professor
+118,Ilwoo Lyu,ilwoolyu@unist.ac.kr,Department of Computer Science and Engineering,Assistant Professor
+119,Seungho Lee,seungholee@unist.ac.kr,Department of Design,Assistant Professor
+120,Ian Oakley,ianoakley@unist.ac.kr,Department of Design - Human and Factors Engineering,Professor
+121,Byungmin Kim,byungmin.kim@unist.ac.kr,Department of Urban and Environmental Engineering - Disaster Management Engineering,Associate Professor
+122,SEONG JUN HA,,,
+123,Min-Cheol Kim,,,
+124,Kwanyong Seo,kseo@unist.ac.kr,School of Energy and Chemical Engineering - Energy Engineering,Professor
+125,Jeong hwan Jeon,jhjeon@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Associate Professor
+126,Hyoil Kim,hkim@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Professor
+127,Jingook Kim,jingook@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Professor
+128,EunMi Choi,emchoi@unist.ac.kr,Department of Electrical Engineering,Professor
+129,Min-Suk Kwon,mskwon@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Associate Professor
+130,Kyung Rok Kim,krkim@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Professor
+131,Il-Sug Chung,ischung@unist.ac.kr,Department of Electrical Engineering - Electrical Engineering,Associate Professor
+132,Jungho Im,ersgis@unist.ac.kr,Department of Urban and Environmental Engineering - Environmental Science and Engineering,Professor
+133,Kyung Hwa Cho,khcho@unist.ac.kr,Department of Urban and Environmental Engineering - Environmental Science and Engineering,Professor
+134,Jin Young Kim,jykim@unist.ac.kr,Graduate School of Carbon Neutrality - Energy Engineering,Professor
+135,Ji-Hyun Jang,clau@unist.ac.kr,School of Energy and Chemical Engineering - Energy Engineering,Professor
+136,Byung-Wook Park,,,
+137,Hee Chun Lim,,,
+138,Kyung-soon Park,,,
+139,Jaeseon Lee,jaeseonlee@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Associate Professor
+140,Aejung Yoon,ajyoon@unist.ac.kr,Department of Mechanical Engineering,Assistant Professor
+141,Heungjoo Shin,hjshin@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Professor
+142,Young-Bin Park,ypark@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Professor
+143,Hyondong Oh,h.oh@unist.ac.kr,Department of Mechanical Engineering - Mechanical Engineering,Associate Professor
+144,Seungho Cho,scho@unist.ac.kr,Department of Materials Science and Engineering,Associate Professor
+145,Wook Jo,wookjo@unist.ac.kr,Department of Materials Science and Engineering,Associate Professor
+146,Chaenyung Cha,ccha@unist.ac.kr,Department of Materials Science and Engineering,Associate Professor
+147,Jiyun Kim,jiyunkim@unist.ac.kr,Department of Materials Science and Engineering,Associate Professor
+148,Tae-Sik Yoon,tsyoon@unist.ac.kr,Graduate School of Semiconductor Materials and Devices Engineering,Professor
+149,Feng Ding,,,
+150,Hantaek Bae,hantaek@unist.ac.kr,Department of Mathematical Sciences - Mathematical Sciences,Associate Professor
+151,Kyudong Choi,kchoi@unist.ac.kr,Department of Mathematical Sciences - Mathematical Sciences,Associate Professor
+152,Pilwon Kim,pwkim@unist.ac.kr,Department of Mathematical Sciences - Mathematical Sciences,Associate Professor
+153,Hae-Sang Sun,haesang@unist.ac.kr,Department of Mathematical Sciences - Mathematical Sciences,Associate Professor
+154,Hee Reyoung Kim,kimhr@unist.ac.kr,Department of Nuclear Engineering - Nuclear Science and Engineering,Associate Professor
+155,Deokjung Lee,deokjung@unist.ac.kr,Department of Nuclear Engineering - Nuclear Science and Engineering,Professor
+156,Douglas Fynan,dfynan@unist.ac.kr,Department of Nuclear Engineering - Nuclear Science and Engineering,Associate Professor
+157,Eisung Yoon,esyoon@unist.ac.kr,Department of Nuclear Engineering,Associate Professor
+158,KYUJIN KWAK,kkwak@unist.ac.kr,Department of Physics - Physics,Associate Professor
+159,Kunook Chung,kunookc@unist.ac.kr,Graduate School of Semiconductor Materials and Devices Engineering - Physics,Assistant Professor
+160,Francois Amblard,,,
+161,Changhee Sohn,chsohn@unist.ac.kr,Department of Physics - Physics,Assistant Professor
+162,Yoon Seok Oh,ysoh@unist.ac.kr,Department of Physics - Physics,Associate Professor
+163,Je-Hyung Kim,jehyungkim@unist.ac.kr,Department of Physics,Associate Professor
+164,Changwook Jeong,changwook.jeong@unist.ac.kr,Graduate School of Semiconductor Materials and Devices Engineering,Associate Professor
+165,Ki-Suk Lee,kisuk@unist.ac.kr,Graduate School of Semiconductor Materials and Devices Engineering,Associate Professor
+166,Soon-Moon Jung,,,
+167,Gun Kim,gunkim@unist.ac.kr,Department of Urban and Environmental Engineering,Assistant Professor
+168,Gihyoug Cho,gicho@unist.ac.kr,Department of Urban and Environmental Engineering - Urban Infrastructure Engineering,Professor
+169,Sukhoon Pyo,shpyo@unist.ac.kr,Department of Urban and Environmental Engineering - Urban Infrastructure Engineering,Associate Professor
+170,Chunggi Baig,cbaig@unist.ac.kr,School of Energy and Chemical Engineering - Chemical Engineering,Associate Professor
+171,Sunghoon Park,,,
+172,Jaejun Yoo,jaejun.yoo@unist.ac.kr,Graduate School of Artificial Intelligence,Assistant Professor
+173,Seungyul Han,syhan@unist.ac.kr,Graduate School of Artificial Intelligence,Assistant Professor
+174,Gi-soo Kim,gisookim@unist.ac.kr,Department of Industrial Engineering,Professor
+175,Seungryul Baek,srbaek@unist.ac.kr,Graduate School of Artificial Intelligence,Assistant Professor
+176,,,,
+177,,,,
+178,Changwook Lee,changwook@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Professor
+179,Chunghun Lim,clim@unist.ac.kr,Department of Biological Sciences - Biological Sciences,Professor
+180,Jang Hyun Choi,janghchoi@unist.ac.kr,Department of Biological Sciences,Associate Professor
+181,Seung Woo Cho,swcho@unist.ac.kr,Department of Biomedical Engineering,Assistant Professor
+182,Dong-Hwa Seo,dseo@unist.ac.kr,School of Energy and Chemical Engineering,Assistant Professor
+183,Sung You Hong,syhong@unist.ac.kr,Department of Chemistry,Professor
+184,Hyeon Suk Shin,shin@unist.ac.kr,Department of Chemistry,Professor
+185,Duyoung Min,dymin@unist.ac.kr,Department of Chemistry,Assistant Professor
+186,YUNG SAM KIM,kimys@unist.ac.kr,Department of Chemistry,Associate Professor
+187,Mijung Kim,mijungk@unist.ac.kr,Department of Computer Science and Engineering,Assistant Professor
+188,,,,
+189,Seungjoon Yang,syang@unist.ac.kr,Department of Electrical Engineering,Associate Professor
+190,Kyuho Lee,kyuho.jsn.lee@unist.ac.kr,Department of Electrical Engineering,Assistant Professor
+191,Franklin Bien,bien@unist.ac.kr,Department of Electrical Engineering,Professor
+192,Heein Yoon,heein.yoon@unist.ac.kr,Department of Electrical Engineering,Assistant Professor
+193,Gangil Byun,byun@unist.ac.kr,Department of Electrical Engineering,Assistant Professor
+194,Myungsoo KIM,myungsookim@unist.ac.kr,Department of Electrical Engineering,Assistant Professor
+195,Se-Un Shin,seuns@unist.ac.kr,Department of Electrical Engineering,Assistant Professor
+196,Sung-Deuk Choi,sdchoi@unist.ac.kr,Department of Urban and Environmental Engineering,Professor
+197,,,,
+198,Sang Il Seok,seoksi@unist.ac.kr,School of Energy and Chemical Engineering,Professor
+199,Sung-Yeon Jang,syjang@unist.ac.kr,School of Energy and Chemical Engineering,Professor
+200,Young-Nam Kwon,kwonyn@unist.ac.kr,Department of Urban and Environmental Engineering,Professor
+201,,,,
+202,,,,
+203,Junyoup Lee,junlee@unist.ac.kr,School of Business Administration,Associate Professor
+204,Sang Jin Kweon,sjkweon@unist.ac.kr,Department of Industrial Engineering,Assistant Professor
+205,Hayoung Chung,hychung@unist.ac.kr,Department of Mechanical Engineering,Assistant Professor
+206,Hyungson Ki,hski@unist.ac.kr,Department of Mechanical Engineering,Professor
+207,Hungsun Son,gtg208j@unist.ac.kr,Department of Mechanical Engineering,Associate Professor
+208,Cheolhyeon Kwon,kwonc@unist.ac.kr,Department of Mechanical Engineering,Assistant Professor
+209,Sang Hoon Kang,sanghkang@unist.ac.kr,Department of Mechanical Engineering,Associate Professor
+210,Joo Hwan Oh,joohwan.oh@unist.ac.kr,Department of Mechanical Engineering,Associate Professor
+211,Lu Zhang,lzhang@unist.ac.kr,School of Business Administration,Associate Professor
+212,Moon Kee Choi,mkchoi@unist.ac.kr,Department of Materials Science and Engineering,Assistant Professor
+213,Hyung-Joon Shin,shinhj@unist.ac.kr,Department of Materials Science and Engineering,Professor
+214,Myoung Hoon Song,mhsong@unist.ac.kr,Department of Materials Science and Engineering,Professor
+215,Sung Soo Park,sspark@unist.ac.kr,Department of Materials Science and Engineering,Professor
+216,Han-Hee Cho,hhcho@unist.ac.kr,Department of Materials Science and Engineering,Assistant Professor
+217,Bongsoo Jang,bsjang@unist.ac.kr,Department of Mathematical Sciences,Professor
+218,Chang-Yeol Jung,cjung@unist.ac.kr,Department of Mathematical Sciences,Professor
+219,Jaehyun Cho,petercho@unist.ac.kr,Department of Mathematical Sciences,Associate Professor
+220,Chol Park,cholpark@unist.ac.kr,Department of Mathematical Sciences,Assistant Professor
+221,Sangjoon Ahn,sjahn99@unist.ac.kr,Department of Nuclear Engineering,Assistant Professor
+222,Jimin Lee,jiminlee@unist.ac.kr,Department of Nuclear Engineering,Assistant Professor
+223,Jaeyeong Park,jypark@unist.ac.kr,Department of Nuclear Engineering,Associate Professor
+224,,,,
+225,Min Sup Hur,mshur@unist.ac.kr,Department of Physics,Associate Professor
+226,Hosub Jin,hsjin@unist.ac.kr,Department of Physics,Associate Professor
+227,Yongkyoon In,inyongkyoon@unist.ac.kr,Department of Physics,Professor
+228,Tae Joo Shin,tjshin@unist.ac.kr,UNIST Central Research Facilities,Associate Professor
+229,JEONG KON SEO,jkseo6998@unist.ac.kr,Graduate School of Semiconductor Materials and Devices Engineering,-
+230,Young Joo Lee,ylee@unist.ac.kr,Department of Urban and Environmental Engineering,Associate Professor
+231,Kyungjae Myung,kjmyung@unist.ac.kr,Department of Biomedical Engineering,Distinguished Professor
+232,Hyeran Jang,lanyjang@unist.ac.kr,Department of Biological Sciences,Visiting Assistant Professor
+233,Jae Ick Kim,jikim220@unist.ac.kr,Department of Biological Sciences,Associate Professor
+234,Taejoon Kwon,tkwon@unist.ac.kr,Department of Biomedical Engineering,Assistant Professor
+235,Sangjoon Lee,sangjoon.lee@unist.ac.kr,Department of Biological Sciences,Assistant Professor
+236,Tae Joo Park,parktj@unist.ac.kr,-,Assistant Professor
+237,Cheol-Min Ghim,cmghim@unist.ac.kr,Department of Physics,"Associate and
+Assistant Professor"
+238,Dongil Chung,dchung@unist.ac.kr,Department of Biomedical Engineering,Assistant Professor
+239,Kyemyung PARK,kyemyung@unist.ac.kr,Department of Biomedical Engineering,Assistant Professor
+240,,,,
+241,Jeong Beom Kim,jbkim@unist.ac.kr,Department of Biomedical Engineering,Associate Professor
+242,,,,
+243,Joon-Mo Yang,jmyang@unist.ac.kr,Department of Biomedical Engineering,Assistant Professor
+244,John Thomas King,jtking.ibs@gmail.com,Department of Chemistry,-
+245,,,,
+246,Sang Hoon Joo,shjoo@unist.ac.kr,Department of Chemistry,Professor
+247,Jung-Min Kee,jmkee@unist.ac.kr,Department of Chemistry,"Assistant &
+Associate Professor"
+248,Cheol-Min Park,cmpark@unist.ac.kr,Department of Chemistry,Associate Professor
+249,Thomas Schultz,catox@unist.ac.kr,Department of Chemistry,Associate Professor
+250,Jan-Uwe Rohde,rohde@unist.ac.kr,Department of Chemistry,Associate Professor
+251,Seulki Lee,seulki.lee@unist.ac.kr,Computer Science and Engineering / Graduate School of Artificial Intelligence,Assistant Professor
+252,,,,
+253,Hyounghun Kim,h.kim at unist.ac.kr,Graduate School of Artificial Intelligence,Assistant Professor
+254,James Andrew Self,jaself@unist.ac.kr,Department of Design,Associate Professor
+255,Hwang Kim,hwangkim@unist.ac.kr,"Graduate School of Creative Design
+Engineering",Associate Professor
+256,KwanMyung Kim,kmyung@unist.ac.kr,Department of Design,Professor
+257,Changduk Yang,yang@unist.ac.kr,"School of Energy and Chemical
+Engineering",Professor
+258,Jiseok Lee,jiseok@unist.ac.kr,"School of Energy and Chemical
+Engineering",Associate Professor
+259,JunHee Lee,junhee@unist.ac.kr,School of Energy and Chemical Engineering,Associate Professor
+260,Ji-Hyun Jang,clau@unist.ac.kr,"School of Energy and Chemical
+Engineering",Professor
+261,Chang Young Lee,cylee@unist.ac.kr,"School of Energy and Chemical
+Engineering",Associate Professor
+262,Donghyuk Kim,dkim@unist.ac.kr,"School of Energy and Chemical
+Engineering",Associate Professor
+263,Kwangjin An,kjan@unist.ac.kr,"School of Energy and Chemical
+Engineering",Associate Professor
+264,Youngsik Kim,ykim@unist.ac.kr,"School of Energy and Chemical
+Engineering",Professor
+265,Hyunhyub Ko,hyunhko@unist.ac.kr,"School of Energy and Chemical
+Engineering",Full Professor
+266,Kang Hee Ku,kangheeku@unist.ac.kr,School of Energy and Chemical Engineering ,Assistant Professor
+267,Seok Ju Kang,sjkang@unist.ac.kr,School of Energy and Chemical Engineering,Associate Professor
+268,Hankwon Lim,hklim@unist.ac.kr,"School of Energy and Chemical
+Engineering",Associate Professor
+269,In-Beum Lee,iblee@unist.ac.kr,"School of Energy and Chemical
+Engineering",Chair Professor
+270,Jimin Kwon,jmkwon@unist.ac.kr,Department of Electrical Engineering,Assistant Professor
+271,Peter Kim,,,
+272,Ali Safavi,,,
+273,Stephen Hazel,,,
+274,William Fitzpatrick,,,
+275,Sang-Ook Shin,simonshin@unist.ac.kr,School of Business Administration,Assistant Professor
+276,Hope Hyeun Han,hopehan@unist.ac.kr,School of Business Administration,Assistant Professor
+277,Yongjae Lee,yongjaelee@unist.ac.kr,Department of Industrial Engineering,Assistant Professor
+278,Chiehyeon Lim,chlim@unist.ac.kr,Department of Industrial Engineering,Associate Professor
+279,Comuzzi Marco,mcomuzzi@unist.ac.kr,Department of Industrial Engineering,Associate Professor
+280,Sunghoon Lim,sunghoonlim@unist.ac.kr,Department of Industrial Engineering,Assistant Professor
+281,Dong Young Lim,dlim@unist.ac.kr,Department of Industrial Engineering,Assistant Professor
+282,Michael Burrell,mburrell@unist.ac.kr,Department of Computer Engineering,Assistant Professor
+283,Joong Soo Ma,,,
+284,Jinsook Choi,jschoi@@unist.ac.kr,School of Liberal Arts,Professor
+285,Yun Na Jeong,,,
+286,Yongmei Hao,,,Visiting Assistant Professor
+287,Jooha Kim,kimjooha@unist.ac.kr,Department of Mechanical Engineering,Assistant Professor
+288,Taesung Kim,tskim@unist.ac.kr,Department of Mechanical Engineering,Professor
+289,Jae Hwa Lee,jhlee06@unist.ac.kr,Department of Mechanical Engineering,Associate Professor
+290,Yong Mi Kim,ykim137@unist.ac.kr,School of Business Administration,Collegiate Faculty
+291,Keunsuk Chung,chungk@unist.ac.kr,School of Business Administration,Associate Professor
+292,HYESUNG PARK,hspark@unist.ac.kr,"Department of Materials Science and
+Engineering",Associate Professor
+293,Jiyun Kim,jiyunkim@unist.ac.kr,"Department of Materials Science and
+Engineering",Associate Professor
+294,Ju-Young Kim,juyoung@unist.ac.kr,"Department of Materials Science and
+Engineering",Professor
+295,Joonki Suh,jsuh@unist.ac.kr,"Department of Materials Science and
+Engineering",Assistant Professor
+296,Bogume Jang,bjang@unist.ac.kr,Department of Mathematical Sciences,Visiting Assistant Professor
+297,Hyeungjoon Kim,aijoon@unist.ac.kr,Department of Mathematical Sciences,Visiting Assistant Professor
+298,Jung Eun Kim,-,Department of Mathematical Sciences,Visiting Assistant Professor
+299,Lee Jungjin,jungjinlee@unist.ac.kr,Department of Mathematical Sciences,Visiting Assistant Professor
+300,Youngae Lee,youngaelee@unist.ac.kr,Department of Mathematical Sciences,Associate Professor
+301,Bongsuk Kwon,bkwon@unist.ac.kr ,Department of Mathematical Sciences,Associate Professor
+302,Rak-Kyeong Seong,seong@unist.ac.kr,Department of Mathematical Sciences,Assisstant Professor
+303,Yunho Kim,yunhokim@unist.ac.kr,Department of Mathematical Sciences,Associate Professor
+304,Seongmoon Jung,,,
+305,Sangyong Yi,,,
+306,Hyuk Kyu Pak,hkpak@unist.ac.kr,Department of Physics,Professor
+307,Hyeong-Ryeol Park,nano@unist.ac.kr,Department of Physics,Assisstant Professor
+308,Daeshig Ghim,daisikkim@unist.ac.kr,Department of Physics,-
+309,Chae Un Kim,cukim@unist.ac.kr,Department of Physics,Associate Professor
+310,Noejung Park,noejung@unist.ac.kr,Department of Physics,Professor
+311,Seon Namgung,seon@unist.ac.kr,Department of Physics,Assistant Professor
+312,Woojin Kwon,woojinkwon@unist.ac.kr,Department of Physics,"Assistant Professor
+"
+313,Jaeup Kim,jukim@unist.ac.kr,Department of Physics,Professor
+314,Kyong-Mi Paek,kpaek@unist.ac.kr,School of Liberal Arts,Professor
+315,Inkyoung Lee,inkyounglee@unist.ac.kr,School of Liberal Arts,Associate Professor
+316,Jae Yon Lee,jllee2791@unist.ac.kr,School of Liberal Arts,"Associate/Assistant
+Professor"
+317,Christopher Lovins,cllovins@unist.ac.kr,School of Liberal Arts,Assistant Professor
+318,Jin-Young Kim,jyk@unist.ac.kr,School of Liberal Arts,Professor
+319,Minkyu Sung,minkyusung@unist.ac.kr,School of Liberal Arts,Associate Professor
+320,Hyomin Kim,khyomin17@unist.ac.kr,School of Liberal Arts,Associate Professor
+321,Seungbae Park,nature@unist.ac.kr,School of Liberal Arts,Professor
+322,Bradley Scott Tatar,btatar@unist.ac.kr,School of Liberal Arts,Assistant Professor
+323,Huiyuhl Yi,huiyuhl@unist.ac.kr,School of Liberal Arts,Associate Professor
+324,Youngkyu Cho,,,
+325,HwanWook Kim,,,
+326,Jaekyom Shim,,,
+327,Eun Seo Ryu,,,
+328,Jeong Bong Cho,,,
+329,JOONHYUNG KIM,,,
+330,Sang Seo Park,sangseopark@unist.ac.kr,"Department of Urban and
+Environmental Engineering",Assistant Professor
+331,Chang Young Lee,cylee@unist.ac.kr,"School of Energy and Chemical
+Engineering",Associate Professor
+332,Yuseok Jeon,ysjeon@unist.ac.kr,"Department of Computer Science and
+Engineering",Assistant Professor
+333,Jaeyeon Lee,jaeyeonlee@unist.ac.kr,"Department of Computer Science and
+Engineering",Assistant Professor
+334,Junghoon KIM,junghoon.kim@unist.ac.kr,"Department of Computer Science and
+Engineering, Artificial Intelligence Graduate School",Assistant Professor
+335,Anton Gartner,tgartner@unist.ac.kr,Department of Biological Sciences,Distinguished Professor
+336,Kei-ichi Takata,ktakata@ibs.re.kr,-,-
+337,Hyun-Wook Kang,hkang@unist.ac.kr,Department of Biomedical Engineering,Associate Professor
+338,Dooyoung Jung,dooyoung@unist.ac.kr,Department of Biomedical Engineering,Assistant Professor
+339,Yoon-Kyoung Cho,ykcho@unist.ac.kr,Department of Biomedical Engineering,Professor
+340,Sung Phil Kim,spkim@unist.ac.kr,Department of Biomedical Engineering,Associate Professor
+341,Young S. Park,youngspark@unist.ac.kr,Department of Chemistry,Assistant Professor
+342,Wonyoung Choe,choe@unist.ac.kr,Department of Chemistry,Associate Professor
+343,YOUNGWOO PARK,ywpark@unist.ac.kr,Department of Design,Associate Professor
+344,Sang Kyu Kwak,skkwak@unist.ac.kr,"School of Energy and Chemical
+Engineering",Professor
+345,Yong Hwan Kim,metalkim@unist.ac.kr,"School of Energy and Chemical
+Engineering",Full Professor
+346,Jong-Beom Baek,jbbaek@unist.ac.kr,"School of Energy and Chemical
+Engineering",Professor
+347,Seong-Jin Kim,kimsj@unist.ac.kr,Department of Electrical Engineering,Associate Professor
+348,Jongeun Lee,jlee@unist.ac.kr,Department of Electrical Engineering,-
+349,Jonathan Nelson,-,-,-
+350,Hyun Jin Jang,janghj@unist.ac.kr,School of Business Administration,Associate Professor
+351,Byoung Ki Seo,bkseo@unist.ac.kr,School of Business Administration,"Associate/Assistant
+Professor"
+352,Wooseok Ji,wsji@unist.ac.kr,Department of Mechanical Engineering,Associate Professor
+353,Hyung Wook Park,hwpark@unist.ac.kr,Department of Mechanical Engineering,Professor
+354,Shinhye Ahn,,,
+355,Zonghoon Lee,zhlee@unist.ac.kr,Department of Materials Science and Engineering,Professor
+356,Jin Hyuk Choi,jchoi@unist.ac.kr,Department of Mathematical Sciences,Associate Professor
+357,Seung Jun Lee,sjlee420@unist.ac.kr,Department of Nuclear Engineering,Associate Professor
+358,Jeongyeon Kim,jkim@unist.ac.kr,School of Liberal Arts,Professor
+359,Saera Yoon,sayoon@unist.ac.kr,School of Liberal Arts,Associate Professor
+360,Jaeweon Cho,jaeweoncho@unist.ac.kr,Department of Urban and Environmental Engineering,Professor
+361,SARAH M KANG,skang@unist.ac.kr,Department of Urban and Environmental Engineering,Professor
+362,Myong-In Lee,milee@unist.ac.kr,Department of Urban and Environmental Engineering,Professor 
+363,Jae Sung Lee,jlee1234@unist.ac.kr,"School of Energy and Chemical
+Engineering",Professor

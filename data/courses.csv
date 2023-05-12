@@ -1,0 +1,1213 @@
+school,course_code,course_title,prof_name,program,prerequisite
+Graduate School of Technology and Innovation Management,TIM50101,Management of Technological Innovation,Young-Choon Kim,Combined Course,
+Graduate School of Technology and Innovation Management,TIM50501,Principles of Finance & Accounting,Jeong Hwan Joo,Combined Course,
+Graduate School of Technology and Innovation Management,TIM50601,Strategy,Doyoon Kim,Combined Course,
+Graduate School of Technology and Innovation Management,TIM50701,Management Communications,Victoria Kim,Combined Course,
+Graduate School of Technology and Innovation Management,TIM51001,Introduction to Business Analytics,Jaesun Yeom,Combined Course,
+Graduate School of Technology and Innovation Management,TIM61601,AI-Digital Transformation Value Chain Convergence,"Joonhwan In
+Joonhwan In",Combined Course,
+Graduate School of Technology and Innovation Management,TIM63201,Technology Value and Evaluation,Sang Moo Huh,Combined Course,
+Graduate School of Technology and Innovation Management,TIM63301,Law and Intellectual Property Management,Sang Moo Huh,Combined Course,
+Graduate School of Technology and Innovation Management,TIM64801,Digital Marketing,Molan Kim,Combined Course,Marketing
+Graduate School of Technology and Innovation Management,TIM65401,Special Topics in TIM Ⅳ(4차산업혁명시대 미디어산업의 디지털 트랜스포메이션),Young Mi Lee,Combined Course,
+Graduate School of Technology and Innovation Management,TIM65601,Special Topics in TIMⅥ(Smart Factory Consulting),Jason Park,Combined Course,
+Graduate School of Technology and Innovation Management,TIM69401,Capstone Project,"Young Rok Choi
+Hyun-Dae Cho",Combined Course,
+Graduate School of Technology and Innovation Management,TIM89101,Independent Study,Young Rok Choi,Combined Course,
+Graduate School of Technology and Innovation Management,TIM50201,Managing People at Work,Hye-sun Kang,Combined Course,
+Graduate School of Technology and Innovation Management,TIM50301,Data Mining,Han-Gyun Woo,Combined Course,
+Graduate School of Technology and Innovation Management,TIM50401,Marketing,Min Chung Kim,Combined Course,
+Graduate School of Technology and Innovation Management,TIM50901,Operations Management,Joonhwan In,Combined Course,
+Graduate School of Technology and Innovation Management,TIM61101,Big Data and New Product Development,Dojoon Lee,Combined Course,
+Graduate School of Technology and Innovation Management,TIM62101,Experiential Entrepreneurship & Tech Commercialization,Seung Bai Bach,Combined Course,
+Graduate School of Technology and Innovation Management,TIM62601,Pursuing Entrepreneurship within Existing Firms,Dojoon Lee,Combined Course,
+Graduate School of Technology and Innovation Management,TIM64601,Technology Licensing Management,Sang Moo Huh,Combined Course,
+Graduate School of Technology and Innovation Management,TIM65501,Special Topics in TIM V(STI Policy and MOT),Hyun-Dae Cho,Combined Course,
+Graduate School of Technology and Innovation Management,TIM65701,Special Topics in TIM Ⅶ(Offshore Wind Power Technologies and Management),Young Rok Choi,Combined Course,
+Graduate School of Technology and Innovation Management,TIM69401,Capstone Project,Young Rok Choi,Combined Course,
+Graduate School of Technology and Innovation Management,TIM69601,Seminar on Industry and Emerging Technology Trends,Young Mi Lee,Combined Course,
+Graduate School of Technology and Innovation Management,TIM89101,Independent Study,Young Rok Choi,Combined Course,
+Graduate School of Artificial Intelligence,AI70201,Meta & Multi-task Learning,Sung Whan Yoon,Doctoral Course,
+Graduate School of Artificial Intelligence,AI70501,Nonparametric Bayesian,Hyeonwoo Yu,Doctoral Course,
+Graduate School of Artificial Intelligence,AI89001,Doctoral Research,Sam H. Noh,Doctoral Course,
+Department of Biological Sciences,BIO80101,Special Lecture in Biological Sciences A(Cancer Epigenomics),Myung Gon Ko,Doctoral Course,
+Department of Biological Sciences,BIO80201,Special Lectures in Biological Science B (Principles of Virology),Hyug Moo Kwon,Doctoral Course,
+Department of Biological Sciences,BIO80301,Special Lectures in Biological Science C (Cutting Edge of Life Sciences),Haejin Yoon,Doctoral Course,
+Department of Biological Sciences,BIO89001,Doctoral Research,Hongtae Kim,Doctoral Course,
+Department of Biomedical Engineering,BME80101,Special Lectures in Biomedical Engineering A(Recent Advances in Cell-based Disease Modeling),Tae-Eun Park,Doctoral Course,
+Department of Biomedical Engineering,BME80201,Special Lectures in Biomedical Engineering B(Capstone Project),Jinmyoung Joo,Doctoral Course,
+Department of Biomedical Engineering,BME80301,Special Lectures in Biomedical Engineering C (Recent Advances in Microfluidics and Nanotechnology),Joo Hun Kang,Doctoral Course,
+Department of Biomedical Engineering,BME89001,Doctoral Research,Hyung Joon Cho,Doctoral Course,
+Department of Chemistry,CHM89001,Doctoral Research,Jaeheung Cho,Doctoral Course,
+Graduate School of Carbon Neutrality,CN89001,Doctoral Research,Yongwon Seo,Doctoral Course,
+Department of Computer Science and Engineering,CSE89001,Doctoral Research,Woongki Baek,Doctoral Course,
+Department of Design,DES89101,Doctoral Research,Chajoong Kim,Doctoral Course,
+Department of Design,DES90501,Special Topics in Design 5(Innovative Technology-Design Project),Hui Sung Lee,Doctoral Course,
+Department of Urban and Environmental Engineering,DME70201,Advanced Numerical Modeling for Weather,Dong-Hyun Cha,Doctoral Course,
+School of Energy and Chemical Engineering,ECHE89001,Doctoral Research,Hyun-Kon Song,Doctoral Course,
+Department of Electrical Engineering,EE73801,Advanced Wireless Communication Theory,Jinseok Choi,Doctoral Course,
+Department of Electrical Engineering,EE78301,Sensor Interface Circuits Design,Jae Joon Kim,Doctoral Course,
+Department of Electrical Engineering,EE83001,"Advanced Topics in Communication, Control, and Signal Processing Ⅰ (Meta & Multi-task Learning)",Sung Whan Yoon,Doctoral Course,
+Department of Electrical Engineering,EE89001,Doctoral Research,Jee Hoon Jung,Doctoral Course,
+Department of Industrial Engineering,IE89001,Doctoral Research,Namhun Kim,Doctoral Course,
+Department of Mechanical Engineering,MEN74101,Bioinspired Technology,Hoon Eui Jeong,Doctoral Course,
+Department of Mechanical Engineering,MEN77301,Advanced Control Systems II,Joonbum Bae,Doctoral Course,
+Department of Mechanical Engineering,MEN79101,Special Topic I (Special Topics on Additive Manufacturing),Im Doo Jung,Doctoral Course,
+Department of Mechanical Engineering,MEN89001,Doctoral Research,Chun Sang Yoo,Doctoral Course,
+School of Business Administration,MGT89001,Doctoral Research,Young Rok Choi,Doctoral Course,
+Department of Materials Science and Engineering,MSE68601,S.T. on Materials Science Eng. Ⅵ (Microstructure-Property Relationships: Physical Metallurgy II),Suk Bin Lee,Doctoral Course,
+Department of Materials Science and Engineering,MSE73101,Advanced Magnetic Materials,Jung-Woo Yoo,Doctoral Course,
+Department of Materials Science and Engineering,MSE75301,Nano Convergent Energy Devices,Jae Sung Son,Doctoral Course,
+Department of Materials Science and Engineering,MSE75601,Advanced Optical Materials and Devices,Young Chul Jun,Doctoral Course,
+Department of Materials Science and Engineering,MSE89001,Doctoral Research,Kyoung Jin Choi,Doctoral Course,
+Department of Mathematical Sciences,MTH89001,Doctoral Research,Chang Hyeong Lee,Doctoral Course,
+Department of Nuclear Engineering,NE89001,Doctoral Research,In Cheol Bang,Doctoral Course,
+Department of Physics,PHY89001,Doctoral Research,Kibog Park,Doctoral Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE89001,Doctoral Research,Hongsik Jeong,Doctoral Course,
+Graduate School of Technology and Innovation Management,TIM71201,Technology Commercialization and Entrepreneurship Seminar,Young Rok Choi,Doctoral Course,
+Graduate School of Technology and Innovation Management,TIM71401,Technology and Innovation Management Theory Seminar,Young-Choon Kim,Doctoral Course,
+Graduate School of Technology and Innovation Management,TIM71501,Strategy Theory,Min Chung Kim,Doctoral Course,
+Graduate School of Technology and Innovation Management,TIM89001,Thesis Research,Young Rok Choi,Doctoral Course,
+Department of Urban and Environmental Engineering,UEE89001,Doctoral Research,Jae Eun Oh,Doctoral Course,
+Department of Urban and Environmental Engineering,UIE70401,Concrete Micro-characteriazation,Jae Eun Oh,Doctoral Course,
+School of Energy and Chemical Engineering,ACE70901,Catalysis for Energy Conversion: Production of Solar Hydrogen,Jae Sung Lee,Doctoral Course,
+Graduate School of Artificial Intelligence,AI70601,Deep Learning for 3D Vision,Kyungdon Joo,Doctoral Course,
+Graduate School of Artificial Intelligence,AI70701,Deep Reinforcement Learning,Sungbin Lim,Doctoral Course,
+Graduate School of Artificial Intelligence,AI89001,Doctoral Research,Sam H. Noh,Doctoral Course,
+Department of Biological Sciences,BIO70101,Molecular Physiology,Chan Young Park,Doctoral Course,
+Department of Biological Sciences,BIO70301,Topics in Genome Data Analysis,Dougu Nam,Doctoral Course,
+Department of Biological Sciences,BIO70501,Mithchondria Biology,Byoung Heon Kang,Doctoral Course,
+Department of Biological Sciences,BIO80101,Special Lecture in Biological Sciences A(The immune responses in inflammatory and infectious diseas,Sung-ho Park,Doctoral Course,
+Department of Biological Sciences,BIO80201,Special Lectures in Biological Science B (Organelle Stress and Disease),Eunhee Kim,Doctoral Course,
+Department of Biological Sciences,BIO89001,Doctoral Research,Hongtae Kim,Doctoral Course,
+Department of Biomedical Engineering,BME76101,Human Vision,Oh-Sang Kwon,Doctoral Course,
+Department of Biomedical Engineering,BME76201,Advanced Color Science,Youngshin Kwak,Doctoral Course,
+Department of Biomedical Engineering,BME80101,Special Lectures in Biomedical Engineering A(Modelling Cellular Interactions Using Biophysical and S,Semin Lee,Doctoral Course,
+Department of Biomedical Engineering,BME80201,S.L in Bioengineering B(Biomimetic System),Tae-Eun Park,Doctoral Course,
+Department of Biomedical Engineering,BME89001,Doctoral Research,Woonggyu Jung,Doctoral Course,
+Department of Chemistry,CHM89001,Doctoral Research,Ja Hyoung Ryu,Doctoral Course,
+Department of Computer Science and Engineering,CSE71001,Natural Language Processing,TAEHWAN KIM,Doctoral Course,
+Department of Computer Science and Engineering,CSE89001,Doctoral Research,Woongki Baek,Doctoral Course,
+Department of Design,DES70701,Product Understanding Use and Experience,Chajoong Kim,Doctoral Course,
+Department of Design,DES89101,Doctoral Research,Chajoong Kim,Doctoral Course,
+Department of Design,DES90501,Special Topics in Design 5(Innovative Technology-Design Project),Kyungho Lee,Doctoral Course,
+Department of Urban and Environmental Engineering,DME60601,Disaster Theory and Practice,Jibum Chung,Doctoral Course,
+School of Energy and Chemical Engineering,ECHE89001,Doctoral Research,Hyun-Kon Song,Doctoral Course,
+Department of Electrical Engineering,EE78201,Nanophotonics,Jongwon Lee,Doctoral Course,
+Department of Electrical Engineering,EE89001,Doctoral Research,Jee Hoon Jung,Doctoral Course,
+Department of Urban and Environmental Engineering,ENV70701,Environmental Biotechnology,Changsoo Lee,Doctoral Course,
+Department of Industrial Engineering,IE89001,Doctoral Research,Namhun Kim,Doctoral Course,
+Department of Mechanical Engineering,MEN79101,Special Topic I (Introduction to Aerosol Technology),Jaesung Jang,Doctoral Course,
+Department of Mechanical Engineering,MEN89001,Doctoral Research,Chun Sang Yoo,Doctoral Course,
+School of Business Administration,MGT89001,Doctoral Research,Young Rok Choi,Doctoral Course,
+Department of Materials Science and Engineering,MSE89001,Doctoral Research,Kyoung Jin Choi,Doctoral Course,
+Department of Mathematical Sciences,MTH89001,Doctoral Research,Chang Hyeong Lee,Doctoral Course,
+Department of Nuclear Engineering,NE89001,Doctoral Research,In Cheol Bang,Doctoral Course,
+Department of Physics,PHY89001,Doctoral Research,Kibog Park,Doctoral Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE89001,Doctoral Research,Hongsik Jeong,Doctoral Course,
+Graduate School of Technology and Innovation Management,TIM71101,Research Methodology for Technology Management,Kee Yeun Lee,Doctoral Course,
+Graduate School of Technology and Innovation Management,TIM71701,Advanced Econometrics,Saiah Lee,Doctoral Course,
+Graduate School of Technology and Innovation Management,TIM89001,Thesis Research,Young Rok Choi,Doctoral Course,
+Department of Urban and Environmental Engineering,UEE89001,Doctoral Research,Myoungsu Shin,Doctoral Course,
+Department of Urban and Environmental Engineering,UIE70601,Urban Regeneration,Jeongseob Kim,Doctoral Course,
+School of Energy and Chemical Engineering,ACE51001,Renewable Energy Engineering,Ji Wook Jang,Master's Course,
+School of Energy and Chemical Engineering,ACE60301,Catalysis,Ja Hun Kwak,Master's Course,
+School of Energy and Chemical Engineering,ACE60501,Advanced Electrocatalysis,Youngkook Kwon,Master's Course,
+School of Energy and Chemical Engineering,ACE60901,Current Topics of Synthetic Biology,Sung Kuk Lee,Master's Course,
+Graduate School of Artificial Intelligence,AI50201,Principles of Deep Learning,Sungbin Lim,Master's Course,
+Graduate School of Artificial Intelligence,AI50301,AI Toolkits,Hyemin Ahn,Master's Course,
+Graduate School of Artificial Intelligence,AI52001,Machine Learning Fundamentals,Junghye Lee,Master's Course,
+Graduate School of Artificial Intelligence,AI53301,Advanced Quality Control,Sungil Kim,Master's Course,
+Graduate School of Artificial Intelligence,AI55501,Optimizations for AI Systems,Myeongjae Jeon,Master's Course,
+Graduate School of Artificial Intelligence,AI59001,AI Graduate Seminar,Junghye Lee,Master's Course,
+Graduate School of Artificial Intelligence,AI69001,Master's Research,Sam H. Noh,Master's Course,
+Graduate School of Interdisciplinary Management,BAT51201,Advanced Data Mining with Artificial Intelligence,Youngchan Hwang,Master's Course,
+Graduate School of Interdisciplinary Management,BAT51501,Analytics Programming,Youngchan Hwang,Master's Course,
+Graduate School of Interdisciplinary Management,BAT51601,Database Management,"Han-Gyun Woo
+Han-Gyun Woo",Master's Course,
+Graduate School of Interdisciplinary Management,BAT52201,Customer Analytics,Kee Yeun Lee,Master's Course,
+Graduate School of Interdisciplinary Management,BAT52401,Introduction to Business Analytics,Jaesun Yeom,Master's Course,
+Graduate School of Interdisciplinary Management,BAT54101,Social Data Analytics,Han-Gyun Woo,Master's Course,
+Graduate School of Interdisciplinary Management,BAT59101,Business Analytics Practicum,Yeolib Kim,Master's Course,
+Graduate School of Interdisciplinary Management,BAT69101,Capstone Project,Young-Choon Kim,Master's Course,
+Graduate School of Interdisciplinary Management,BAT89101,Independent Study,Young-Choon Kim,Master's Course,
+Department of Biological Sciences,BIO50201,Advanced Molecular Biology,Jayil Lee,Master's Course,
+Department of Biological Sciences,BIO50301,Advanced Cell Biology,Jiyoung Park,Master's Course,
+Department of Biological Sciences,BIO50901,Protein Engineering,Sebyung Kang,Master's Course,
+Department of Biological Sciences,BIO59001,Seminar,Hongtae Kim,Master's Course,
+Department of Biological Sciences,BIO60201,Signal Transductions in Cells,Young Chan Chae,Master's Course,
+Department of Biological Sciences,BIO61001,Trends in Biological Research,"Orlando D. Scharer
+Anton Gartner",Master's Course,
+Department of Biological Sciences,BIO61002,Trends in Biological Research,Sung-ho Park,Master's Course,
+Department of Biological Sciences,BIO61003,Trends in Biological Research,Young Chan Chae,Master's Course,
+Department of Biological Sciences,BIO69001,Master's Research,Hongtae Kim,Master's Course,
+Department of Biomedical Engineering,BME51101,Presentation Skills for Biomedical Engineers,Tae-Eun Park,Master's Course,
+Department of Biomedical Engineering,BME51401,Advanced Nanobiotechnology,Jongnam Park,Master's Course,
+Department of Biomedical Engineering,BME55001,Rehabilitation Engineering,GWANSEOB SHIN,Master's Course,
+Department of Biomedical Engineering,BME56101,Psychophysics,Youngshin Kwak,Master's Course,
+Department of Biomedical Engineering,BME59001,Seminar,Hyung Joon Cho,Master's Course,
+Department of Biomedical Engineering,BME69001,Master's Research,Hyung Joon Cho,Master's Course,
+School of Energy and Chemical Engineering,BST51001,Solid State Batteries,Sungkyun Jung,Master's Course,
+School of Energy and Chemical Engineering,BST52201,Nanostructuredelectrodesfor lithium-ion Batteries I,Jaephil Cho,Master's Course,
+School of Energy and Chemical Engineering,BST53401,"Special Topics on BST I(Batteries of the past, present, and future)",Seung Mo Oh,Master's Course,
+School of Energy and Chemical Engineering,BST53501,Special Topics on BST II(Application Technologies of Energy Devices for ESS and EV),Yunseok Choi,Master's Course,
+Department of Chemistry,CHM53101,Introduction to Molecular Spectroscopy,YungDoug Suh,Master's Course,
+Department of Chemistry,CHM53201,Statistical Mechanics,Geunsik Lee,Master's Course,
+Department of Chemistry,CHM53401,Materials for Organic Electronics,Tae-Hyuk Kwon,Master's Course,
+Department of Chemistry,CHM53501,Physical Organic Chemistry,Christopher W Bielawski,Master's Course,
+Department of Chemistry,CHM54101,Inorganic Materials Analysis,Hyunchul Oh,Master's Course,
+Department of Chemistry,CHM55501,Crystallography,Myoung Soo Lah,Master's Course,
+Department of Chemistry,CHM56101,Advanced Inorganic Chemistry,Hoi Ri MOON,Master's Course,
+Department of Chemistry,CHM59001,Seminar,"Bum Suk Zhao
+BongSoo Kim",Master's Course,
+Department of Chemistry,CHM64501,Chemical Physics,Oh Hoon Kwon,Master's Course,
+Department of Chemistry,CHM64601,Molecular Physics,Bum Suk Zhao,Master's Course,
+Department of Chemistry,CHM68301,Advanced Materials Chemistry,Kyoseung Sim,Master's Course,
+Department of Chemistry,CHM69001,Master's Research,Jaeheung Cho,Master's Course,
+Graduate School of Carbon Neutrality,CN50501,Advanced Materials Analysis,Jungki Ryu,Master's Course,
+Graduate School of Carbon Neutrality,CN51001,Advanced Carbon Neutral Technologies,Dong Suk Kim,Master's Course,
+Graduate School of Carbon Neutrality,CN51301,Catalysis,Ja Hun Kwak,Master's Course,
+Graduate School of Carbon Neutrality,CN52001,Advanced Carbon Neutral Policy,Chang Keun Song,Master's Course,
+Graduate School of Carbon Neutrality,CN59001,Seminar,Yongwon Seo,Master's Course,
+Graduate School of Carbon Neutrality,CN61201,Air Pollution Management,Yongwon Seo,Master's Course,
+Graduate School of Carbon Neutrality,CN65001,Renewable Energy Engineering (Energy Conversion Devices),Ji Wook Jang,Master's Course,
+Graduate School of Carbon Neutrality,CN69001,Master's Research,Yongwon Seo,Master's Course,
+Department of Computer Science and Engineering,CSE52401,Advanced Software Engineering,Jooyong Yi,Master's Course,
+Department of Computer Science and Engineering,CSE52901,Autonomous Robots,Tsz-Chiu Au,Master's Course,
+Department of Computer Science and Engineering,CSE53901,Advanced Computer Networks,Youngbin Im,Master's Course,
+Department of Computer Science and Engineering,CSE59001,CSE Graduate Seminar,Hyungon Moon,Master's Course,
+Department of Computer Science and Engineering,CSE61001,S.T in Computer Engineering I (AI System Optimizations),Myeongjae Jeon,Master's Course,
+Department of Computer Science and Engineering,CSE61301,S.T in Computer Engineering Ⅳ(3D Shape Analysis in Neuroimaging),Ilwoo Lyu,Master's Course,
+Department of Computer Science and Engineering,CSE69001,Master's Research,Woongki Baek,Master's Course,
+Department of Design,DES50601,Computational Interaction Design,Kyungho Lee,Master's Course,
+Department of Design,DES51501,Systems thinking for Designers,Seungho Lee,Master's Course,
+Department of Design,DES59001,The Seminars,Ian Oakley,Master's Course,
+Department of Design,DES69101,Master Graduation Project,Chajoong Kim,Master's Course,
+Department of Urban and Environmental Engineering,DME50901,Geotechnical Earthquake Engineering,Byungmin Kim,Master's Course,
+Department of Urban and Environmental Engineering,DME51101,Geotechnical Site Investigation,SEONG JUN HA,Master's Course,
+Department of Urban and Environmental Engineering,DME60301,Business Impact Analysis and Theory of Risk Management,Jibum Chung,Master's Course,
+Department of Urban and Environmental Engineering,DME68201,Special Topics in Disaster Management Engineering III,Min-Cheol Kim,Master's Course,
+School of Energy and Chemical Engineering,ECHE59001,Seminar,Kwanyong Seo,Master's Course,
+School of Energy and Chemical Engineering,ECHE69001,Master's Research,Hyun-Kon Song,Master's Course,
+Department of Electrical Engineering,EE53201,Linear System Theory,Jeong hwan Jeon,Master's Course,
+Department of Electrical Engineering,EE53801,Data Communication Networks,Hyoil Kim,Master's Course,
+Department of Electrical Engineering,EE55401,Electronic Packaging Design,Jingook Kim,Master's Course,
+Department of Electrical Engineering,EE56001,Power Systems,Jee Hoon Jung,Master's Course,
+Department of Electrical Engineering,EE57501,Modern RF Engineering,EunMi Choi,Master's Course,
+Department of Electrical Engineering,EE57601,Advanced Photonics,Min-Suk Kwon,Master's Course,
+Department of Electrical Engineering,EE57701,Microelectronics Lab,Kyung Rok Kim,Master's Course,
+Department of Electrical Engineering,EE57901,Advanced Optoelectronics,Il-Sug Chung,Master's Course,
+Department of Electrical Engineering,EE59001,EE Graduate Seminar,Il-Sug Chung,Master's Course,
+Department of Electrical Engineering,EE63101,"S.T in Communication, Control, and Signal Processing Ⅱ (AI Toolkit)",Hyemin Ahn,Master's Course,
+Department of Electrical Engineering,EE63201,"S.T in Communication, Control, and Signal Processing Ⅲ (Pattern Recognition)",Hyeonwoo Yu,Master's Course,
+Department of Electrical Engineering,EE69001,Master's Research,Jee Hoon Jung,Master's Course,
+Department of Urban and Environmental Engineering,EES60501,Air Pollution Management,Yongwon Seo,Master's Course,
+Department of Urban and Environmental Engineering,EES65201,Machine Learning for Remote Sensing Applications,Jungho Im,Master's Course,
+Department of Urban and Environmental Engineering,EES68001,Special Topics in Earth and Environmental Sciences I (Numerical Water Quality Model),Kyung Hwa Cho,Master's Course,
+School of Energy and Chemical Engineering,ENE51301,Special Topics on Solar Cells,Kwanyong Seo,Master's Course,
+School of Energy and Chemical Engineering,ENE52701,Organic Electronics,Jin Young Kim,Master's Course,
+School of Energy and Chemical Engineering,ENE53201,Advanced Materials Analysis,Jungki Ryu,Master's Course,
+School of Energy and Chemical Engineering,ENE61401,Nanochemistry,Ji-Hyun Jang,Master's Course,
+Graduate School of Technology and Innovation Management,ETM50201,Solar Photovoltaic Technology,Byung-Wook Park,Master's Course,
+Graduate School of Technology and Innovation Management,ETM50401,Hydrogen and Fuel Cell Technology,Hee Chun Lim,Master's Course,
+Graduate School of Technology and Innovation Management,ETM50501,Efficiency in Energy Value Chain,Kyung-soon Park,Master's Course,
+Department of Industrial Engineering,IE50301,Pattern Recognition and Machine Learning,Junghye Lee,Master's Course,
+Department of Industrial Engineering,IE50901,Advanced Quality Control,Sungil Kim,Master's Course,
+Department of Industrial Engineering,IE51101,Introduction to Deep Learning,Sungbin Lim,Master's Course,
+Department of Industrial Engineering,IE69001,Master's Research,Namhun Kim,Master's Course,
+Department of Mechanical Engineering,MEN50201,Advanced Mechanical Engineering Analysis,Jaesung Jang,Master's Course,
+Department of Mechanical Engineering,MEN51101,Advanced Heat Transfer,Jaeseon Lee,Master's Course,
+Department of Mechanical Engineering,MEN51301,Convection Heat Transfer,Aejung Yoon,Master's Course,
+Department of Mechanical Engineering,MEN54001,Advanced MEMS,Heungjoo Shin,Master's Course,
+Department of Mechanical Engineering,MEN55201,Manufacturing Processes and Systems,Young-Bin Park,Master's Course,
+Department of Mechanical Engineering,MEN57701,Optimal State Estimation: Kalman Filter,Hyondong Oh,Master's Course,
+Department of Mechanical Engineering,MEN59001,The Seminars,Chun Sang Yoo,Master's Course,
+Department of Mechanical Engineering,MEN69001,Master's Research,Chun Sang Yoo,Master's Course,
+School of Business Administration,MGT59101,Independent Study,Young Rok Choi,Master's Course,
+School of Business Administration,MGT69001,Master's Research,Young Rok Choi,Master's Course,
+School of Business Administration,MKT50301,Marketing Strategy,Min Chung Kim,Master's Course,
+School of Business Administration,MOT50201,Organizational Change & Innovation Mgt.,Young-Choon Kim,Master's Course,
+School of Business Administration,MOT50301,Entrepreneurship and Strategy,Young Rok Choi,Master's Course,
+Department of Materials Science and Engineering,MSE52001,Inorganic Materials Synthesis,Seungho Cho,Master's Course,
+Department of Materials Science and Engineering,MSE53201,Dielectric Ceramics: From fundamentals to applications,Wook Jo,Master's Course,
+Department of Materials Science and Engineering,MSE54101,Memory/Neuromorphic Device and Application,Hongsik Jeong,Master's Course,
+Department of Materials Science and Engineering,MSE57301,Materials for Biomedical Applications,Chaenyung Cha,Master's Course,
+Department of Materials Science and Engineering,MSE59001,The Seminars,Jiyun Kim,Master's Course,
+Department of Materials Science and Engineering,MSE68201,S.T. on MSEⅡ(VLSI Processing Technology),Tae-Sik Yoon,Master's Course,
+Department of Materials Science and Engineering,MSE68301,S.T. on MSE Ⅲ (Atomic Simulations in MSE),Feng Ding,Master's Course,
+Department of Materials Science and Engineering,MSE69001,Master's Research,Kyoung Jin Choi,Master's Course,
+Department of Mathematical Sciences,MTH50201,Functional Analysis,Hantaek Bae,Master's Course,
+Department of Mathematical Sciences,MTH50901,Partial Differential Equations,Kyudong Choi,Master's Course,
+Department of Mathematical Sciences,MTH51301,Dynamical systems,Pilwon Kim,Master's Course,
+Department of Mathematical Sciences,MTH55201,AlgebraⅡ,Hae-Sang Sun,Master's Course,
+Department of Mathematical Sciences,MTH59001,The Seminars,Chang Hyeong Lee,Master's Course,
+Department of Mathematical Sciences,MTH69001,Master's Reserach,Chang Hyeong Lee,Master's Course,
+Department of Nuclear Engineering,NE51201,Radiation Measurement System I,Hee Reyoung Kim,Master's Course,
+Department of Nuclear Engineering,NE51401,Nuclear Reactor Core Analysis II,Deokjung Lee,Master's Course,
+Department of Nuclear Engineering,NE55901,Advanced Statistical and Regression Methods for Uncertainty Analysis,Douglas Fynan,Master's Course,
+Department of Nuclear Engineering,NE59001,The Seminars,Eisung Yoon,Master's Course,
+Department of Nuclear Engineering,NE60201,Advanced Plasma Physics,Eisung Yoon,Master's Course,
+Department of Nuclear Engineering,NE61901,Special Topics in Nuclear Engineering I (Nuclear Safety and Regulatory Policy),In Cheol Bang,Master's Course,
+Department of Nuclear Engineering,NE69001,Master's Research,In Cheol Bang,Master's Course,
+Department of Physics,PHY50401,Electrodynamics II,KYUJIN KWAK,Master's Course,
+Department of Physics,PHY50601,Quantum Mechanics II,Kunook Chung,Master's Course,
+Department of Physics,PHY50701,Statistical Mechanics,Francois Amblard,Master's Course,
+Department of Physics,PHY59001,Seminar,Changhee Sohn,Master's Course,
+Department of Physics,PHY68101,Special Topics in Condensed Matter Physics,Yoon Seok Oh,Master's Course,
+Department of Physics,PHY68401,Mathematical Concepts for Physics and Engineering,Francois Amblard,Master's Course,
+Department of Physics,PHY68701,"Special Topics in Atomic, Molecular and Optical Physics",Je-Hyung Kim,Master's Course,
+Department of Physics,PHY69001,Master's Research,Kibog Park,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE51001,Field Experience based Semiconductor Process,Changwook Jeong,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE52101,VLSI Processing Technology,Tae-Sik Yoon,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE53001,Nano Semiconductor Materials,Jae Sung Son,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE53201,Materials for Magnetic Memory Devices,Ki-Suk Lee,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE53401,Materials for Organic Electronics:Display Materials,Tae-Hyuk Kwon,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE53601,Advanced Optical Materials adn Devices,Young Chul Jun,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE53701,Nanomaterials for QLED,Jongnam Park,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE59001,The Seminars,Jiyun Kim,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE63001,Memory and Neuromophic Device,Hongsik Jeong,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE63201,Nano Semiconductor Devices,Soon-Moon Jung,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE63301,Special Topics on Lithography,Ji-Hyun Jang,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE69001,Master's Research,Hongsik Jeong,Master's Course,
+Department of Urban and Environmental Engineering,UEE69001,Master's Research,Jae Eun Oh,Master's Course,
+Department of Urban and Environmental Engineering,UIE50201,Structural Dynamics,Gun Kim,Master's Course,
+Department of Urban and Environmental Engineering,UIE50501,Research Methods for Urban Studies,Gihyoug Cho,Master's Course,
+Department of Urban and Environmental Engineering,UIE59001,Seminar,Gun Kim,Master's Course,
+Department of Urban and Environmental Engineering,UIE60201,Crack Analysis in Concrete,Sukhoon Pyo,Master's Course,
+Department of Urban and Environmental Engineering,UIE68001,Special Topics in Urban Infrastructure Engineering I (Real Estate Development and Investment),Jeongseob Kim,Master's Course,
+School of Energy and Chemical Engineering,ACE50701,Intro. to Polymer Physics and Rheology,Chunggi Baig,Master's Course,
+School of Energy and Chemical Engineering,ACE61201,Advanced Biochemical Engineering,Sunghoon Park,Master's Course,
+Graduate School of Artificial Intelligence,AI50101,Introduction to AI,"Jongeun Lee
+Sungil Kim
+Sungbin Lim
+Sung Whan Yoon
+Seungryul Baek
+Gi-soo Kim
+Miran Kim
+Kyungdon Joo
+Jaejun Yoo
+Seulki Lee
+TAEHWAN KIM
+Seungyul Han
+Hyeonwoo Yu",Master's Course,
+Graduate School of Artificial Intelligence,AI50201,Principles of Deep Learning,Jaejun Yoo,Master's Course,
+Graduate School of Artificial Intelligence,AI50301,AI Toolkits,Seungyul Han,Master's Course,
+Graduate School of Artificial Intelligence,AI51301,Learning Theory,Gi-soo Kim,Master's Course,
+Graduate School of Artificial Intelligence,AI51701,Deep Learning for NLP/NLU,TAEHWAN KIM,Master's Course,
+Graduate School of Artificial Intelligence,AI51801,Deep Generative Models,Seungryul Baek,Master's Course,
+Graduate School of Artificial Intelligence,AI51901,Advanced Machine Learning Topics,Kwang In Kim,Master's Course,
+Graduate School of Artificial Intelligence,AI59001,AI Graduate Seminar,Sungil Kim,Master's Course,
+Graduate School of Artificial Intelligence,AI69001,Master's Research,Sam H. Noh,Master's Course,
+Graduate School of Interdisciplinary Management,BAT51101,Introduction to Data Mining,Han-Gyun Woo,Master's Course,
+Graduate School of Interdisciplinary Management,BAT51301,Statistical Learning,Yeolib Kim,Master's Course,
+Graduate School of Interdisciplinary Management,BAT51501,Analytics Programming,Jeongmin Byun,Master's Course,
+Graduate School of Interdisciplinary Management,BAT52901,Topics in Business Analytics Ⅳ(Developing innovative service with maritime data),Han-Gyun Woo,Master's Course,
+Graduate School of Interdisciplinary Management,BAT53101,Multivariate Statistics,Kee Yeun Lee,Master's Course,
+Graduate School of Interdisciplinary Management,BAT53201,IT Strategy,Yeolib Kim,Master's Course,
+Graduate School of Interdisciplinary Management,BAT54201,Text Mining,Jeongmin Byun,Master's Course,
+Graduate School of Interdisciplinary Management,BAT69101,Capstone Project,Han-Gyun Woo,Master's Course,
+Graduate School of Interdisciplinary Management,BAT89101,Independent Study,Han-Gyun Woo,Master's Course,
+Department of Biological Sciences,BIO50101,Advanced Biochemistry,Changwook Lee,Master's Course,
+Department of Biological Sciences,BIO50501,Cancer Biology,Young Chan Chae,Master's Course,
+Department of Biological Sciences,BIO51101,Introduction to Biological Physics,Jayil Lee,Master's Course,
+Department of Biological Sciences,BIO51201,Emerging Principles of Gene Expression,Chunghun Lim,Master's Course,
+Department of Biological Sciences,BIO59001,Seminar,Hongtae Kim,Master's Course,
+Department of Biological Sciences,BIO60101,Protein Crystallography,Changwook Lee,Master's Course,
+Department of Biological Sciences,BIO60801,Advanced Endocrinology and Metabolism,Jang Hyun Choi,Master's Course,
+Department of Biological Sciences,BIO69001,Master's Research,Hongtae Kim,Master's Course,
+Department of Biomedical Engineering,BME50701,Advanced Genome Engineering,Seung Woo Cho,Master's Course,
+Department of Biomedical Engineering,BME59001,Seminar,Woonggyu Jung,Master's Course,
+Department of Biomedical Engineering,BME69001,Master's Research,Woonggyu Jung,Master's Course,
+School of Energy and Chemical Engineering,BST53801,Special Topics on Battery Science and Technology V(Artificial Intelligence in Materials Science),Dong-Hwa Seo,Master's Course,
+Department of Chemistry,CHM51101,Advanced Organic Chemistry,Sung You Hong,Master's Course,
+Department of Chemistry,CHM52201,Supramolecular Chemistry,Ja Hyoung Ryu,Master's Course,
+Department of Chemistry,CHM55301,Bioinorganic Chemistry,Jaeheung Cho,Master's Course,
+Department of Chemistry,CHM58201,Nanochemistry,Hyeon Suk Shin,Master's Course,
+Department of Chemistry,CHM59001,Seminar,Duyoung Min,Master's Course,
+Department of Chemistry,CHM64301,Molecular Spectroscopy,YUNG SAM KIM,Master's Course,
+Department of Chemistry,CHM68101,Advanced Instrumental Analysis,Hyunchul Oh,Master's Course,
+Department of Chemistry,CHM69001,Master's Research,Ja Hyoung Ryu,Master's Course,
+Department of Computer Science and Engineering,CSE51101,Advanced Computer Architecture,Hyungon Moon,Master's Course,
+Department of Computer Science and Engineering,CSE54401,Advanced Machine Learning,Kwang In Kim,Master's Course,
+Department of Computer Science and Engineering,CSE54501,Advanced Computer Vision,Seungryul Baek,Master's Course,
+Department of Computer Science and Engineering,CSE55201,Program Analysis,Mijung Kim,Master's Course,
+Department of Computer Science and Engineering,CSE59001,CSE Graduate Seminar,Myeongjae Jeon,Master's Course,
+Department of Computer Science and Engineering,CSE61101,S.T. in CE II (3D Vision and Machine Perception),Kyungdon Joo,Master's Course,
+Department of Computer Science and Engineering,CSE69001,Master's Research,Woongki Baek,Master's Course,
+Department of Design,DES59001,The Seminars,Ian Oakley,Master's Course,
+Department of Design,DES60101,Professional Design Practice,Yunwoo Jeong,Master's Course,
+Department of Design,DES60401,Embedded Systsem for HRI,Hui Sung Lee,Master's Course,
+Department of Design,DES69101,Master Graduation Project,Chajoong Kim,Master's Course,
+Department of Urban and Environmental Engineering,DME51001,Structural Geology,Min-Cheol Kim,Master's Course,
+Department of Urban and Environmental Engineering,DME61001,Micro-meteorology and Environment,Chang Keun Song,Master's Course,
+School of Energy and Chemical Engineering,ECHE59001,Seminar,Kwanyong Seo,Master's Course,
+School of Energy and Chemical Engineering,ECHE69001,Master's Research,Hyun-Kon Song,Master's Course,
+Department of Electrical Engineering,EE53001,Image Processing,Seungjoon Yang,Master's Course,
+Department of Electrical Engineering,EE55301,Digital Integrated Circuits,Kyuho Lee,Master's Course,
+Department of Electrical Engineering,EE55801,Advanced Analog IC Design,Franklin Bien,Master's Course,
+Department of Electrical Engineering,EE55901,Wireless IC Design,Heein Yoon,Master's Course,
+Department of Electrical Engineering,EE57101,Advanced Electrodynamics,Gangil Byun,Master's Course,
+Department of Electrical Engineering,EE57801,AdvancedSemiconductor Device Engineering,Myungsoo KIM,Master's Course,
+Department of Electrical Engineering,EE59001,EE Graduate Seminar,Gangil Byun,Master's Course,
+Department of Electrical Engineering,EE63501,S.T in Electronic Design and ApplicationsⅠ(Power Management IC),Se-Un Shin,Master's Course,
+Department of Electrical Engineering,EE69001,Master's Research,Jee Hoon Jung,Master's Course,
+Department of Urban and Environmental Engineering,EES50201,Introduction to environmental analysis,Sung-Deuk Choi,Master's Course,
+Department of Urban and Environmental Engineering,EES59001,Seminar,Sang Seo Park,Master's Course,
+Department of Urban and Environmental Engineering,EES65301,Atmospheric Radiation,Sang Seo Park,Master's Course,
+School of Energy and Chemical Engineering,ENE51501,Special Topics on Solar Energy,Sang Il Seok,Master's Course,
+School of Energy and Chemical Engineering,ENE61901,Energy Engineering I(Organic and Nano Optoelectronic Materials),Sung-Yeon Jang,Master's Course,
+Department of Urban and Environmental Engineering,ENV60401,Aquatic Chemistry,Young-Nam Kwon,Master's Course,
+Graduate School of Technology and Innovation Management,ETM50101,"Energy Systems, Policy, and Market Analysis",Jong dall Kim,Master's Course,
+Graduate School of Technology and Innovation Management,ETM50301,Wind Energy Technology,Jone Oh,Master's Course,
+Graduate School of Technology and Innovation Management,ETM50701,Energy Project Financing,Junyoup Lee,Master's Course,
+Department of Industrial Engineering,IE50501,Linear Programming,Sang Jin Kweon,Master's Course,
+Department of Industrial Engineering,IE51101,Introduction to Deep Learning,Jaejun Yoo,Master's Course,
+Department of Industrial Engineering,IE51301,Neural Network Learning Theory,Gi-soo Kim,Master's Course,
+Department of Industrial Engineering,IE69001,Master's Research,Namhun Kim,Master's Course,
+Department of Mechanical Engineering,MEN51201,Advanced Combustion,Chun Sang Yoo,Master's Course,
+Department of Mechanical Engineering,MEN53101,Finite Element Method,Hayoung Chung,Master's Course,
+Department of Mechanical Engineering,MEN55601,Laser Materials Interaction & Processing I,Hyungson Ki,Master's Course,
+Department of Mechanical Engineering,MEN57201,Nonlinear Systems,Hungsun Son,Master's Course,
+Department of Mechanical Engineering,MEN57301,Advanced Control Systems I,Cheolhyeon Kwon,Master's Course,
+Department of Mechanical Engineering,MEN57601,Biomechanics of Movement,Sang Hoon Kang,Master's Course,
+Department of Mechanical Engineering,MEN59001,The Seminars,Chun Sang Yoo,Master's Course,
+Department of Mechanical Engineering,MEN63101,Elastic Waves,Joo Hwan Oh,Master's Course,
+Department of Mechanical Engineering,MEN69001,Master's Research,Chun Sang Yoo,Master's Course,
+School of Business Administration,MGT51101,Research Methodology,Lu Zhang,Master's Course,
+School of Business Administration,MGT51201,Econometrics,Saiah Lee,Master's Course,
+School of Business Administration,MGT51301,Multivariate Analysis,Kee Yeun Lee,Master's Course,
+School of Business Administration,MGT59101,Independent Study,Young Rok Choi,Master's Course,
+School of Business Administration,MGT69001,Master's Research,Young Rok Choi,Master's Course,
+School of Business Administration,MIS50201,Data Mining,Han-Gyun Woo,Master's Course,
+School of Business Administration,MIS51301,IT Strategy,Yeolib Kim,Master's Course,
+Department of Materials Science and Engineering,MSE54001,Wearable Electronics,Moon Kee Choi,Master's Course,
+Department of Materials Science and Engineering,MSE55101,Surface & Interface Sciences,Hyung-Joon Shin,Master's Course,
+Department of Materials Science and Engineering,MSE57001,Intelligent Materials and Applications,Jiyun Kim,Master's Course,
+Department of Materials Science and Engineering,MSE57101,Organic Optoelectric Materials&Devices,Myoung Hoon Song,Master's Course,
+Department of Materials Science and Engineering,MSE59001,The Seminars,Hyung-Joon Shin,Master's Course,
+Department of Materials Science and Engineering,MSE61201,Alloy Design,Sung Soo Park,Master's Course,
+Department of Materials Science and Engineering,MSE68101,S.T. on MSE Ⅰ (Materials for Photoelectrochemical Devices),Han-Hee Cho,Master's Course,
+Department of Materials Science and Engineering,MSE69001,Master's Research,Kyoung Jin Choi,Master's Course,
+Department of Mathematical Sciences,MTH50101,Real analysis,Hantaek Bae,Master's Course,
+Department of Mathematical Sciences,MTH50501,Numerical Analysis & applications,Bongsoo Jang,Master's Course,
+Department of Mathematical Sciences,MTH52201,Introduction to Partial Differntial Equations,Chang-Yeol Jung,Master's Course,
+Department of Mathematical Sciences,MTH55101,Algebra I,Jaehyun Cho,Master's Course,
+Department of Mathematical Sciences,MTH56701,Algebraic Geometry Ⅱ,Chol Park,Master's Course,
+Department of Mathematical Sciences,MTH59001,The Seminars,Chang Hyeong Lee,Master's Course,
+Department of Mathematical Sciences,MTH69001,Master's Reserach,Chang Hyeong Lee,Master's Course,
+Department of Nuclear Engineering,NE50201,Engineering of Nuclear Energy System,In Cheol Bang,Master's Course,
+Department of Nuclear Engineering,NE51101,Nuclear Fuel Engineering,Sangjoon Ahn,Master's Course,
+Department of Nuclear Engineering,NE54001,Advanced Deep Learning Project,Jimin Lee,Master's Course,
+Department of Nuclear Engineering,NE59001,The Seminars,Jaeyeong Park,Master's Course,
+Department of Nuclear Engineering,NE61901,Special Topics in Nuclear Engineering I (Nuclear Safety and Regulatory Policy),Byung Joo Min,Master's Course,
+Department of Nuclear Engineering,NE63901,Special Topics in Nuclear Engineering III (Perturbation Methods),Eisung Yoon,Master's Course,
+Department of Nuclear Engineering,NE69001,Master's Research,In Cheol Bang,Master's Course,
+Department of Physics,PHY50101,Classical Mechanics,KYUJIN KWAK,Master's Course,
+Department of Physics,PHY50301,Electrodynamics I,Min Sup Hur,Master's Course,
+Department of Physics,PHY50501,Quantum Mechanics I,Hosub Jin,Master's Course,
+Department of Physics,PHY51101,Quantum Optics and Quantum Dynamics,Je-Hyung Kim,Master's Course,
+Department of Physics,PHY56601,Plasma Diagnostics,Yongkyoon In,Master's Course,
+Department of Physics,PHY59001,Seminar,Changhee Sohn,Master's Course,
+Department of Physics,PHY69001,Master's Research,Kibog Park,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE51101,Semiconductor Processing and Device Lab,Changwook Jeong,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE52301,Synchrotron Radiation Science and Technology,Tae Joo Shin,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE53301,Intelligent Materials and Applications,Jiyun Kim,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE59001,The Seminars,Tae-Sik Yoon,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE62301,Advanced Mass Spectrometry,JEONG KON SEO,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE63701,Organic Optoelectric Materials and Devices,Myoung Hoon Song,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE63801,Wearable Displays,Moon Kee Choi,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE63901,Surface and Interface Science of Nanomaterials,Hyung-Joon Shin,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE64201,Nanochemistry for Semiconductor,Hyeon Suk Shin,Master's Course,
+Graduate School of Semiconductor Materials and Devices Engineering,SE69001,Master's Research,Hongsik Jeong,Master's Course,
+Department of Urban and Environmental Engineering,UEE69001,Master's Research,Myoungsu Shin,Master's Course,
+Department of Urban and Environmental Engineering,UIE50701,Finite Element Method,Young Joo Lee,Master's Course,
+School of New UNISTars,BIO10101,General Biology,"Byoung Heon Kang
+Kyungjae Myung
+Hyeran Jang",Undergraduate Course,
+School of New UNISTars,BIO10102,General Biology,"Byoung Heon Kang
+Kyungjae Myung
+Hyeran Jang",Undergraduate Course,
+School of New UNISTars,BIO10103,General Biology,"Byoung Heon Kang
+Kyungjae Myung
+Hyeran Jang",Undergraduate Course,
+Department of Biological Sciences,BIO20101,Molecular Biology,Hongtae Kim,Undergraduate Course,
+Department of Biological Sciences,BIO20201,Molecular Biology Laboratory,Jayil Lee,Undergraduate Course,
+Department of Biological Sciences,BIO22101,Biochemistry II,Changwook Lee,Undergraduate Course,
+Department of Biological Sciences,BIO30601,Neuroscience Ⅱ,Jae Ick Kim,Undergraduate Course,
+Department of Biological Sciences,BIO33001,Bioinformatics,Dougu Nam,Undergraduate Course,
+Department of Biological Sciences,BIO33201,Human Physiology,Eunhee Kim,Undergraduate Course,
+Department of Biological Sciences,BIO33301,Genetics,Taejoon Kwon,Undergraduate Course,
+Department of Biological Sciences,BIO36101,Cell Biology & Genetics Laboratory,Chunghun Lim,Undergraduate Course,
+Department of Biological Sciences,BIO40101,Special Topic in Biological Sciences I (Viral Infection Biology),Sangjoon Lee,Undergraduate Course,
+Department of Biological Sciences,BIO40201,Special Topics in Biological Sciences II (Cell Biology II),Chan Young Park,Undergraduate Course,
+Department of Biological Sciences,BIO44001,Developmental Biology Ⅱ,Tae Joo Park,Undergraduate Course,Developmental Biology
+Department of Biomedical Engineering,BME20101,Introduction to Network Biology,Cheol-Min Ghim,Undergraduate Course,
+Department of Biomedical Engineering,BME20601,Cognitive Neuroscience,Dongil Chung,Undergraduate Course,
+Department of Biomedical Engineering,BME21101,Engineering Physiology,Kyemyung PARK,Undergraduate Course,
+Department of Biomedical Engineering,BME21901,Optical Imaging,Chung Hun Park,Undergraduate Course,
+Department of Biomedical Engineering,BME30201,Stem Cell Engineering,Jeong Beom Kim,Undergraduate Course,
+Department of Biomedical Engineering,BME30601,Biostatistics for Engineers,Whan Hyuk Choi,Undergraduate Course,
+Department of Biomedical Engineering,BME30801,Sensation and Perception,Oh-Sang Kwon,Undergraduate Course,
+Department of Biomedical Engineering,BME31301,Biomedical Instrumentation Laboratory,Joon-Mo Yang,Undergraduate Course,
+Department of Biomedical Engineering,BME33101,Introduction to Neuroimaging,Hyung Joon Cho,Undergraduate Course,
+Department of Biomedical Engineering,BME33301,Genetics,Taejoon Kwon,Undergraduate Course,
+Department of Biomedical Engineering,BME39001,Searching for Novel CRISPR/Cas System at Gamak-pond,"Taejoon Kwon
+Seung Woo Cho",Undergraduate Course,
+Department of Biomedical Engineering,BME40101,Special Topics in Biomedical Engineering I (Genomics 101),"Taejoon Kwon
+Seung Woo Cho",Undergraduate Course,
+Department of Biomedical Engineering,BME40201,Special Topics in Biomedical Enginering Ⅱ (Understanding Research Articles in Biotechnology),Seung Woo Cho,Undergraduate Course,
+Department of Biomedical Engineering,BME49001,Capstone Project,Jinmyoung Joo,Undergraduate Course,
+School of New UNISTars,CHM10101,General Chemistry I,John Thomas King,Undergraduate Course,
+School of New UNISTars,CHM10201,General Chemistry II,Geun Young Jin,Undergraduate Course,
+School of New UNISTars,CHM10202,General Chemistry II,BongSoo Kim,Undergraduate Course,
+School of New UNISTars,CHM10203,General Chemistry II,YungDoug Suh,Undergraduate Course,
+School of New UNISTars,CHM10501,General Chemistry Lab I,Sang Hoon Joo,Undergraduate Course,
+School of New UNISTars,CHM10502,General Chemistry Lab I,BongSoo Kim,Undergraduate Course,
+School of New UNISTars,CHM10503,General Chemistry Lab I,BongSoo Kim,Undergraduate Course,
+School of New UNISTars,CHM10504,General Chemistry Lab I,Ja Hyoung Ryu,Undergraduate Course,
+School of New UNISTars,CHM10601,General Chemistry Lab II,Sang Hoon Joo,Undergraduate Course,General Chemistry I
+School of New UNISTars,CHM10602,General Chemistry Lab II,BongSoo Kim,Undergraduate Course,General Chemistry I
+School of New UNISTars,CHM10604,General Chemistry Lab II,BongSoo Kim,Undergraduate Course,General Chemistry I
+School of New UNISTars,CHM10606,General Chemistry Lab II,BongSoo Kim,Undergraduate Course,General Chemistry I
+School of New UNISTars,CHM10607,General Chemistry Lab II,BongSoo Kim,Undergraduate Course,General Chemistry I
+Department of Chemistry,CHM20101,Organic Chemistry Laboratory,"Sung You Hong
+Ja Hyoung Ryu
+Jung-Min Kee",Undergraduate Course,
+Department of Chemistry,CHM20102,Organic Chemistry Laboratory,Ja Hyoung Ryu,Undergraduate Course,
+Department of Chemistry,CHM21201,Organic Chemistry II,Cheol-Min Park,Undergraduate Course,
+Department of Chemistry,CHM21202,Organic Chemistry II,Sung You Hong,Undergraduate Course,
+Department of Chemistry,CHM23201,Physical Chemistry II,Thomas Schultz,Undergraduate Course,
+Department of Chemistry,CHM30201,Physical Chemistry Lab,Oh Hoon Kwon,Undergraduate Course,Physical Chemistry I
+Department of Chemistry,CHM30202,Physical Chemistry Lab,YUNG SAM KIM,Undergraduate Course,Physical Chemistry I
+Department of Chemistry,CHM30301,Analytical/Materials Chemistry Lab,Sang Hoon Joo,Undergraduate Course,
+Department of Chemistry,CHM32201,Biochemistry II,Duyoung Min,Undergraduate Course,
+Department of Chemistry,CHM32401,Spectroscopy in Organic Chemistry,Jung-Min Kee,Undergraduate Course,
+Department of Chemistry,CHM35201,Inorganic Chemistry II,Jan-Uwe Rohde,Undergraduate Course,
+Department of Chemistry,CHM43101,Introduction to Molecular Spectroscopy,YungDoug Suh,Undergraduate Course,
+Department of Chemistry,CHM45101,Inorganic Materials Analysis,Hyunchul Oh,Undergraduate Course,
+Department of Chemistry,CHM47501,Electrochemistry,Sang Hoon Joo,Undergraduate Course,
+Department of Computer Science and Engineering,CSE22101,Data Structures,TAEHWAN KIM,Undergraduate Course,
+Department of Computer Science and Engineering,CSE26101,Computer Architecture,Sam H. Noh,Undergraduate Course,
+Department of Computer Science and Engineering,CSE27101,Principles of Programming Languages,Seulki Lee,Undergraduate Course,
+Department of Computer Science and Engineering,CSE30201,Building Customized Computers,Hyungon Moon,Undergraduate Course,
+Department of Computer Science and Engineering,CSE32101,Database Systems,Junghoon KIM,Undergraduate Course,Data Structures
+Department of Computer Science and Engineering,CSE33201,Theory of Computation,Mijung Kim,Undergraduate Course,Discrete Mathematics
+Department of Computer Science and Engineering,CSE36201,Artificial Intelligence,Tsz-Chiu Au,Undergraduate Course,Applied Linear Algebra
+Department of Computer Science and Engineering,CSE40301,Deep Learning,Hyounghun Kim,Undergraduate Course,
+Department of Computer Science and Engineering,CSE41201,Parallel Computing,Myeongjae Jeon,Undergraduate Course,Operating Systems
+Department of Computer Science and Engineering,CSE47101,Computer Graphics,Ilwoo Lyu,Undergraduate Course,Data Structures
+Department of Computer Science and Engineering,CSE47201,Computer Vision,Seungryul Baek,Undergraduate Course,Data Structures
+Department of Design,DES20201,Product Design Fundamentals,James Andrew Self,Undergraduate Course,Designing Ambient Things
+Department of Design,DES22201,Fundamental Digital Design,Hwang Kim,Undergraduate Course,
+Department of Design,DES23101,Design Knowledge and Skills,Kyungho Lee,Undergraduate Course,
+Department of Design,DES23201,3D CAD,KwanMyung Kim,Undergraduate Course,
+Department of Design,DES30201,Product Design II,Seungho Lee,Undergraduate Course,Product Design I
+Department of Design,DES33201,UX Design Research Methods,Chajoong Kim,Undergraduate Course,
+Department of Design,DES34101,Fundamental Electrical-Electronic Practi,Hui Sung Lee,Undergraduate Course,
+Department of Design,DES40601,Usability Engineering,Ian Oakley,Undergraduate Course,
+Department of Design,DES40701,Systems thinking for Designers,Seungho Lee,Undergraduate Course,
+Department of Design,DES43201,Creative Design II,KwanMyung Kim,Undergraduate Course,Creative Design 1
+School of Energy and Chemical Engineering,ECHE20201,Organic Chemistry II,Changduk Yang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE20202,Organic Chemistry II,Jiseok Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE22201,Physical Chemistry II : Kinetics,JunHee Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE22301,Lab for Energy Materials,"Ji-Hyun Jang
+Jongnam Park",Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE22302,Lab for Energy Materials,"Ji-Hyun Jang
+Jongnam Park",Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE23101,Chemical Engineering Thermodynamics,Chang Young Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE24001,Engineering Biochemistry,Sunghoon Park,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE30101,Computational Methods for Chemical Eng.,Donghyuk Kim,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE31101,Chemical Reaction Engineering,Kwangjin An,Undergraduate Course,Differential Equations
+School of Energy and Chemical Engineering,ECHE31401,Energy Conversion and Storage Lab,Youngsik Kim,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE32101,Polymer Material Science,Sung-Yeon Jang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE32201,Instrumental Analysis,Hyunhyub Ko,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE32601,Inorganic ChemistryⅡ,Ji Wook Jang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE34101,Engineering Biology Laboratory,"Sung Kuk Lee
+Sunghoon Park",Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE34102,Engineering Biology Laboratory,"Sung Kuk Lee
+Sunghoon Park",Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE35001,AI-driven Design of Energy Materials and Process,Dong-Hwa Seo,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE35201,Advanced Fluid Mechanics,Kang Hee Ku,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE36101,Organic/Physical Chemistry Laboratory,Jiseok Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE36102,Organic/Physical Chemistry Laboratory,Jiseok Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE41001,Phase Transformation,Seok Ju Kang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE43101,Intro to Catalysis,Jae Sung Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE43201,Chemical Engineering Mathematics,Chang Young Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE44201,Process Design and Economics,Hankwon Lim,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE44301,Chemical process Control,In-Beum Lee,Undergraduate Course,
+Department of Electrical Engineering,EEE20201,Digital Logic and Laboratory,Jimin Kwon,Undergraduate Course,
+Department of Electrical Engineering,EEE20501,Signals and Systems,Jaejun Yoo,Undergraduate Course,
+Department of Electrical Engineering,EEE23101,Electromagnetics II,EunMi Choi,Undergraduate Course,Electromagnetics I
+Department of Electrical Engineering,EEE24101,Physical Electronics,Jongwon Lee,Undergraduate Course,
+Department of Electrical Engineering,EEE30301,Microelectronics I and Laboratory,Heein Yoon,Undergraduate Course,Basic Circuit Theory and Laboratory
+Department of Electrical Engineering,EEE31201,VLSI Design,Kyuho Lee,Undergraduate Course,Microelectronics I and Laboratory
+Department of Electrical Engineering,EEE32101,Computer Networks,Hyoil Kim,Undergraduate Course,
+Department of Electrical Engineering,EEE33101,Microwave Engineering,Gangil Byun,Undergraduate Course,Electromagnetics I
+Department of Electrical Engineering,EEE35201,Digital Signal Processing,Seungjoon Yang,Undergraduate Course,
+Department of Electrical Engineering,EEE43101,Power Electronics,Se-Un Shin,Undergraduate Course,Electric Energy Systems
+Department of Electrical Engineering,EEE44201,Semiconductor VLSI Devices Engineering,Kyung Rok Kim,Undergraduate Course,Semiconductor Engineering
+School of Liberal Arts,ENG11001,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11002,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11003,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11004,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11005,English Listening&Speaking(Intermediate),Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11006,English Listening&Speaking(Intermediate),Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11101,English Listening&Speaking(Advanced),Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11102,English Listening&Speaking(Advanced),Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11201,English Reading&Writing,William Fitzpatrick,Undergraduate Course,
+School of Liberal Arts,ENG11202,English Reading&Writing,William Fitzpatrick,Undergraduate Course,
+School of Liberal Arts,ENG11203,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11204,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11205,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11206,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11207,English Reading&Writing,Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11208,English Reading&Writing,Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11212,English Reading&Writing,Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11213,English Reading&Writing,Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11214,English Reading&Writing,Ali Safavi,Undergraduate Course,
+School of Business Administration,FIA30101,Investment Analysis,Sang-Ook Shin,Undergraduate Course,Statistics
+School of Business Administration,FIA43101,Financial Time-Series Analysis,Hope Hyeun Han,Undergraduate Course,Statistics
+School of Business Administration,FIA44101,Financial Statement Analysis,Jeong Hwan Joo,Undergraduate Course,Financial Accounting
+School of Business Administration,FIA45001,Data Science for finance,Sang-Ook Shin,Undergraduate Course,
+School of New UNISTars,IE10101,Introduction to Data Science,Yongjae Lee,Undergraduate Course,
+Department of Industrial Engineering,IE20101,Operations Research Ⅰ,Sang Jin Kweon,Undergraduate Course,Applied Linear Algebra
+Department of Industrial Engineering,IE20701,Statistical Computing,Gi-soo Kim,Undergraduate Course,
+Department of Industrial Engineering,IE30801,Service Intelligence,Chiehyeon Lim,Undergraduate Course,Industrial Operations Management
+Department of Industrial Engineering,IE31301,Time-series Analysis,Yongjae Lee,Undergraduate Course,Statistics
+Department of Industrial Engineering,IE40401,Data-driven Process Management,Comuzzi Marco,Undergraduate Course,
+Department of Industrial Engineering,IE40801,Principles of Deep Learning,Sungbin Lim,Undergraduate Course,Introduction to AI Programming Ⅱ
+Department of Industrial Engineering,IE42101,Blockchain Systems,Comuzzi Marco,Undergraduate Course,
+Department of Industrial Engineering,IE42201,Social Network Analysis,Sunghoon Lim,Undergraduate Course,Data Mining
+Department of Industrial Engineering,IE47001,Special Topics in IE I (Algorithmic Trading - Theory and Practice),Dong Young Lim,Undergraduate Course,
+School of New UNISTars,ITP10701,Introduction to AI Programming Ⅰ,Michael Burrell,Undergraduate Course,
+School of New UNISTars,ITP11101,Probability and Random Process,Joong Soo Ma,Undergraduate Course,
+School of New UNISTars,ITP11201,Discrete Mathematics,Michael Burrell,Undergraduate Course,
+School of New UNISTars,ITP11701,Introduction to AI Programming Ⅱ,Seungyul Han,Undergraduate Course,
+School of New UNISTars,ITP11702,Introduction to AI Programming Ⅱ,Kyungdon Joo,Undergraduate Course,
+School of Liberal Arts,LNG10001,Korean Writing,Jinsook Choi,Undergraduate Course,
+School of Liberal Arts,LNG10002,Korean Writing,Yun Na Jeong,Undergraduate Course,
+School of Liberal Arts,LNG10003,Korean Writing,Yun Na Jeong,Undergraduate Course,
+School of Liberal Arts,LNG20101,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20102,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20103,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20104,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20105,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20106,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20301,Korean Ⅰ,Yun Na Jeong,Undergraduate Course,
+Department of Mechanical Engineering,MEN21101,Applied Thermodynamics,Hyungson Ki,Undergraduate Course,Thermodynamics
+Department of Mechanical Engineering,MEN22001,Fluid Mechanics,Jooha Kim,Undergraduate Course,
+Department of Mechanical Engineering,MEN23101,Solid Mechanics II,Joo Hwan Oh,Undergraduate Course,Solid Mechanics I
+Department of Mechanical Engineering,MEN27001,Dynamics,Cheolhyeon Kwon,Undergraduate Course,
+Department of Mechanical Engineering,MEN30001,Mechanical Engineering Lab Ⅰ,Taesung Kim,Undergraduate Course,Heat Transfer
+Department of Mechanical Engineering,MEN30101,Numerical Analysis,Chun Sang Yoo,Undergraduate Course,Differential Equations
+Department of Mechanical Engineering,MEN30201,Intro. to Finite Element Method,Hayoung Chung,Undergraduate Course,Solid Mechanics II
+Department of Mechanical Engineering,MEN41301,Computational Fluid Dynamics,Jae Hwa Lee,Undergraduate Course,Numerical Analysis
+Department of Mechanical Engineering,MEN45101,Introduction to MEMS,Heungjoo Shin,Undergraduate Course,
+Department of Mechanical Engineering,MEN48201,UAV Navigation and Flight Computers,Hungsun Son,Undergraduate Course,Dynamic Systems and Control
+Department of Mechanical Engineering,MEN49701,Special Topics in Mechanical Engineering I (Advanced Convective Heat Transfer),Aejung Yoon,Undergraduate Course,
+School of New UNISTars,MGT10201,Entrepreneurship,Victoria Kim,Undergraduate Course,
+School of Business Administration,MGT20101,Managment Information Systems,Yeolib Kim,Undergraduate Course,
+School of Business Administration,MGT20601,Managerial Accounting,Yong Mi Kim,Undergraduate Course,Financial Accounting
+School of Business Administration,MGT21101,Microeconomics,Saiah Lee,Undergraduate Course,Economics
+School of Business Administration,MGT30201,Human Resource Management,Lu Zhang,Undergraduate Course,Organizational Behavior
+School of Business Administration,MGT31701,International Economics,Keunsuk Chung,Undergraduate Course,Macroeconomics
+School of Business Administration,MGT33101,International  Marketing,Min Chung Kim,Undergraduate Course,Marketing Management
+School of Business Administration,MGT41101,Special Topics in MGT II (Venture Capitalist Project Lab),Young Rok Choi,Undergraduate Course,
+School of Business Administration,MGT43201,Marketing Research,Kee Yeun Lee,Undergraduate Course,Statistics
+School of Business Administration,MGT43601,Digital marketing,Molan Kim,Undergraduate Course,
+Department of Materials Science and Engineering,MSE20301,Physical Chemistry Ⅰ: Thermodynamics,Wook Jo,Undergraduate Course,
+Department of Materials Science and Engineering,MSE25001,Modern Physics of Materials: Quantum Mechanics,HYESUNG PARK,Undergraduate Course,
+Department of Materials Science and Engineering,MSE25301,Introduction to Nanomaterials,Jae Sung Son,Undergraduate Course,
+Department of Materials Science and Engineering,MSE27001,Intro to Polymer Materials,Myoung Hoon Song,Undergraduate Course,
+Department of Materials Science and Engineering,MSE29001,Intro to Computational Materials Science,Ki-Suk Lee,Undergraduate Course,
+Department of Materials Science and Engineering,MSE30001,Materials Lab,"Ju-Young Kim
+HYESUNG PARK
+Jiyun Kim",Undergraduate Course,
+Department of Materials Science and Engineering,MSE31301,Mechanical Behavior of Materials,Ju-Young Kim,Undergraduate Course,
+Department of Materials Science and Engineering,MSE31601,Wearable smart healthcare electronic system,Moon Kee Choi,Undergraduate Course,
+Department of Materials Science and Engineering,MSE35001,Solid State Physics of Materials I,Jung-Woo Yoo,Undergraduate Course,
+Department of Materials Science and Engineering,MSE43101,Introduction to Spintronics,Ki-Suk Lee,Undergraduate Course,
+Department of Materials Science and Engineering,MSE43401,Microstructure-Property Relationships:Foundations in Physical Metallurg,Suk Bin Lee,Undergraduate Course,
+Department of Materials Science and Engineering,MSE45301,Semiconductor Processing,Joonki Suh,Undergraduate Course,
+Department of Materials Science and Engineering,MSE49201,Special Topics in Materials Science and Engineering Ⅱ(Polymer Structures and Properties),Han-Hee Cho,Undergraduate Course,
+Department of Materials Science and Engineering,MSE49401,Special Topics in Materials Science and Engineering Ⅳ (Machine Learning for Semiconductor Design),Changwook Jeong,Undergraduate Course,
+School of New UNISTars,MTH11101,Calculus I,Bogume Jang,Undergraduate Course,
+School of New UNISTars,MTH11201,Calculus II,Hyeungjoon Kim,Undergraduate Course,
+School of New UNISTars,MTH11202,Calculus II,Hyeungjoon Kim,Undergraduate Course,
+School of New UNISTars,MTH20101,Differential Equations,Jung Eun Kim,Undergraduate Course,Calculus I
+School of New UNISTars,MTH20102,Differential Equations,Lee Jungjin,Undergraduate Course,Calculus I
+School of New UNISTars,MTH20301,Applied Linear Algebra,Jung Eun Kim,Undergraduate Course,
+School of New UNISTars,MTH20302,Applied Linear Algebra,Lee Jungjin,Undergraduate Course,
+Department of Mathematical Sciences,MTH20401,Linear Algebra,Chang-Yeol Jung,Undergraduate Course,Differential Equations
+School of New UNISTars,MTH21101,Statistics,Bogume Jang,Undergraduate Course,
+School of New UNISTars,MTH21102,Statistics,Bogume Jang,Undergraduate Course,
+Department of Mathematical Sciences,MTH25201,Mathematical Analysis II,Youngae Lee,Undergraduate Course,Applied Linear Algebra
+Department of Mathematical Sciences,MTH26001,Elementary Number theory,Chol Park,Undergraduate Course,
+Department of Mathematical Sciences,MTH30301,Modern Algebra II,Hae-Sang Sun,Undergraduate Course,Modern Algebra I
+Department of Mathematical Sciences,MTH31501,Ordinary differential equations,Bongsuk Kwon,Undergraduate Course,Applied Linear Algebra
+Department of Mathematical Sciences,MTH32101,Numerical Analysis,Bongsoo Jang,Undergraduate Course,Differential Equations
+Department of Mathematical Sciences,MTH34201,Probability,Chang Hyeong Lee,Undergraduate Course,
+Department of Mathematical Sciences,MTH35101,General Topology,Rak-Kyeong Seong,Undergraduate Course,Mathematical Analysis I
+Department of Mathematical Sciences,MTH41201,Dynamical Systems,Pilwon Kim,Undergraduate Course,Mathematical Analysis I
+Department of Mathematical Sciences,MTH43401,Mathematical Analysis and Computation for Machine Learning,Yunho Kim,Undergraduate Course,
+Department of Nuclear Engineering,NE21101,Medical Radiation Engineering,Jimin Lee,Undergraduate Course,
+Department of Nuclear Engineering,NE22001,Nuclear Materials Eng & Experiment,Sangjoon Ahn,Undergraduate Course,
+Department of Nuclear Engineering,NE30001,Introduction to Nuclear Reactor Theory,Douglas Fynan,Undergraduate Course,
+Department of Nuclear Engineering,NE34101,Radioactive Waste Management,Jaeyeong Park,Undergraduate Course,
+Department of Nuclear Engineering,NE43001,Introduction to Radiation Materials Scie,Sangjoon Ahn,Undergraduate Course,
+Department of Nuclear Engineering,NE49101,Special Topics on Nuclear Engineering and Science Ⅰ(Nuclear Safety and Safety Culture),In Cheol Bang,Undergraduate Course,
+Department of Nuclear Engineering,NE49201,Special Topics on Nuclear Engineering and Science II (Introduction to Medical Physics),Seongmoon Jung,Undergraduate Course,
+School of New UNISTars,PHY10101,General Physics I,Sangyong Yi,Undergraduate Course,
+School of New UNISTars,PHY10301,General Physics II,Yongkyoon In,Undergraduate Course,
+School of New UNISTars,PHY10302,General Physics II,Sangyong Yi,Undergraduate Course,
+School of New UNISTars,PHY10303,General Physics II,Sangyong Yi,Undergraduate Course,
+School of New UNISTars,PHY10701,General Physics Lab I,Hyuk Kyu Pak,Undergraduate Course,
+School of New UNISTars,PHY10702,General Physics Lab I,Hyuk Kyu Pak,Undergraduate Course,
+School of New UNISTars,PHY10703,General Physics Lab I,Hyuk Kyu Pak,Undergraduate Course,
+School of New UNISTars,PHY10704,General Physics Lab I,Yoon Seok Oh,Undergraduate Course,
+School of New UNISTars,PHY10705,General Physics Lab I,Hyuk Kyu Pak,Undergraduate Course,
+School of New UNISTars,PHY10801,General Physics Lab II,Yoon Seok Oh,Undergraduate Course,
+School of New UNISTars,PHY10803,General Physics Lab II,Hyuk Kyu Pak,Undergraduate Course,
+School of New UNISTars,PHY10806,General Physics Lab II,Hyuk Kyu Pak,Undergraduate Course,
+School of New UNISTars,PHY10807,General Physics Lab II,Yoon Seok Oh,Undergraduate Course,
+School of New UNISTars,PHY10809,General Physics Lab II,Yoon Seok Oh,Undergraduate Course,
+Department of Physics,PHY20201,Classical Mechanics II,Hosub Jin,Undergraduate Course,Classical Mechanics I
+Department of Physics,PHY20401,Eletromagnetism II,Hyeong-Ryeol Park,Undergraduate Course,Electromagnetism I
+Department of Physics,PHY20701,Physics Lab I,Daeshig Ghim,Undergraduate Course,General Physics II
+Department of Physics,PHY20801,Network Science for Complex Systems,Cheol-Min Ghim,Undergraduate Course,
+Department of Physics,PHY22301,Mathematical Physics,Chae Un Kim,Undergraduate Course,Electromagnetism I
+Department of Physics,PHY23101,Green Hydrogen Production System Based on Plasmonic Photoexcitation,Noejung Park,Undergraduate Course,
+Department of Physics,PHY30201,Quantum Physics II,Je-Hyung Kim,Undergraduate Course,Quantum Physics I
+Department of Physics,PHY31501,Solid State Physics I,Seon Namgung,Undergraduate Course,Quantum Physics I
+Department of Physics,PHY32101,Optics,Woojin Kwon,Undergraduate Course,Electromagnetism I
+Department of Physics,PHY40701,Semiconductor and Precision Measurement Physics,Kibog Park,Undergraduate Course,
+Department of Physics,PHY41801,Thermal and Statistical physics Ⅱ: Soft Matter Physics,Jaeup Kim,Undergraduate Course,Thermal and Statistical Physics Ⅰ
+School of Liberal Arts,SLA11101,Understanding Visual Arts,Kyong-Mi Paek,Undergraduate Course,
+School of Liberal Arts,SLA12101,"Music and Creativity, Piano",Inkyoung Lee,Undergraduate Course,
+School of Liberal Arts,SLA12102,"Music and Creativity, Piano",Inkyoung Lee,Undergraduate Course,
+School of Liberal Arts,SLA12401,Understanding Western Music,Inkyoung Lee,Undergraduate Course,
+School of Liberal Arts,SLA13301,Literature and Science,Jae Yon Lee,Undergraduate Course,
+School of Liberal Arts,SLA15401,History of Modern East Asia,Christopher Lovins,Undergraduate Course,
+School of Liberal Arts,SLA21301,Themes of Contemporary Art,Kyong-Mi Paek,Undergraduate Course,
+School of Liberal Arts,SLA24101,Effective Communication,Jin-Young Kim,Undergraduate Course,
+School of Liberal Arts,SLA24102,Effective Communication,Jin-Young Kim,Undergraduate Course,
+School of Liberal Arts,SLA24201,Media Technology and Human Values,Minkyu Sung,Undergraduate Course,
+School of Liberal Arts,SLA24301,Global Politics and Media,Minkyu Sung,Undergraduate Course,
+School of Liberal Arts,SLA25101,History of Modern Korea,Christopher Lovins,Undergraduate Course,
+School of Liberal Arts,SLA25501,"Introduction to Science, Technology and Society",Hyomin Kim,Undergraduate Course,
+School of Liberal Arts,SLA26201,Philosophy of Religion,Seungbae Park,Undergraduate Course,
+School of Liberal Arts,SLA28101,Society and Culture,Bradley Scott Tatar,Undergraduate Course,
+School of Liberal Arts,SLA28102,Society and Culture,Bradley Scott Tatar,Undergraduate Course,
+School of Liberal Arts,SLA33301,AI and Storytelling,Jae Yon Lee,Undergraduate Course,
+School of Liberal Arts,SLA33302,AI and Storytelling,Jae Yon Lee,Undergraduate Course,
+School of Liberal Arts,SLA34201,"Personality, Self, and Communication: Intrapersonal Communication",Jin-Young Kim,Undergraduate Course,
+School of Liberal Arts,SLA36101,Metaphysics,Huiyuhl Yi,Undergraduate Course,
+School of Liberal Arts,SLA36401,Logic,Huiyuhl Yi,Undergraduate Course,
+School of Liberal Arts,SLA38001,Topics in Anthropology,Jinsook Choi,Undergraduate Course,
+School of Liberal Arts,SLA38401,Human Evolution,Bradley Scott Tatar,Undergraduate Course,
+School of Liberal Arts,SLA46101,Philosophy of Science,Seungbae Park,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE22101,Air Pollution,Sung-Deuk Choi,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE23101,Mechanics of Materials,Myoungsu Shin,Undergraduate Course,Intro to Civil Engineering
+Department of Urban and Environmental Engineering,UEE24101,Geographic Information System,Gihyoug Cho,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE33301,Concrete Structures,Myoungsu Shin,Undergraduate Course,Mechanics of Materials
+Department of Urban and Environmental Engineering,UEE35101,Probability Concepts in Engineering,Young Joo Lee,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE35201,Disaster Management,Jibum Chung,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE35301,Numerical Modeling and Analysis,Young Joo Lee,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE35401,Disaster Monitoring and Prediction using Artificial Intelligence,Jungho Im,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE41101,Water and Wastewater Engineering,Kyung Hwa Cho,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE41201,Environmental Bioprocess,Changsoo Lee,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE43401,Foundation Engineering,Youngkyu Cho,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE45201,Satellite Remote Sensing,Sang Seo Park,Undergraduate Course,
+Undergraduate School,ULP20101,Leadership_Rowing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP20102,Leadership_Rowing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21301,Leadership_Archery,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21302,Leadership_Archery,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21303,Leadership_Archery,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21304,Leadership_Archery,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21501,Leadership_Gukgung(Korean Archery),"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21701,Leadership_Basic Golf,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21801,Leadership_Swimming,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21901,Leadership_yoga,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21902,Leadership_yoga,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22001,Leadership_Tennis,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22002,Leadership_Tennis,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22201,Leadership_Surfing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22202,Leadership_Surfing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22301,Leadership_Taekwondo,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP30501,Leadership_Peer Leadership,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP30601,Leadership_Peer Leadership B,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP30801,Leadership_Handicrafts,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP30901,Leadership_Finance,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP40301,Local Visits,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP40401,Leadership_Sign Language,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP40402,Leadership_Sign Language,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP40601,Leadership_CA Mentorship(Global Mentor),"Jaekyom Shim
+Eun Seo Ryu",Undergraduate Course,
+Undergraduate School,ULP40901,Special Leadership Lectures,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP41301,Leadership_CA Mentorship(Mentee),"Jaekyom Shim
+Eun Seo Ryu",Undergraduate Course,
+Undergraduate School,ULP41801,Leadership_Mental Health I,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP42201,Leadership_Campus Leadership 1,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP42501,Leadership_Permaculture,"Jeong Bong Cho
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP60101,Leadership_Volunteer work 1,"Jaekyom Shim
+JOONHYUNG KIM",Undergraduate Course,
+Undergraduate School,ULP60201,Leadership_Volunteer work 2,"Jaekyom Shim
+JOONHYUNG KIM",Undergraduate Course,
+Undergraduate School,ULP60301,Leadership_Volunteer work 3,"Jaekyom Shim
+JOONHYUNG KIM",Undergraduate Course,
+School of New UNISTars,UNI10101,Mechanical Engineering and Future,Aejung Yoon,Undergraduate Course,
+School of New UNISTars,UNI10201,What you may (not) want to know about cities and environment,"Young Joo Lee
+Sang Seo Park",Undergraduate Course,
+School of New UNISTars,UNI10301,Trend in Materials Science and Engineering,Jiyun Kim,Undergraduate Course,
+School of New UNISTars,UNI10401,Enginneering Your Future - Energy and Chemical Engineers,"Chang Young Lee
+Jae Sung Lee",Undergraduate Course,
+School of New UNISTars,UNI10501,The future of Nuclear Engineering,Eisung Yoon,Undergraduate Course,
+School of New UNISTars,UNI10601,What is Design?,James Andrew Self,Undergraduate Course,
+School of New UNISTars,UNI10701,BME to change the world,Taejoon Kwon,Undergraduate Course,
+School of New UNISTars,UNI10801,Industrial Engineering Relay Seminar,Sang Jin Kweon,Undergraduate Course,
+School of New UNISTars,UNI10901,Emerging Issues in Biological Sciences,Haejin Yoon,Undergraduate Course,
+School of New UNISTars,UNI11101,Introduction to Computer Science and Engineering,"Tsz-Chiu Au
+Myeongjae Jeon
+Kwang In Kim
+Jooyong Yi
+Youngbin Im
+Seungryul Baek
+Kyungdon Joo
+Yuseok Jeon
+Mijung Kim
+Ilwoo Lyu
+Seulki Lee
+TAEHWAN KIM
+Jaeyeon Lee
+Junghoon KIM",Undergraduate Course,
+School of New UNISTars,UNI11201,Physics & Innovative Technology,Changhee Sohn,Undergraduate Course,
+School of New UNISTars,UNI11301,Introduction to Modern Mathematics,"Chang-Yeol Jung
+Bongsoo Jang
+Chang Hyeong Lee
+Pilwon Kim
+Bongsuk Kwon
+Yunho Kim
+Hantaek Bae
+Hae-Sang Sun
+Kyudong Choi
+Chol Park
+Youngae Lee
+Rak-Kyeong Seong",Undergraduate Course,
+School of New UNISTars,UNI11501,Principles of management,"Lu Zhang
+Young-Choon Kim
+Yeolib Kim
+Min Chung Kim
+Jeong Hwan Joo
+Sang-Ook Shin",Undergraduate Course,
+Department of Industrial Engineering,UNI20801,Inventory Management Optimization Strategies,Sang Jin Kweon,Undergraduate Course,
+School of New UNISTars,BIO10101,General Biology,"Orlando D. Scharer
+Anton Gartner
+Hyeran Jang",Undergraduate Course,
+School of New UNISTars,BIO10102,General Biology,"Orlando D. Scharer
+Anton Gartner
+Hyeran Jang",Undergraduate Course,
+School of New UNISTars,BIO10103,General Biology,"Orlando D. Scharer
+Anton Gartner
+Hyeran Jang",Undergraduate Course,
+Department of Biological Sciences,BIO21101,Biochemistry I,"Haejin Yoon
+Sangjoon Lee",Undergraduate Course,
+Department of Biological Sciences,BIO26101,Biochemistry Laboratory,Tae Joo Park,Undergraduate Course,
+Department of Biological Sciences,BIO30101,Cell Biology,Jiyoung Park,Undergraduate Course,
+Department of Biological Sciences,BIO30501,Neuroscience Ⅰ,Jae Ick Kim,Undergraduate Course,
+Department of Biological Sciences,BIO30701,Current Topics in Biological Sciences,"Haejin Yoon
+Sangjoon Lee",Undergraduate Course,
+Department of Biological Sciences,BIO31401,Instrumental Bioanalysis,Sebyung Kang,Undergraduate Course,
+Department of Biological Sciences,BIO32001,Genome Integrity and Cancer,"Kyungjae Myung
+Orlando D. Scharer
+Anton Gartner
+Kei-ichi Takata",Undergraduate Course,Molecular Biology
+Department of Biological Sciences,BIO40501,Introduction to Biological Physics,Jayil Lee,Undergraduate Course,
+Department of Biological Sciences,BIO43001,Developmental Biology,Tae Joo Park,Undergraduate Course,Molecular Biology
+Department of Biological Sciences,BIO43201,Immunology,Myung Gon Ko,Undergraduate Course,
+Department of Biological Sciences,BIO43301,Biochemistry of Signal Transduction and Regulation,Jang Hyun Choi,Undergraduate Course,
+Department of Biological Sciences,BIO43501,Cancer Biology,Young Chan Chae,Undergraduate Course,Molecular Biology
+Department of Biological Sciences,BIO43601,Emerging Principles of Gene Expression,Chunghun Lim,Undergraduate Course,
+Department of Biomedical Engineering,BME20401,Biosensors & Signals,Joon-Mo Yang,Undergraduate Course,
+Department of Biomedical Engineering,BME21001,Engineering Mathematics,Whan Hyuk Choi,Undergraduate Course,
+Department of Biomedical Engineering,BME21201,Biomedical instrumentation & analysis,Jinmyoung Joo,Undergraduate Course,
+Department of Biomedical Engineering,BME21301,Biophysical Chemistry,Jongnam Park,Undergraduate Course,General Chemistry II
+Department of Biomedical Engineering,BME23501,Tissue Engineering,Hyun-Wook Kang,Undergraduate Course,
+Department of Biomedical Engineering,BME30401,Brain and Human Behavior Ⅰ - Common to h,Dooyoung Jung,Undergraduate Course,
+Department of Biomedical Engineering,BME30701,Biomechanics,GWANSEOB SHIN,Undergraduate Course,
+Department of Biomedical Engineering,BME30901,Decision making and the Brain,Dongil Chung,Undergraduate Course,
+Department of Biomedical Engineering,BME31101,Transport Phenomena in Biological System,Joo Hun Kang,Undergraduate Course,Differential Equations
+Department of Biomedical Engineering,BME32001,Advanced Biomedical Instruments,Woonggyu Jung,Undergraduate Course,
+Department of Biomedical Engineering,BME40701,Bio-imaging and Deep Learning,Chung Hun Park,Undergraduate Course,
+Department of Biomedical Engineering,BME41201,Organ-on-a-chip,Tae-Eun Park,Undergraduate Course,
+Department of Biomedical Engineering,BME42101,Nano-Bioengineering,Yoon-Kyoung Cho,Undergraduate Course,
+Department of Biomedical Engineering,BME42401,Cancer Genomics,Semin Lee,Undergraduate Course,
+Department of Biomedical Engineering,BME43401,Computational Neuroscience,Sung Phil Kim,Undergraduate Course,
+Department of Biomedical Engineering,BME43701,AI-based Affective Engineering,Youngshin Kwak,Undergraduate Course,
+Department of Biomedical Engineering,BME49001,Capstone Project,Jinmyoung Joo,Undergraduate Course,
+School of New UNISTars,CHM10101,General Chemistry I,Geun Young Jin,Undergraduate Course,
+School of New UNISTars,CHM10102,General Chemistry I,John Thomas King,Undergraduate Course,
+School of New UNISTars,CHM10103,General Chemistry I,Young S. Park,Undergraduate Course,
+School of New UNISTars,CHM10104,General Chemistry I,Jan-Uwe Rohde,Undergraduate Course,
+School of New UNISTars,CHM10105,General Chemistry I,Bum Suk Zhao,Undergraduate Course,
+School of New UNISTars,CHM10501,General Chemistry Lab I,Cheol-Min Park,Undergraduate Course,
+School of New UNISTars,CHM10502,General Chemistry Lab I,Oh Hoon Kwon,Undergraduate Course,
+School of New UNISTars,CHM10503,General Chemistry Lab I,Thomas Schultz,Undergraduate Course,
+School of New UNISTars,CHM10504,General Chemistry Lab I,Cheol-Min Park,Undergraduate Course,
+School of New UNISTars,CHM10505,General Chemistry Lab I,Jung-Min Kee,Undergraduate Course,
+School of New UNISTars,CHM10506,General Chemistry Lab I,Geunsik Lee,Undergraduate Course,
+School of New UNISTars,CHM10507,General Chemistry Lab I,Hyunchul Oh,Undergraduate Course,
+School of New UNISTars,CHM10508,General Chemistry Lab I,Thomas Schultz,Undergraduate Course,
+School of New UNISTars,CHM10509,General Chemistry Lab I,Thomas Schultz,Undergraduate Course,
+School of New UNISTars,CHM10510,General Chemistry Lab I,Geunsik Lee,Undergraduate Course,
+School of New UNISTars,CHM10511,General Chemistry Lab I,Bum Suk Zhao,Undergraduate Course,
+School of New UNISTars,CHM10512,General Chemistry Lab I,Hyunchul Oh,Undergraduate Course,
+School of New UNISTars,CHM10513,General Chemistry Lab I,Jung-Min Kee,Undergraduate Course,
+School of New UNISTars,CHM10514,General Chemistry Lab I,Hyunchul Oh,Undergraduate Course,
+School of New UNISTars,CHM10515,General Chemistry Lab I,Geunsik Lee,Undergraduate Course,
+School of New UNISTars,CHM10516,General Chemistry Lab I,Jung-Min Kee,Undergraduate Course,
+School of New UNISTars,CHM10517,General Chemistry Lab I,Hyunchul Oh,Undergraduate Course,
+School of New UNISTars,CHM10518,General Chemistry Lab I,Geunsik Lee,Undergraduate Course,
+School of New UNISTars,CHM10519,General Chemistry Lab I,Bum Suk Zhao,Undergraduate Course,
+School of New UNISTars,CHM10520,General Chemistry Lab I,Bum Suk Zhao,Undergraduate Course,
+School of New UNISTars,CHM10521,General Chemistry Lab I,Jung-Min Kee,Undergraduate Course,
+School of New UNISTars,CHM10522,General Chemistry Lab I,Hyunchul Oh,Undergraduate Course,
+School of New UNISTars,CHM10523,General Chemistry Lab I,Bum Suk Zhao,Undergraduate Course,
+School of New UNISTars,CHM10524,General Chemistry Lab I,Oh Hoon Kwon,Undergraduate Course,
+School of New UNISTars,CHM10525,General Chemistry Lab I,Hyunchul Oh,Undergraduate Course,
+School of New UNISTars,CHM10601,General Chemistry Lab II,Oh Hoon Kwon,Undergraduate Course,General Chemistry Lab I
+Department of Chemistry,CHM21101,Organic Chemistry I,BongSoo Kim,Undergraduate Course,
+Department of Chemistry,CHM21102,Organic Chemistry I,Jung-Min Kee,Undergraduate Course,
+Department of Chemistry,CHM23101,Physical Chemistry I,YUNG SAM KIM,Undergraduate Course,
+Department of Chemistry,CHM29101,Analytical Chemistry,Kyoseung Sim,Undergraduate Course,
+Department of Chemistry,CHM30101,Inorganic Chemistry Laboratory,Hoi Ri MOON,Undergraduate Course,
+Department of Chemistry,CHM31101,Synthetic Organic Chemisty,Cheol-Min Park,Undergraduate Course,
+Department of Chemistry,CHM31301,Fundamental of Energy Materials,"Tae-Hyuk Kwon
+Kwanyong Seo",Undergraduate Course,
+Department of Chemistry,CHM32101,Biochemistry I,Duyoung Min,Undergraduate Course,
+Department of Chemistry,CHM33301,Physical Chemistry III,Oh Hoon Kwon,Undergraduate Course,Physical Chemistry II
+Department of Chemistry,CHM33501,Quantum Chemistry,Thomas Schultz,Undergraduate Course,Physical Chemistry II
+Department of Chemistry,CHM35101,Inorganic Chemistry I,Hoi Ri MOON,Undergraduate Course,
+Department of Chemistry,CHM40101,Special Topics in Chemistry Ⅰ,YungDoug Suh,Undergraduate Course,
+Department of Chemistry,CHM40201,Special Topics in Chemistry II,Ja Hyoung Ryu,Undergraduate Course,
+Department of Chemistry,CHM43301,Solid State Physical Chemistry,Geunsik Lee,Undergraduate Course,
+Department of Chemistry,CHM45301,Bioinorganic Chemistry,Jaeheung Cho,Undergraduate Course,
+Department of Chemistry,CHM45401,Solid State Chemistry,Wonyoung Choe,Undergraduate Course,
+Department of Computer Science and Engineering,CSE24101,Advanced Programming,Michael Burrell,Undergraduate Course,
+Department of Computer Science and Engineering,CSE25101,System Programming,Youngbin Im,Undergraduate Course,
+Department of Computer Science and Engineering,CSE31101,Operating Systems,Woongki Baek,Undergraduate Course,Data Structures
+Department of Computer Science and Engineering,CSE33101,Intro to Algorithms,Seulki Lee,Undergraduate Course,Data Structures
+Department of Computer Science and Engineering,CSE33301,Introduction to Human Computer Interaction,Jaeyeon Lee,Undergraduate Course,
+Department of Computer Science and Engineering,CSE36401,Software Engineering,Jooyong Yi,Undergraduate Course,Advanced Programming
+Department of Computer Science and Engineering,CSE46301,Machine Learning,Kwang In Kim,Undergraduate Course,Applied Linear Algebra
+Department of Computer Science and Engineering,CSE46701,Computer Security,Yuseok Jeon,Undergraduate Course,Computer Architecture
+Department of Computer Science and Engineering,CSE46901,Introduction to Robotics,Jaeyeon Lee,Undergraduate Course,Calculus II
+Department of Design,DES20101,Designing Ambient Things,YOUNGWOO PARK,Undergraduate Course,
+Department of Design,DES30101,Product Design I,KwanMyung Kim,Undergraduate Course,Product Design Fundamentals
+Department of Design,DES34201,Service Design Fundamental,Hwang Kim,Undergraduate Course,
+Department of Design,DES40201,Interactive Technology,Ian Oakley,Undergraduate Course,
+Department of Design,DES40301,Product Understanding Use and Experience,Chajoong Kim,Undergraduate Course,
+Department of Design,DES40501,Design Communication,Seungho Lee,Undergraduate Course,
+Department of Design,DES43101,Creative Design 1,KwanMyung Kim,Undergraduate Course,Product Design II
+School of Energy and Chemical Engineering,ECHE20101,Organic Chemistry I,Changduk Yang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE20301,Physical Chemistry I,Ja Hun Kwak,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE20302,Physical Chemistry I,Ji-Hyun Jang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE21201,Intro to Chemical Process,Hyunhyub Ko,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE21301,Analytical Chemistry,Jungki Ryu,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE24101,Fundamentals in Engineering Biology,Sung Kuk Lee,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE24201,Machine Learning for Chemical Engineerin,Donghyuk Kim,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE30202,Advanced Chemical Engineering Laboratory,Sang Kyu Kwak,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE30203,Advanced Chemical Engineering Laboratory,Ji Wook Jang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE31201,Electrochemistry,Hyun-Kon Song,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE31301,Solid State Chemistry,Youngsik Kim,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE31501,Introduction to Crystallography,Sungkyun Jung,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE31701,Fundamentals of Energy Materials,"Tae-Hyuk Kwon
+Kwanyong Seo",Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE32001,Electrocatalysis,Youngkook Kwon,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE32201,Instrumental Analysis,Seung Mo Oh,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE32301,Solar Cells Lab,Changduk Yang,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE33101,"Transport Phenomena: Momentum, Heat, and Mass Transfer",Chunggi Baig,Undergraduate Course,Differential Equations
+School of Energy and Chemical Engineering,ECHE33102,"Transport Phenomena: Momentum, Heat, and Mass Transfer",Chunggi Baig,Undergraduate Course,Differential Equations
+School of Energy and Chemical Engineering,ECHE34001,Biochemical Engineering,Yong Hwan Kim,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE35101,Intro to Polymer Science and Eng.,Jong-Beom Baek,Undergraduate Course,Organic Chemistry I
+School of Energy and Chemical Engineering,ECHE40201,Separation Process,Hankwon Lim,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE42301,Introduction to Application Technologies,Yunseok Choi,Undergraduate Course,
+School of Energy and Chemical Engineering,ECHE44301,Chemical process Control,In-Beum Lee,Undergraduate Course,
+Department of Electrical Engineering,EEE20101,Basic Circuit Theory and Laboratory,Jae Joon Kim,Undergraduate Course,
+Department of Electrical Engineering,EEE20401,Electromagnetics I,Il-Sug Chung,Undergraduate Course,
+Department of Electrical Engineering,EEE22301,Electrical Engineering Programming,Sung Whan Yoon,Undergraduate Course,
+Department of Electrical Engineering,EEE30101,Communications and Information Theory,Jinseok Choi,Undergraduate Course,Probability and Random Process
+Department of Electrical Engineering,EEE30201,Electric Energy Systems,Jingook Kim,Undergraduate Course,Basic Circuit Theory and Laboratory
+Department of Electrical Engineering,EEE30401,Semiconductor Engineering,Myungsoo KIM,Undergraduate Course,
+Department of Electrical Engineering,EEE31101,Microelectronics II and Laboratory,Seong-Jin Kim,Undergraduate Course,Microelectronics I and Laboratory
+Department of Electrical Engineering,EEE32601,Tensor Processor Design for Image Recognition,Jongeun Lee,Undergraduate Course,
+Department of Electrical Engineering,EEE35101,Automatic Control,Jeong hwan Jeon,Undergraduate Course,
+Department of Electrical Engineering,EEE44101,Optoelectronics,Min-Suk Kwon,Undergraduate Course,
+School of Liberal Arts,ENG11001,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11002,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11003,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11004,English Listening&Speaking(Intermediate),Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11101,English Listening&Speaking(Advanced),Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11102,English Listening&Speaking(Advanced),Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11103,English Listening&Speaking(Advanced),Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11104,English Listening&Speaking(Advanced),Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11201,English Reading&Writing,Jonathan Nelson,Undergraduate Course,
+School of Liberal Arts,ENG11202,English Reading&Writing,Jonathan Nelson,Undergraduate Course,
+School of Liberal Arts,ENG11204,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11205,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11206,English Reading&Writing,Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11207,English Reading&Writing,Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11208,English Reading&Writing,Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11209,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11210,English Reading&Writing,Stephen Hazel,Undergraduate Course,
+School of Liberal Arts,ENG11211,English Reading&Writing,William Fitzpatrick,Undergraduate Course,
+School of Liberal Arts,ENG11212,English Reading&Writing,Peter Kim,Undergraduate Course,
+School of Liberal Arts,ENG11213,English Reading&Writing,Ali Safavi,Undergraduate Course,
+School of Liberal Arts,ENG11214,English Reading&Writing,William Fitzpatrick,Undergraduate Course,
+School of Business Administration,FIA30301,Futures and Options,Sang-Ook Shin,Undergraduate Course,Financial Management
+School of Business Administration,FIA30501,Corporate Finance,Junyoup Lee,Undergraduate Course,Financial Management
+School of Business Administration,FIA32101,Intermediate Accounting 1,Yong Mi Kim,Undergraduate Course,Financial Accounting
+School of Business Administration,FIA33201,Quantitative Finance,Hyun Jin Jang,Undergraduate Course,Financial Management
+School of Business Administration,FIA40201,Fixed Income Securities,Byoung Ki Seo,Undergraduate Course,Financial Management
+School of Business Administration,FIA41701,Financial Markets,Hope Hyeun Han,Undergraduate Course,Financial Management
+Department of Industrial Engineering,IE20901,Industrial Operations Management,Chiehyeon Lim,Undergraduate Course,
+Department of Industrial Engineering,IE30301,Data Mining,Junghye Lee,Undergraduate Course,
+Department of Industrial Engineering,IE30501,Operations Research Ⅱ,Sang Jin Kweon,Undergraduate Course,Industrial Operations Management
+Department of Industrial Engineering,IE36201,Statistical Quality Management,Sungil Kim,Undergraduate Course,
+Department of Industrial Engineering,IE40601,Applied Machine Learning,Sunghoon Lim,Undergraduate Course,Statistics
+Department of Industrial Engineering,IE40801,Principles of Deep Learning,Jaejun Yoo,Undergraduate Course,Data Mining
+Department of Industrial Engineering,IE41201,AI for Finance,Yongjae Lee,Undergraduate Course,
+Department of Industrial Engineering,IE45001,Project Lab.,Gi-soo Kim,Undergraduate Course,
+School of New UNISTars,ITP10701,Introduction to AI Programming Ⅰ,Michael Burrell,Undergraduate Course,
+School of New UNISTars,ITP10702,Introduction to AI Programming Ⅰ,Michael Burrell,Undergraduate Course,
+School of New UNISTars,ITP10703,Introduction to AI Programming Ⅰ,Michael Burrell,Undergraduate Course,
+School of New UNISTars,ITP11101,Probability and Random Process,Joong Soo Ma,Undergraduate Course,
+School of New UNISTars,ITP11701,Introduction to AI Programming Ⅱ,Hyeonwoo Yu,Undergraduate Course,
+School of Liberal Arts,LNG10001,Korean Writing,Jin-Young Kim,Undergraduate Course,
+School of Liberal Arts,LNG10002,Korean Writing,Yun Na Jeong,Undergraduate Course,
+School of Liberal Arts,LNG10003,Korean Writing,Yun Na Jeong,Undergraduate Course,
+School of Liberal Arts,LNG20101,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20102,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20103,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20104,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20105,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+School of Liberal Arts,LNG20106,Chinese Ⅰ,Yongmei Hao,Undergraduate Course,
+Department of Mechanical Engineering,MEN21001,Thermodynamics,Jooha Kim,Undergraduate Course,
+Department of Mechanical Engineering,MEN23001,Solid Mechanics I,Namhun Kim,Undergraduate Course,
+Department of Mechanical Engineering,MEN25001,Mechanical Drawing and Lab,Hoon Eui Jeong,Undergraduate Course,
+Department of Mechanical Engineering,MEN31001,Heat Transfer,Aejung Yoon,Undergraduate Course,Thermodynamics
+Department of Mechanical Engineering,MEN35001,Manufacturing Processes and Lab,Young-Bin Park,Undergraduate Course,Solid Mechanics I
+Department of Mechanical Engineering,MEN35101,Machine Element Design,Wooseok Ji,Undergraduate Course,Solid Mechanics II
+Department of Mechanical Engineering,MEN37001,Dynamic Systems and Control,Joonbum Bae,Undergraduate Course,
+Department of Mechanical Engineering,MEN37101,System Dynamics,Sang Hoon Kang,Undergraduate Course,
+Department of Mechanical Engineering,MEN42001,Introduction to Aerosol Technology,Jaesung Jang,Undergraduate Course,
+Department of Mechanical Engineering,MEN43101,Intro to Plastic Deformation,Hyung Wook Park,Undergraduate Course,Solid Mechanics II
+Department of Mechanical Engineering,MEN45601,Artificial Intelligence Based Digital Manufacturing,Im Doo Jung,Undergraduate Course,
+Department of Mechanical Engineering,MEN48101,UAV Flight Control and Simulation,Hyondong Oh,Undergraduate Course,Dynamic Systems and Control
+School of Business Administration,MGT10101,Business Communication & Leadership,Victoria Kim,Undergraduate Course,
+School of New UNISTars,MGT10201,Entrepreneurship,Victoria Kim,Undergraduate Course,
+School of New UNISTars,MGT10601,Economics,Keunsuk Chung,Undergraduate Course,
+School of Business Administration,MGT20201,Organizational Behavior,Lu Zhang,Undergraduate Course,
+School of Business Administration,MGT20401,Marketing Management,Molan Kim,Undergraduate Course,
+School of Business Administration,MGT20501,Financial Accounting,Jeong Hwan Joo,Undergraduate Course,
+School of Business Administration,MGT20701,Financial Management,Hope Hyeun Han,Undergraduate Course,
+School of Business Administration,MGT20901,Operations Management,Joonhwan In,Undergraduate Course,
+School of Business Administration,MGT31201,Macroeconomics,Keunsuk Chung,Undergraduate Course,Microeconomics
+School of Business Administration,MGT31501,Econometrics,Saiah Lee,Undergraduate Course,Statistics
+School of Business Administration,MGT36701,Business Data Science,Han-Gyun Woo,Undergraduate Course,Statistics
+School of Business Administration,MGT41201,Special Topics in MGT III (Electromobility),Sang Moo Huh,Undergraduate Course,
+School of Business Administration,MGT47101,Managing  innovation and Change,Young-Choon Kim,Undergraduate Course,
+School of Business Administration,MGT49901,Strategic Management,Shinhye Ahn,Undergraduate Course,
+Department of Materials Science and Engineering,MSE20201,Intro. to Materials Science and Eng.,Kyoung Jin Choi,Undergraduate Course,
+Department of Materials Science and Engineering,MSE20401,Electromagnetics,Jiyun Kim,Undergraduate Course,
+Department of Materials Science and Engineering,MSE23001,Introduction to Crystallography,Seungho Cho,Undergraduate Course,
+Department of Materials Science and Engineering,MSE31201,Phase Transformations in Materials,Sung Soo Park,Undergraduate Course,
+Department of Materials Science and Engineering,MSE31701,Surface Science of Materials,Hyung-Joon Shin,Undergraduate Course,Intro. to Materials Science and Eng.
+Department of Materials Science and Engineering,MSE35401,Introduction to Semiconductors,Joonki Suh,Undergraduate Course,
+Department of Materials Science and Engineering,MSE35601,Nanophotonics,Young Chul Jun,Undergraduate Course,
+Department of Materials Science and Engineering,MSE37201,Polymer Physics,Chaenyung Cha,Undergraduate Course,
+Department of Materials Science and Engineering,MSE40101,Transmission Electron Microscopy,Zonghoon Lee,Undergraduate Course,
+Department of Materials Science and Engineering,MSE45601,Semiconductor Materials and Devices,Tae-Sik Yoon,Undergraduate Course,
+School of New UNISTars,MTH11101,Calculus I,Jung Eun Kim,Undergraduate Course,
+School of New UNISTars,MTH11102,Calculus I,Lee Jungjin,Undergraduate Course,
+School of New UNISTars,MTH11103,Calculus I,Hyeungjoon Kim,Undergraduate Course,
+School of New UNISTars,MTH11104,Calculus I,Hyeungjoon Kim,Undergraduate Course,
+School of New UNISTars,MTH11201,Calculus II,Hyeungjoon Kim,Undergraduate Course,
+School of New UNISTars,MTH20101,Differential Equations,Jung Eun Kim,Undergraduate Course,Calculus I
+School of New UNISTars,MTH20102,Differential Equations,Jung Eun Kim,Undergraduate Course,Calculus I
+School of New UNISTars,MTH20301,Applied Linear Algebra,Lee Jungjin,Undergraduate Course,
+School of New UNISTars,MTH20302,Applied Linear Algebra,Lee Jungjin,Undergraduate Course,
+Department of Mathematical Sciences,MTH21001,Mathematical Foundations of Machine Learning,Rak-Kyeong Seong,Undergraduate Course,
+School of New UNISTars,MTH21101,Statistics,Bogume Jang,Undergraduate Course,
+School of New UNISTars,MTH21102,Statistics,Bogume Jang,Undergraduate Course,
+School of New UNISTars,MTH21103,Statistics,Hyun Jin Jang,Undergraduate Course,
+Department of Mathematical Sciences,MTH25101,Mathematical Analysis I,Yunho Kim,Undergraduate Course,
+Department of Mathematical Sciences,MTH30201,Modern Algebra I,Jaehyun Cho,Undergraduate Course,
+Department of Mathematical Sciences,MTH31301,Complex Analysis I,Pilwon Kim,Undergraduate Course,
+Department of Mathematical Sciences,MTH34301,Financial Mathematics,Jin Hyuk Choi,Undergraduate Course,
+Department of Mathematical Sciences,MTH40101,Real Analysis,Hantaek Bae,Undergraduate Course,General Topology
+Department of Mathematical Sciences,MTH40501,Numerical Analysis and Applications,Bongsoo Jang,Undergraduate Course,
+Department of Mathematical Sciences,MTH42101,Intro. to Partial Differential Equations,Chang-Yeol Jung,Undergraduate Course,Differential Equations
+Department of Nuclear Engineering,NE20001,Fundamentals of Nuclear Engineering,Douglas Fynan,Undergraduate Course,
+Department of Nuclear Engineering,NE21001,Nuclear Radiation Eng & Experiment,Hee Reyoung Kim,Undergraduate Course,
+Department of Nuclear Engineering,NE24001,Nuclear Chemical Engineering,Jaeyeong Park,Undergraduate Course,
+Department of Nuclear Engineering,NE25001,Fundamentals of Electromagnetics,Hee Reyoung Kim,Undergraduate Course,
+Department of Nuclear Engineering,NE30101,Nuclear Reactor Numerical Analysis,Deokjung Lee,Undergraduate Course,
+Department of Nuclear Engineering,NE32001,Introduction to Nuclear Reliability Engi,Seung Jun Lee,Undergraduate Course,
+Department of Nuclear Engineering,NE33001,Nuclear Fuel Engineering & Experiment,Sangjoon Ahn,Undergraduate Course,
+Department of Nuclear Engineering,NE33101,Thermodynamics and Metallurgy of Nuclear,Sangjoon Ahn,Undergraduate Course,
+Department of Nuclear Engineering,NE34001,Introduction to Nuclear Fuel Cycle Eng,Jaeyeong Park,Undergraduate Course,
+Department of Nuclear Engineering,NE37001,Nuclear Power Plant Accident Diagnosis using AI Techniques,Seung Jun Lee,Undergraduate Course,
+Department of Nuclear Engineering,NE40001,Fundamentals of Nuclear Fusion,Eisung Yoon,Undergraduate Course,
+Department of Nuclear Engineering,NE41001,Power Plant Systems,Douglas Fynan,Undergraduate Course,
+School of New UNISTars,PHY10101,General Physics I,Sangyong Yi,Undergraduate Course,
+School of New UNISTars,PHY10102,General Physics I,Sangyong Yi,Undergraduate Course,
+School of New UNISTars,PHY10103,General Physics I,Chae Un Kim,Undergraduate Course,
+School of New UNISTars,PHY10701,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10702,General Physics Lab I,Jaeup Kim,Undergraduate Course,
+School of New UNISTars,PHY10703,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10704,General Physics Lab I,Jaeup Kim,Undergraduate Course,
+School of New UNISTars,PHY10705,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10706,General Physics Lab I,Jaeup Kim,Undergraduate Course,
+School of New UNISTars,PHY10707,General Physics Lab I,Cheol-Min Ghim,Undergraduate Course,
+School of New UNISTars,PHY10708,General Physics Lab I,Jaeup Kim,Undergraduate Course,
+School of New UNISTars,PHY10709,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10710,General Physics Lab I,Cheol-Min Ghim,Undergraduate Course,
+School of New UNISTars,PHY10711,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10712,General Physics Lab I,Cheol-Min Ghim,Undergraduate Course,
+School of New UNISTars,PHY10713,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10714,General Physics Lab I,Cheol-Min Ghim,Undergraduate Course,
+School of New UNISTars,PHY10715,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10716,General Physics Lab I,Jaeup Kim,Undergraduate Course,
+School of New UNISTars,PHY10717,General Physics Lab I,Cheol-Min Ghim,Undergraduate Course,
+School of New UNISTars,PHY10718,General Physics Lab I,Jaeup Kim,Undergraduate Course,
+School of New UNISTars,PHY10719,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10720,General Physics Lab I,Cheol-Min Ghim,Undergraduate Course,
+School of New UNISTars,PHY10721,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+School of New UNISTars,PHY10722,General Physics Lab I,Cheol-Min Ghim,Undergraduate Course,
+School of New UNISTars,PHY10723,General Physics Lab I,KYUJIN KWAK,Undergraduate Course,
+Department of Physics,PHY20101,Classical Mechanics I,Jaeup Kim,Undergraduate Course,General Physics II
+Department of Physics,PHY20301,Electromagnetism I,Hyeong-Ryeol Park,Undergraduate Course,General Physics I
+Department of Physics,PHY21301,Modern Physics,Changhee Sohn,Undergraduate Course,General Physics I
+Department of Physics,PHY30101,Quantum Physics I,Kunook Chung,Undergraduate Course,General Physics II
+Department of Physics,PHY30301,Thermal and Statistical Physics Ⅰ,Yoon Seok Oh,Undergraduate Course,General Physics II
+Department of Physics,PHY30701,Physics Lab II,Changhee Sohn,Undergraduate Course,General Physics II
+Department of Physics,PHY31101,Computational Physics,Noejung Park,Undergraduate Course,
+Department of Physics,PHY41501,Solid State Physics II : Quantum Material,Seon Namgung,Undergraduate Course,Solid State Physics I
+Department of Physics,PHY42101,Introduction to Quantum Computing,Kibog Park,Undergraduate Course,
+Department of Physics,PHY42701,Introduction to Plasma Physics,Min Sup Hur,Undergraduate Course,Electromagnetism I
+Department of Physics,PHY44101,Fluid Physics,Hyuk Kyu Pak,Undergraduate Course,Classical Mechanics I
+School of Liberal Arts,SLA11101,Understanding Visual Arts,Kyong-Mi Paek,Undergraduate Course,
+School of Liberal Arts,SLA12301,Contemporary Piano,Inkyoung Lee,Undergraduate Course,
+School of Liberal Arts,SLA14101,Media and Culture,Minkyu Sung,Undergraduate Course,
+School of Liberal Arts,SLA14102,Media and Culture,Minkyu Sung,Undergraduate Course,
+School of Liberal Arts,SLA15201,Evolution of Civilization,Hyomin Kim,Undergraduate Course,
+School of Liberal Arts,SLA15301,Foundations of East Asian Civilization,Christopher Lovins,Undergraduate Course,
+School of Liberal Arts,SLA15401,History of Modern East Asia,Christopher Lovins,Undergraduate Course,
+School of Liberal Arts,SLA18101,Discovering Anthropology,Jinsook Choi,Undergraduate Course,
+School of Liberal Arts,SLA19001,Introduction to Linquistics,Jeongyeon Kim,Undergraduate Course,
+School of Liberal Arts,SLA21301,Themes of Contemporary Art,Kyong-Mi Paek,Undergraduate Course,
+School of Liberal Arts,SLA22101,Advanced Piano,Inkyoung Lee,Undergraduate Course,
+School of Liberal Arts,SLA23401,Contemporary Korean Fiction,Jae Yon Lee,Undergraduate Course,
+School of Liberal Arts,SLA23501,Introduction to Digital Humanities,Jae Yon Lee,Undergraduate Course,
+School of Liberal Arts,SLA23502,Introduction to Digital Humanities,Jae Yon Lee,Undergraduate Course,
+School of Liberal Arts,SLA24201,Media Technology and Human Values,Minkyu Sung,Undergraduate Course,
+School of Liberal Arts,SLA25101,History of Modern Korea,Christopher Lovins,Undergraduate Course,
+School of Liberal Arts,SLA25501,"Introduction to Science, Technology and Society",Hyomin Kim,Undergraduate Course,
+School of Liberal Arts,SLA25801,Economic Anthropology,Bradley Scott Tatar,Undergraduate Course,
+School of Liberal Arts,SLA26101,Critical Thinking,Huiyuhl Yi,Undergraduate Course,
+School of Liberal Arts,SLA26201,Philosophy of Religion,Seungbae Park,Undergraduate Course,
+School of Liberal Arts,SLA26301,Fundamental Issues of Philosophy,Huiyuhl Yi,Undergraduate Course,
+School of Liberal Arts,SLA29801,Global English in Engineering Community,Jeongyeon Kim,Undergraduate Course,
+School of Liberal Arts,SLA33201,Dostoevsky and Tolstoy,Saera Yoon,Undergraduate Course,
+School of Liberal Arts,SLA34201,"Personality, Self, and Communication: Intrapersonal Communication",Jin-Young Kim,Undergraduate Course,
+School of Liberal Arts,SLA38001,Topics in Anthropology,Jinsook Choi,Undergraduate Course,
+School of Liberal Arts,SLA46101,Philosophy of Science,Seungbae Park,Undergraduate Course,
+School of Liberal Arts,SLA48101,Risk Society and the 21st Century,Bradley Scott Tatar,Undergraduate Course,
+School of Technology Management,TIE49001,Interdisciplinary Projects,Young Rok Choi,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE20101,Intro to Environmental Engineering,Jaeweon Cho,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE20201,Earth and Environmental Sciences,SARAH M KANG,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE20301,Intro to Civil Engineering,Sukhoon Pyo,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE20401,Introduction to Urban Planning,Jeongseob Kim,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE20501,Introduction to Natural Hazards,Dong-Hyun Cha,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE21101,Environmental Chemistry,Young-Nam Kwon,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE31401,Environmental Data Analysis and Practice,Kyung Hwa Cho,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE32201,Intro to Remote Sensing,Jungho Im,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE32401,Environmental Thermodynamics,Yongwon Seo,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE33101,Structural Analysis,Sukhoon Pyo,Undergraduate Course,Mechanics of Materials
+Department of Urban and Environmental Engineering,UEE33601,Soil Mechanics,Byungmin Kim,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE33701,Building Collapse and Safety Insepction Techniques,Gun Kim,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE42401,Statistics in Earth&Enviroment Sciences,Myong-In Lee,Undergraduate Course,
+Department of Urban and Environmental Engineering,UEE44101,Urban Design,Gihyoug Cho,Undergraduate Course,
+Undergraduate School,ULP20101,Leadership_Rowing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP20102,Leadership_Rowing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21101,Leadership_First AID,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21301,Leadership_Archery,HwanWook Kim,Undergraduate Course,
+Undergraduate School,ULP21302,Leadership_Archery,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21303,Leadership_Archery,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21304,Leadership_Archery,HwanWook Kim,Undergraduate Course,
+Undergraduate School,ULP21501,Leadership_Gukgung(Korean Archery),"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21701,Leadership_Basic Golf,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP21901,Leadership_yoga,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22001,Leadership_Tennis,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22201,Leadership_Surfing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22202,Leadership_Surfing,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP22301,Leadership_Taekwondo,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP30501,Leadership_Peer Leadership,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP30701,Leadership_Solving Local Problems Project,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP30801,Leadership_Handicrafts,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP40301,Local Visits,"HwanWook Kim
+Jaekyom Shim",Undergraduate Course,
+Undergraduate School,ULP40401,Leadership_Sign Language,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP40901,Special Leadership Lectures,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP41201,Leadership_CA Mentorship(Mentor),"Jaekyom Shim
+Eun Seo Ryu",Undergraduate Course,
+Undergraduate School,ULP41301,Leadership_CA Mentorship(Mentee),"Jaekyom Shim
+Eun Seo Ryu",Undergraduate Course,
+Undergraduate School,ULP41401,Leadership_Production of Media,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP41601,Leadership_CA Mentor leadership education,"Jaekyom Shim
+Eun Seo Ryu",Undergraduate Course,
+Undergraduate School,ULP41801,Leadership_Mental Health I,Jaekyom Shim,Undergraduate Course,
+Undergraduate School,ULP60101,Leadership_Volunteer work 1,"Jaekyom Shim
+JOONHYUNG KIM",Undergraduate Course,
+Undergraduate School,ULP60201,Leadership_Volunteer work 2,"Jaekyom Shim
+JOONHYUNG KIM",Undergraduate Course,
+Undergraduate School,ULP60301,Leadership_Volunteer work 3,"Jaekyom Shim
+JOONHYUNG KIM",Undergraduate Course,
+Undergraduate School,ULP60401,Leadership_Volunteer work 4,"Jaekyom Shim
+JOONHYUNG KIM",Undergraduate Course,
+School of New UNISTars,UNI11001,Understanding Electrical Engineering,Jee Hoon Jung,Undergraduate Course,
+School of New UNISTars,UNI11401,Why Chemistry?,Jaeheung Cho,Undergraduate Course,
+Department of Computer Science and Engineering,UNI20401,Software Hacking and Defense,Hyungon Moon,Undergraduate Course,
+Department of Industrial Engineering,UNI20501,Dynamic Programming and its Applications,Sang Jin Kweon,Undergraduate Course,
