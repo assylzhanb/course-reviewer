@@ -3,27 +3,34 @@ package com.group1.coursereview.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Document(collection = "reviews")
 public class Review {
     @Id
     private String id;
-    private String courseId;
+    private String courseCode;
     private String professorId;
     private String userId;
     private int courseRating;
     private int professorRating;
-    private String comments;
+    private List<String> comments;
 
-    public Review() {}
+    public Review() {
+        this.comments = new ArrayList<>();
+    }
 
-    public Review(String courseId, String professorId, String userId, int courseRating, int professorRating, String comments) {
-        this.courseId = courseId;
+    public Review(String courseCode, String professorId, String userId, int courseRating, int professorRating) {
+        this.courseCode = courseCode;
         this.professorId = professorId;
         this.userId = userId;
         this.courseRating = courseRating;
         this.professorRating = professorRating;
-        this.comments = comments;
+        this.comments = new ArrayList<>();
     }
+
+    // Getters and setters
 
     public String getId() {
         return id;
@@ -33,12 +40,12 @@ public class Review {
         this.id = id;
     }
 
-    public String getCourseId() {
-        return courseId;
+    public String getCourseCode() {
+        return courseCode;
     }
 
-    public void setCourseId(String courseId) {
-        this.courseId = courseId;
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 
     public String getProfessorId() {
@@ -73,11 +80,11 @@ public class Review {
         this.professorRating = professorRating;
     }
 
-    public String getComments() {
+    public List<String> getComments() {
         return comments;
     }
 
-    public void setComments(String comments) {
+    public void setComments(List<String> comments) {
         this.comments = comments;
     }
 }
