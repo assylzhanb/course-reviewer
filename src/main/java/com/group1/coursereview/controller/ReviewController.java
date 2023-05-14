@@ -1,6 +1,8 @@
 package com.group1.coursereview.controller;
 
+import com.group1.coursereview.model.Course;
 import com.group1.coursereview.model.Review;
+import com.group1.coursereview.repository.CourseRepository;
 import com.group1.coursereview.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,6 +15,8 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/reviews")
 public class ReviewController {
+    @Autowired
+    private CourseRepository courseRepository;
 
     @Autowired
     private ReviewRepository reviewRepository;
@@ -20,10 +24,13 @@ public class ReviewController {
     @GetMapping("/course/{courseCode}")
     public ResponseEntity<String> getReviewsByCourseCode(@PathVariable String courseCode) {
         List<Review> reviews = reviewRepository.getAllByCourseCode(courseCode);
+        Course course = courseRepository.findByCourseCode(courseCode);
         int count = reviews.size();
         if (!reviews.isEmpty()) {
             StringBuilder responseBuilder = new StringBuilder();
             for (Review review : reviews) {
+                responseBuilder.append("Course Name: ").append(course.getCourseTitle()).append("\n");
+                responseBuilder.append("Count of reviews: ").append(count).append("\n");
                 responseBuilder.append("Review ID: ").append(review.getId()).append("\n");
                 responseBuilder.append("User ID: ").append(review.getUserId()).append("\n");
                 responseBuilder.append("Review Body: ").append(review.getReviewBody()).append("\n");
@@ -39,11 +46,31 @@ public class ReviewController {
     }
 
     @PostMapping("/course/{courseCode}")
-    public ResponseEntity<Review> createReview(@PathVariable String courseCode, @RequestBody Review review) {
+    public ResponseEntity<String> createReview(@PathVariable String courseCode, @RequestBody Review review) {
+
+        Course course = courseRepository.findByCourseCode(courseCode);
+        if (course == null) {
+            return new ResponseEntity<>("No course like this", HttpStatus.NOT_FOUND);
+        }
+
+        if (review.getUserId() == null) {
+            return new ResponseEntity<>("User ID is required", HttpStatus.BAD_REQUEST);
+        }
+
+        if (review.getCourseRating() < 1 || review.getCourseRating() > 5) {
+            return new ResponseEntity<>("Course rating should be between 1 and 5", HttpStatus.BAD_REQUEST);
+        }
+
+        if (review.getReviewBody() == null) {
+            return new ResponseEntity<>("Review body is required", HttpStatus.BAD_REQUEST);
+        }
+
         review.setCourseCode(courseCode);
         Review createdReview = reviewRepository.save(review);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdReview);
+        return new ResponseEntity<>("Review posted!", HttpStatus.CREATED);
     }
+
+
     @PutMapping("/{reviewId}")
     public ResponseEntity<Review> updateReview(@PathVariable String reviewId, @RequestBody Review review) {
         Optional<Review> existingReviewOptional = reviewRepository.findById(reviewId);
@@ -73,9 +100,9 @@ public class ReviewController {
         if (!reviews.isEmpty()) {
             reviewRepository.deleteAllByCourseCode(courseCode);
             String message = "Successfully deleted all the reviews on " + courseCode + " course";
-            return new ResponseEntity<>(message, HttpStatus.NO_CONTENT);
+            return new ResponseEntity<>(message, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("already no review", HttpStatus.NOT_FOUND);
         }
     }
 

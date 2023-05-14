@@ -23,8 +23,8 @@ public class CourseController {
     }
 
     @GetMapping("/byCode/{code}")
-    public ResponseEntity<List<Course>> getCoursesByCode(@PathVariable String code) {
-        List<Course> courses = courseRepository.findByCourseCode(code);
+    public ResponseEntity<Course> getCoursesByCode(@PathVariable String code) {
+        Course courses = courseRepository.findByCourseCode(code);
         return new ResponseEntity<>(courses, HttpStatus.OK);
     }
 }

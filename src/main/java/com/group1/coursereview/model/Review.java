@@ -3,16 +3,21 @@ package com.group1.coursereview.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
 @Document(collection = "reviews")
 public class Review {
     @Id
     private String id;
+    @NotNull
     private String courseCode;
     private String professorId;
+    @NotNull
     private String userId;
+    @NotNull
     private int courseRating;
+    @NotNull
     private String reviewBody;
     private LocalDateTime createdAt;
 
