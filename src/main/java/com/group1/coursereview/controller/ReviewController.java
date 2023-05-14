@@ -72,39 +72,49 @@ public class ReviewController {
 
 
     @PutMapping("/{reviewId}")
-    public ResponseEntity<Review> updateReview(@PathVariable String reviewId, @RequestBody Review review) {
+    public ResponseEntity<String> updateReview(@PathVariable String reviewId, @RequestBody Review review) {
         Optional<Review> existingReviewOptional = reviewRepository.findById(reviewId);
         if (existingReviewOptional.isPresent()) {
             Review existingReview = existingReviewOptional.get();
             existingReview.setCourseRating(review.getCourseRating());
             existingReview.setReviewBody(review.getReviewBody());
             Review updatedReview = reviewRepository.save(existingReview);
-            return new ResponseEntity<>(updatedReview, HttpStatus.OK);
+            return new ResponseEntity<>("Changed the review to " + updatedReview.getReviewBody(), HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Review not found", HttpStatus.NOT_FOUND);
         }
     }
     @DeleteMapping("/{reviewId}")
-    public ResponseEntity<Void> deleteReview(@PathVariable String reviewId) {
+    public ResponseEntity<String> deleteReview(@PathVariable String reviewId) {
+        Review review = reviewRepository.getReviewById(reviewId));
+        if (review == null) {
+            return new ResponseEntity<>("No course found with the provided course code", HttpStatus.NOT_FOUND);
+        }
         Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
         if (reviewOptional.isPresent()) {
             reviewRepository.deleteById(reviewId);
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            return new ResponseEntity<>("deleted", HttpStatus.NO_CONTENT);
         } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Not found", HttpStatus.NOT_FOUND);
         }
     }
     @DeleteMapping("/course/{courseCode}")
     public ResponseEntity<String> deleteReviewsByCourseCode(@PathVariable String courseCode) {
+        Course course = courseRepository.findByCourseCode(courseCode);
+        if (course == null) {
+            return new ResponseEntity<>("No course found with the provided course code", HttpStatus.NOT_FOUND);
+        }
+
         List<Review> reviews = reviewRepository.getAllByCourseCode(courseCode);
         if (!reviews.isEmpty()) {
             reviewRepository.deleteAllByCourseCode(courseCode);
-            String message = "Successfully deleted all the reviews on " + courseCode + " course";
+            String message = "Successfully deleted all the reviews for the course with code " + courseCode;
             return new ResponseEntity<>(message, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>("already no review", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("No reviews found for the course with code " + courseCode, HttpStatus.NOT_FOUND);
         }
     }
+
 
 
 }

@@ -10,6 +10,7 @@ import java.util.List;
 @Repository
 public interface ReviewRepository extends MongoRepository<Review, String> {
     List<Review> getAllByCourseCode(String courseCode);
+    Review getReviewById(String reviewId);
 
     void deleteAllByCourseCode(String courseCode);
 
