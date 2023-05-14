@@ -6,6 +6,7 @@ import com.group1.coursereview.repository.SessionRepository;
 import com.group1.coursereview.repository.UserRepository;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,40 +27,68 @@ public class UserController {
 
     @PostMapping("/signup")
     public ResponseEntity<String> signup(@RequestBody UserModel user) {
-        // emailCHECK
-        if (userRepository.findByEmail(user.getEmail()) != null) {
+        if (user.getEmail() == null || user.getEmail().isEmpty()) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Email is required");
+        }
+//        if (!user.getEmail().endsWith("@unist.ac.kr")){
+//            return ResponseEntity.status(HttpStatus.CONFLICT).body("Must be UNIST email");
+//        }
+
+        if (user.getPassword() == null || user.getPassword().isEmpty()) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Password is required");
+        }
+
+
+        if (user.getName() == null || user.getName().isEmpty()) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Name is required");
+        }
+
+        UserModel existingByEmail = userRepository.findByEmail(user.getEmail());
+        if (existingByEmail != null) {
             return ResponseEntity.status(HttpStatus.CONFLICT).body("Email already exists");
         }
 
-        // idCHECK
-        if (userRepository.findByStudentId(user.getStudentId()) != null) {
-            return ResponseEntity.status(HttpStatus.CONFLICT).body("Student ID already exists");
+        if (user.getStudentId() != null) {
+            UserModel existingByStudentId = userRepository.findByStudentId(user.getStudentId());
+            if (existingByStudentId != null) {
+                return ResponseEntity.status(HttpStatus.CONFLICT).body("Student ID already exists");
+            }
+        }if(user.getPassword().length() < 8){
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Password should be more than 8 characters");
         }
 
-        // now will be hashing pass somehow
         try {
             userRepository.save(user);
-        } catch (Exception e){
+        } catch (DataIntegrityViolationException e) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("Student ID already exists");
+        } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to save user");
         }
+
+
         return ResponseEntity.status(HttpStatus.CREATED).body("Signup successful");
     }
 
+
+
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody UserModel user) {
+        if (user.getEmail() == null || user.getEmail().isEmpty()) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Email is required");
+        }
+
+        if (user.getPassword() == null || user.getPassword().isEmpty()) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Password is required");
+        }
         UserModel existingUser = userRepository.findByEmail(user.getEmail());
         if (existingUser != null) {
             if (user.getPassword().equals(existingUser.getPassword())) {
-                // Check if session already exists
                 SessionModel session = sessionRepository.findByUserId(existingUser.getId());
                 if (session != null) {
                     return ResponseEntity.status(HttpStatus.CONFLICT).body("User is already logged in");
                 }
-
-                // Generate a new session ID
                 String sessionId = generateSessionId();
 
-                // Create a new session
                 SessionModel newSession = new SessionModel(sessionId, existingUser.getId());
                 sessionRepository.save(newSession);
 
@@ -68,8 +97,10 @@ public class UserController {
                 return ResponseEntity.status(HttpStatus.CONFLICT).body("Incorrect password");
             }
         }
+
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found");
     }
+
 
     private String generateSessionId() {
         return UUID.randomUUID().toString();

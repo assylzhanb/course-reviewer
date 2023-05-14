@@ -41,13 +41,12 @@ public class ReviewController {
             }
             return new ResponseEntity<>(responseBuilder.toString(), HttpStatus.OK);
         } else {
-            return new ResponseEntity<>("No reviews found for the given course code.", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("No course found with code "+ courseCode, HttpStatus.NOT_FOUND);
         }
     }
 
     @PostMapping("/course/{courseCode}")
     public ResponseEntity<String> createReview(@PathVariable String courseCode, @RequestBody Review review) {
-
         Course course = courseRepository.findByCourseCode(courseCode);
         if (course == null) {
             return new ResponseEntity<>("No course like this", HttpStatus.NOT_FOUND);
@@ -61,14 +60,17 @@ public class ReviewController {
             return new ResponseEntity<>("Course rating should be between 1 and 5", HttpStatus.BAD_REQUEST);
         }
 
-        if (review.getReviewBody() == null) {
+        if (review.getReviewBody() == null || review.getReviewBody().isEmpty()) {
             return new ResponseEntity<>("Review body is required", HttpStatus.BAD_REQUEST);
         }
 
         review.setCourseCode(courseCode);
-        Review createdReview = reviewRepository.save(review);
+        reviewRepository.save(review); // Save the review to the repository
+
         return new ResponseEntity<>("Review posted!", HttpStatus.CREATED);
     }
+
+
 
 
     @PutMapping("/{reviewId}")
@@ -86,20 +88,20 @@ public class ReviewController {
     }
     @DeleteMapping("/{reviewId}")
     public ResponseEntity<String> deleteReview(@PathVariable String reviewId) {
-        Review review = reviewRepository.getReviewById(reviewId));
-        if (review == null) {
-            return new ResponseEntity<>("No course found with the provided course code", HttpStatus.NOT_FOUND);
-        }
         Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
         if (reviewOptional.isPresent()) {
             reviewRepository.deleteById(reviewId);
-            return new ResponseEntity<>("deleted", HttpStatus.NO_CONTENT);
+            return new ResponseEntity<>("Deleted", HttpStatus.NO_CONTENT);
         } else {
-            return new ResponseEntity<>("Not found", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Review not found", HttpStatus.NOT_FOUND);
         }
     }
+
     @DeleteMapping("/course/{courseCode}")
     public ResponseEntity<String> deleteReviewsByCourseCode(@PathVariable String courseCode) {
+        if (courseCode == null || courseCode.isEmpty()) {
+            return new ResponseEntity<>("Invalid course code provided", HttpStatus.BAD_REQUEST);
+        }
         Course course = courseRepository.findByCourseCode(courseCode);
         if (course == null) {
             return new ResponseEntity<>("No course found with the provided course code", HttpStatus.NOT_FOUND);
@@ -114,7 +116,4 @@ public class ReviewController {
             return new ResponseEntity<>("No reviews found for the course with code " + courseCode, HttpStatus.NOT_FOUND);
         }
     }
-
-
-
 }
