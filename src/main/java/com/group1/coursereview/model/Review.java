@@ -3,8 +3,7 @@ package com.group1.coursereview.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.time.LocalDateTime;
 
 @Document(collection = "reviews")
 public class Review {
@@ -14,20 +13,20 @@ public class Review {
     private String professorId;
     private String userId;
     private int courseRating;
-    private int professorRating;
-    private List<String> comments;
+    private String reviewBody;
+    private LocalDateTime createdAt;
 
     public Review() {
-        this.comments = new ArrayList<>();
+        this.createdAt = LocalDateTime.now();
     }
 
-    public Review(String courseCode, String professorId, String userId, int courseRating, int professorRating) {
+    public Review(String courseCode, String professorId, String userId, int courseRating, String reviewBody) {
         this.courseCode = courseCode;
         this.professorId = professorId;
         this.userId = userId;
         this.courseRating = courseRating;
-        this.professorRating = professorRating;
-        this.comments = new ArrayList<>();
+        this.reviewBody = reviewBody;
+        this.createdAt = LocalDateTime.now();
     }
 
     // Getters and setters
@@ -72,19 +71,18 @@ public class Review {
         this.courseRating = courseRating;
     }
 
-    public int getProfessorRating() {
-        return professorRating;
+    public String getReviewBody() {
+        return reviewBody;
     }
 
-    public void setProfessorRating(int professorRating) {
-        this.professorRating = professorRating;
+    public void setReviewBody(String reviewBody) {
+        this.reviewBody = reviewBody;
     }
 
-    public List<String> getComments() {
-        return comments;
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
     }
-
-    public void setComments(List<String> comments) {
-        this.comments = comments;
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 }
