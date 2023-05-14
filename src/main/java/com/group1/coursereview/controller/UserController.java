@@ -1,6 +1,7 @@
 package com.group1.coursereview.controller;
 
-import com.group1.coursereview.model.User;
+
+import com.group1.coursereview.model.UserModel;
 import com.group1.coursereview.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,7 +17,7 @@ public class UserController {
     private UserRepository userRepository;
 
     @PostMapping("/signup")
-    public ResponseEntity<String> signup(@RequestBody User user) {
+    public ResponseEntity<String> signup(@RequestBody UserModel user) {
         // emailCHECK
         if (userRepository.findByEmail(user.getEmail()) != null) {
             return ResponseEntity.status(HttpStatus.CONFLICT).body("Email already exists");
@@ -28,9 +29,11 @@ public class UserController {
         }
 
         // now will be hashing pass somehow
-
-        userRepository.save(user);
-
+        try {
+            userRepository.save(user);
+        } catch (Exception e){
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to save user");
+        }
         return ResponseEntity.status(HttpStatus.CREATED).body("Signup successful");
     }
 

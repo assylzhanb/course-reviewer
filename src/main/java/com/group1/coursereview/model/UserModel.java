@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "users")
-public class User {
+public class UserModel {
     @Id
     private String id;
 
@@ -19,10 +19,10 @@ public class User {
 
     private String password;
 
-    public User() {
+    public UserModel() {
     }
 
-    public User(String email, String name, String studentId, String password) {
+    public UserModel(String email, String name, String studentId, String password) {
         this.email = email;
         this.name = name;
         this.studentId = studentId;
