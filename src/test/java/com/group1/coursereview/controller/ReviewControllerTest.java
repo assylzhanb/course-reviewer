@@ -92,7 +92,7 @@ class ReviewControllerTest {
         ResponseEntity<String> response = reviewController.getReviewsByCourseCode(courseCode);
 
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
-        assertEquals("No course found with code CSC101", response.getBody());
+        assertEquals("No reviews found on the course CSC101", response.getBody());
         verify(courseRepository, times(1)).findByCourseCode(courseCode);
         verify(reviewRepository, times(1)).getAllByCourseCode(courseCode);
     }
@@ -309,7 +309,7 @@ class ReviewControllerTest {
         when(reviewRepository.getAllByCourseCode(courseCode)).thenReturn(Collections.emptyList());
         ResponseEntity<String> response = reviewController.getReviewsByCourseCode(courseCode);
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
-        assertEquals("No course found with code CSC101", response.getBody());
+        assertEquals("No reviews found on the course CSC101", response.getBody());
         verify(courseRepository, times(1)).findByCourseCode(courseCode);
         verify(reviewRepository, times(1)).getAllByCourseCode(courseCode);
     }
@@ -376,7 +376,7 @@ class ReviewControllerTest {
         when(courseRepository.findByCourseCode(courseCode)).thenReturn(null);
         ResponseEntity<String> response = reviewController.getReviewsByCourseCode(courseCode);
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
-        assertEquals("No course found with code CSC101", response.getBody());
+        assertEquals("No reviews found on the course CSC101", response.getBody());
         verify(courseRepository, times(1)).findByCourseCode(courseCode);
         verify(reviewRepository, times(1)).getAllByCourseCode(courseCode);
     }

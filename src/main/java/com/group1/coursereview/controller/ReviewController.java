@@ -41,7 +41,7 @@ public class ReviewController {
             }
             return new ResponseEntity<>(responseBuilder.toString(), HttpStatus.OK);
         } else {
-            return new ResponseEntity<>("No course found with code "+ courseCode, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("No reviews found on the course "+ courseCode, HttpStatus.NOT_FOUND);
         }
     }
 
