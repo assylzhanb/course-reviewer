@@ -21,10 +21,11 @@ public class CommentController {
         this.reviewRepository = reviewRepository;
     }
 
+
     @GetMapping
     public ResponseEntity<List<Comment>> getCommentsByReviewId(@PathVariable String reviewId) {
-        Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
-        if (reviewOptional.isPresent()) {
+        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);
+        if (reviewOptional != null) {
             List<Comment> comments = commentRepository.getAllByReviewId(reviewId);
             return ResponseEntity.ok(comments);
         } else {
@@ -34,9 +35,8 @@ public class CommentController {
 
     @PostMapping
     public ResponseEntity<Comment> addCommentToReview(@PathVariable String reviewId, @RequestBody Comment comment) {
-        Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
-        if (reviewOptional.isPresent()) {
-            Review review = reviewOptional.get();
+        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);
+        if (reviewOptional != null) {
             comment.setReviewId(reviewId);
             Comment savedComment = commentRepository.save(comment);
             return ResponseEntity.ok(savedComment);
@@ -44,6 +44,7 @@ public class CommentController {
             return ResponseEntity.notFound().build();
         }
     }
+
 
     @PutMapping("/{commentId}")
     public ResponseEntity<Comment> updateComment(@PathVariable String reviewId, @PathVariable String commentId, @RequestBody Comment updatedComment) {
@@ -55,18 +56,18 @@ public class CommentController {
                 comment.setText(updatedComment.getText());
                 Comment savedComment = commentRepository.save(comment);
                 return ResponseEntity.ok(savedComment);
-            } else {
-                return ResponseEntity.notFound().build();
             }
-        } else {
-            return ResponseEntity.notFound().build();
         }
+        return ResponseEntity.notFound().build();
     }
+
+
+
 
     @DeleteMapping("/{commentId}")
     public ResponseEntity<String> deleteComment(@PathVariable String reviewId, @PathVariable String commentId) {
-        Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
-        if (reviewOptional.isPresent()) {
+        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);
+        if (reviewOptional != null) {
             Optional<Comment> commentOptional = commentRepository.findById(commentId);
             if (commentOptional.isPresent()) {
                 commentRepository.deleteById(commentId);
@@ -78,4 +79,5 @@ public class CommentController {
             return ResponseEntity.notFound().build();
         }
     }
+
 }

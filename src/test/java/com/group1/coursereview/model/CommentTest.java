@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 class CommentTest {
     @Test
     void constructor_CreatesReviewWithCorrectValues() {
+        String reviewId = "123";
         String courseCode = "CSCI101";
         String professorId = "123";
         String userId = "456";
@@ -15,7 +16,7 @@ class CommentTest {
         String reviewBody = "This course is excellent!";
 
 
-        Review review = new Review(courseCode, professorId, userId, courseRating, reviewBody);
+        Review review = new Review(reviewId,courseCode, professorId, userId, courseRating, reviewBody);
 
 
         Assertions.assertEquals(courseCode, review.getCourseCode());

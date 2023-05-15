@@ -10,6 +10,8 @@ import java.time.LocalDateTime;
 public class Review {
     @Id
     private String id;
+
+    private String reviewId;
     @NotNull
     private String courseCode;
     private String professorId;
@@ -25,16 +27,24 @@ public class Review {
         this.createdAt = LocalDateTime.now();
     }
 
-    public Review(String courseCode, String professorId, String userId, int courseRating, String reviewBody) {
+    public Review(String reviewId, String courseCode, String professorId, String userId, int courseRating, String reviewBody) {
+        this.reviewId = reviewId;
         this.courseCode = courseCode;
         this.professorId = professorId;
         this.userId = userId;
         this.courseRating = courseRating;
         this.reviewBody = reviewBody;
         this.createdAt = LocalDateTime.now();
+
     }
 
     // Getters and setters
+    public String getReviewId(){
+        return this.reviewId;
+    }
+    public void setReviewId(String reviewId){
+        this.reviewId = reviewId;
+    }
 
     public String getId() {
         return id;

@@ -1,7 +1,9 @@
 package com.group1.coursereview.controller;
 
+import com.group1.coursereview.model.Comment;
 import com.group1.coursereview.model.Course;
 import com.group1.coursereview.model.Review;
+import com.group1.coursereview.repository.CommentRepository;
 import com.group1.coursereview.repository.CourseRepository;
 import com.group1.coursereview.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/reviews")
@@ -20,6 +23,7 @@ public class ReviewController {
 
     @Autowired
     private ReviewRepository reviewRepository;
+
 
     @GetMapping("/course/{courseCode}")
     public ResponseEntity<String> getReviewsByCourseCode(@PathVariable String courseCode) {
@@ -65,10 +69,13 @@ public class ReviewController {
         }
 
         review.setCourseCode(courseCode);
+        review.setReviewId(UUID.randomUUID().toString()); // Generate a unique review ID
+
         reviewRepository.save(review); // Save the review to the repository
 
         return new ResponseEntity<>("Review posted!", HttpStatus.CREATED);
     }
+
 
 
 
@@ -86,16 +93,32 @@ public class ReviewController {
             return new ResponseEntity<>("Review not found", HttpStatus.NOT_FOUND);
         }
     }
+    private CommentRepository commentRepository;
+
+    @Autowired
+    public void setCommentRepository(CommentRepository commentRepository) {
+        this.commentRepository = commentRepository;
+    }
+
     @DeleteMapping("/{reviewId}")
     public ResponseEntity<String> deleteReview(@PathVariable String reviewId) {
         Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
         if (reviewOptional.isPresent()) {
+            // Review exists, proceed with deleting
+
+            List<Comment> comments = commentRepository.getAllByReviewId(reviewId);
+            if (!comments.isEmpty()) {
+                // Delete associated comments first
+                commentRepository.deleteAll(comments);
+            }
             reviewRepository.deleteById(reviewId);
-            return new ResponseEntity<>("Deleted", HttpStatus.NO_CONTENT);
+            return ResponseEntity.ok("Review deleted successfully");
         } else {
+            // Review does not exist, return 404 Not Found
             return new ResponseEntity<>("Review not found", HttpStatus.NOT_FOUND);
         }
     }
+
 
     @DeleteMapping("/course/{courseCode}")
     public ResponseEntity<String> deleteReviewsByCourseCode(@PathVariable String courseCode) {
