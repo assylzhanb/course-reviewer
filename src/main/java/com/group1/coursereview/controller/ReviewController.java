@@ -17,6 +17,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/reviews")
+@CrossOrigin(origins = "*")
 public class ReviewController {
     @Autowired
     private CourseRepository courseRepository;
@@ -25,27 +26,37 @@ public class ReviewController {
     private ReviewRepository reviewRepository;
 
 
+//    @GetMapping("/course/{courseCode}")
+//    public ResponseEntity<String> getReviewsByCourseCode(@PathVariable String courseCode) {
+//        List<Review> reviews = reviewRepository.getAllByCourseCode(courseCode);
+//        Course course = courseRepository.findByCourseCode(courseCode);
+//        int count = reviews.size();
+//        if (!reviews.isEmpty()) {
+//            StringBuilder responseBuilder = new StringBuilder();
+//            for (Review review : reviews) {
+//                responseBuilder.append("Course Name: ").append(course.getCourseTitle()).append("\n");
+//                responseBuilder.append("Count of reviews: ").append(count).append("\n");
+//                responseBuilder.append("Review ID: ").append(review.getId()).append("\n");
+//                responseBuilder.append("User ID: ").append(review.getUserId()).append("\n");
+//                responseBuilder.append("Review Body: ").append(review.getReviewBody()).append("\n");
+//                responseBuilder.append("Course Code: ").append(review.getCourseCode()).append("\n");
+//                responseBuilder.append("Course Rating: ").append(review.getCourseRating()).append("\n");
+//                responseBuilder.append("Created At: ").append(review.getCreatedAt()).append("\n");
+//                responseBuilder.append("----------\n");
+//            }
+//            return new ResponseEntity<>(responseBuilder.toString(), HttpStatus.OK);
+//        } else {
+//            return new ResponseEntity<>("No reviews found on the course "+ courseCode, HttpStatus.NOT_FOUND);
+//        }
+//    }
     @GetMapping("/course/{courseCode}")
-    public ResponseEntity<String> getReviewsByCourseCode(@PathVariable String courseCode) {
+    public ResponseEntity<List<Review>> getReviewsByCourseCode(@PathVariable String courseCode) {
         List<Review> reviews = reviewRepository.getAllByCourseCode(courseCode);
         Course course = courseRepository.findByCourseCode(courseCode);
-        int count = reviews.size();
         if (!reviews.isEmpty()) {
-            StringBuilder responseBuilder = new StringBuilder();
-            for (Review review : reviews) {
-                responseBuilder.append("Course Name: ").append(course.getCourseTitle()).append("\n");
-                responseBuilder.append("Count of reviews: ").append(count).append("\n");
-                responseBuilder.append("Review ID: ").append(review.getId()).append("\n");
-                responseBuilder.append("User ID: ").append(review.getUserId()).append("\n");
-                responseBuilder.append("Review Body: ").append(review.getReviewBody()).append("\n");
-                responseBuilder.append("Course Code: ").append(review.getCourseCode()).append("\n");
-                responseBuilder.append("Course Rating: ").append(review.getCourseRating()).append("\n");
-                responseBuilder.append("Created At: ").append(review.getCreatedAt()).append("\n");
-                responseBuilder.append("----------\n");
-            }
-            return new ResponseEntity<>(responseBuilder.toString(), HttpStatus.OK);
+            return new ResponseEntity<>(reviews, HttpStatus.OK);
         } else {
-            return new ResponseEntity<>("No reviews found on the course "+ courseCode, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
