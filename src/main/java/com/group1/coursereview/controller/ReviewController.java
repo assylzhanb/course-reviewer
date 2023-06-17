@@ -25,7 +25,6 @@ public class ReviewController {
     @Autowired
     private ReviewRepository reviewRepository;
 
-
 //    @GetMapping("/course/{courseCode}")
 //    public ResponseEntity<String> getReviewsByCourseCode(@PathVariable String courseCode) {
 //        List<Review> reviews = reviewRepository.getAllByCourseCode(courseCode);
@@ -113,8 +112,8 @@ public class ReviewController {
 
     @DeleteMapping("/{reviewId}")
     public ResponseEntity<String> deleteReview(@PathVariable String reviewId) {
-        Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
-        if (reviewOptional.isPresent()) {
+        Review existingReview = reviewRepository.getReviewByReviewId(reviewId);
+        if (existingReview != null) {
             // Review exists, proceed with deleting
 
             List<Comment> comments = commentRepository.getAllByReviewId(reviewId);
@@ -122,13 +121,14 @@ public class ReviewController {
                 // Delete associated comments first
                 commentRepository.deleteAll(comments);
             }
-            reviewRepository.deleteById(reviewId);
+            reviewRepository.deleteByReviewId(reviewId);
             return ResponseEntity.ok("Review deleted successfully");
         } else {
             // Review does not exist, return 404 Not Found
             return new ResponseEntity<>("Review not found", HttpStatus.NOT_FOUND);
         }
     }
+
 
 
     @DeleteMapping("/course/{courseCode}")
