@@ -10,7 +10,7 @@ function App() {
     <div>
       <div className='flex mx-auto max-w-4xl border-4 border-yellow-300 '
 
-      >CHANGE!</div>
+      >CHANGE! WAR CHECK</div>
       <h1 className="text-3xl font-bold underline">
 
         <div>{count}</div>
