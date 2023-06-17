@@ -100,8 +100,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
                             generate-resources
                         </phase>
                         <configuration>
-                            <nodeVersion>v16.15.0</nodeVersion>
-                            <npmVersion>8.5.5</npmVersion>
+                            <nodeVersion>v18.16.0</nodeVersion>
+                            <npmVersion>9.6.5</npmVersion>
                         </configuration>
                     </execution>
                     <execution>
@@ -128,7 +128,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
                     </execution>
                 </executions>
                 <configuration>
-                    <nodeVersion>v16.15.0</nodeVersion>
+                    <nodeVersion>v18.16.0</nodeVersion>
                     <workingDirectory>courser</workingDirectory>
                 </configuration>
             </plugin>

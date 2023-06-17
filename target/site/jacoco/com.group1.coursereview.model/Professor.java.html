@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Professor.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">cse364-project</a> &gt; <a href="index.source.html" class="el_package">com.group1.coursereview.model</a> &gt; <span class="el_source">Professor.java</span></div><h1>Professor.java</h1><pre class="source lang-java linenums">package com.group1.coursereview.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@Document(collection = &quot;professors&quot;)
+public class Professor {
+    @Id
+    private String id;
+    private String instId;
+    private String name;
+    private String contactInfo;
+    private String department;
+    private String position;
+    private String educationalBackground;
+
+<span class="fc" id="L20">    public Professor() {}</span>
+
+<span class="fc" id="L22">    public Professor(String instId, String name, String contactInfo, String department, String position, String educationalBackground) {</span>
+<span class="fc" id="L23">        this.instId = instId;</span>
+<span class="fc" id="L24">        this.name = name;</span>
+<span class="fc" id="L25">        this.contactInfo = contactInfo;</span>
+<span class="fc" id="L26">        this.department = department;</span>
+<span class="fc" id="L27">        this.position = position;</span>
+<span class="fc" id="L28">        this.educationalBackground = educationalBackground;</span>
+<span class="fc" id="L29">    }</span>
+
+    public String getId() {
+<span class="fc" id="L32">        return id;</span>
+    }
+
+    public void setId(String id) {
+<span class="fc" id="L36">        this.id = id;</span>
+<span class="fc" id="L37">    }</span>
+
+    public String getInstId() {
+<span class="fc" id="L40">        return instId;</span>
+    }
+
+    public void setInstId(String instId) {
+<span class="fc" id="L44">        this.instId = instId;</span>
+<span class="fc" id="L45">    }</span>
+
+    public String getName() {
+<span class="fc" id="L48">        return name;</span>
+    }
+
+    public void setName(String name) {
+<span class="fc" id="L52">        this.name = name;</span>
+<span class="fc" id="L53">    }</span>
+
+    public String getContactInfo() {
+<span class="fc" id="L56">        return contactInfo;</span>
+    }
+
+    public void setContactInfo(String contactInfo) {
+<span class="fc" id="L60">        this.contactInfo = contactInfo;</span>
+<span class="fc" id="L61">    }</span>
+
+    public String getDepartment() {
+<span class="fc" id="L64">        return department;</span>
+    }
+
+    public void setDepartment(String department) {
+<span class="fc" id="L68">        this.department = department;</span>
+<span class="fc" id="L69">    }</span>
+
+    public String getPosition() {
+<span class="fc" id="L72">        return position;</span>
+    }
+
+    public void setPosition(String position) {
+<span class="fc" id="L76">        this.position = position;</span>
+<span class="fc" id="L77">    }</span>
+
+    public String getEducationalBackground() {
+<span class="fc" id="L80">        return educationalBackground;</span>
+    }
+
+    public void setEducationalBackground(String educationalBackground) {
+<span class="fc" id="L84">        this.educationalBackground = educationalBackground;</span>
+<span class="fc" id="L85">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

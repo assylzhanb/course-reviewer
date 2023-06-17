@@ -1,0 +1,11 @@
+com/group1/coursereview/controller/UserControllerTest.class
+com/group1/coursereview/controller/ReviewControllerTest.class
+com/group1/coursereview/controller/CommentControllerTest.class
+com/group1/coursereview/model/ReviewTest.class
+com/group1/coursereview/CoursereviewApplicationTests.class
+com/group1/coursereview/model/CommentTest.class
+com/group1/coursereview/model/UserModelTest.class
+com/group1/coursereview/model/CourseTest.class
+com/group1/coursereview/controller/CourseControllerTest.class
+com/group1/coursereview/model/ProfessorTest.class
+com/group1/coursereview/model/SessionModelTest.class

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ReviewController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">cse364-project</a> &gt; <a href="index.source.html" class="el_package">com.group1.coursereview.controller</a> &gt; <span class="el_source">ReviewController.java</span></div><h1>ReviewController.java</h1><pre class="source lang-java linenums">package com.group1.coursereview.controller;
+
+import com.group1.coursereview.model.Comment;
+import com.group1.coursereview.model.Course;
+import com.group1.coursereview.model.Review;
+import com.group1.coursereview.repository.CommentRepository;
+import com.group1.coursereview.repository.CourseRepository;
+import com.group1.coursereview.repository.ReviewRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
+@RestController
+@RequestMapping(&quot;/reviews&quot;)
+@CrossOrigin(origins = &quot;*&quot;)
+<span class="fc" id="L21">public class ReviewController {</span>
+    @Autowired
+    private CourseRepository courseRepository;
+
+    @Autowired
+    private ReviewRepository reviewRepository;
+
+//    @GetMapping(&quot;/course/{courseCode}&quot;)
+//    public ResponseEntity&lt;String&gt; getReviewsByCourseCode(@PathVariable String courseCode) {
+//        List&lt;Review&gt; reviews = reviewRepository.getAllByCourseCode(courseCode);
+//        Course course = courseRepository.findByCourseCode(courseCode);
+//        int count = reviews.size();
+//        if (!reviews.isEmpty()) {
+//            StringBuilder responseBuilder = new StringBuilder();
+//            for (Review review : reviews) {
+//                responseBuilder.append(&quot;Course Name: &quot;).append(course.getCourseTitle()).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;Count of reviews: &quot;).append(count).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;Review ID: &quot;).append(review.getId()).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;User ID: &quot;).append(review.getUserId()).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;Review Body: &quot;).append(review.getReviewBody()).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;Course Code: &quot;).append(review.getCourseCode()).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;Course Rating: &quot;).append(review.getCourseRating()).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;Created At: &quot;).append(review.getCreatedAt()).append(&quot;\n&quot;);
+//                responseBuilder.append(&quot;----------\n&quot;);
+//            }
+//            return new ResponseEntity&lt;&gt;(responseBuilder.toString(), HttpStatus.OK);
+//        } else {
+//            return new ResponseEntity&lt;&gt;(&quot;No reviews found on the course &quot;+ courseCode, HttpStatus.NOT_FOUND);
+//        }
+//    }
+    @GetMapping(&quot;/course/{courseCode}&quot;)
+    public ResponseEntity&lt;List&lt;Review&gt;&gt; getReviewsByCourseCode(@PathVariable String courseCode) {
+<span class="nc" id="L53">        List&lt;Review&gt; reviews = reviewRepository.getAllByCourseCode(courseCode);</span>
+<span class="nc" id="L54">        Course course = courseRepository.findByCourseCode(courseCode);</span>
+<span class="nc bnc" id="L55" title="All 2 branches missed.">        if (!reviews.isEmpty()) {</span>
+<span class="nc" id="L56">            return new ResponseEntity&lt;&gt;(reviews, HttpStatus.OK);</span>
+        } else {
+<span class="nc" id="L58">            return new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND);</span>
+        }
+    }
+
+    @PostMapping(&quot;/course/{courseCode}&quot;)
+    public ResponseEntity&lt;String&gt; createReview(@PathVariable String courseCode, @RequestBody Review review) {
+<span class="fc" id="L64">        Course course = courseRepository.findByCourseCode(courseCode);</span>
+<span class="fc bfc" id="L65" title="All 2 branches covered.">        if (course == null) {</span>
+<span class="fc" id="L66">            return new ResponseEntity&lt;&gt;(&quot;No course like this&quot;, HttpStatus.NOT_FOUND);</span>
+        }
+
+<span class="fc bfc" id="L69" title="All 2 branches covered.">        if (review.getUserId() == null) {</span>
+<span class="fc" id="L70">            return new ResponseEntity&lt;&gt;(&quot;User ID is required&quot;, HttpStatus.BAD_REQUEST);</span>
+        }
+
+<span class="pc bpc" id="L73" title="1 of 4 branches missed.">        if (review.getCourseRating() &lt; 1 || review.getCourseRating() &gt; 5) {</span>
+<span class="fc" id="L74">            return new ResponseEntity&lt;&gt;(&quot;Course rating should be between 1 and 5&quot;, HttpStatus.BAD_REQUEST);</span>
+        }
+
+<span class="fc bfc" id="L77" title="All 4 branches covered.">        if (review.getReviewBody() == null || review.getReviewBody().isEmpty()) {</span>
+<span class="fc" id="L78">            return new ResponseEntity&lt;&gt;(&quot;Review body is required&quot;, HttpStatus.BAD_REQUEST);</span>
+        }
+
+<span class="fc" id="L81">        review.setCourseCode(courseCode);</span>
+<span class="fc" id="L82">        review.setReviewId(UUID.randomUUID().toString()); // Generate a unique review ID</span>
+
+<span class="fc" id="L84">        reviewRepository.save(review); // Save the review to the repository</span>
+
+<span class="fc" id="L86">        return new ResponseEntity&lt;&gt;(&quot;Review posted!&quot;, HttpStatus.CREATED);</span>
+    }
+
+
+
+
+
+    @PutMapping(&quot;/{reviewId}&quot;)
+    public ResponseEntity&lt;String&gt; updateReview(@PathVariable String reviewId, @RequestBody Review review) {
+<span class="fc" id="L95">        Optional&lt;Review&gt; existingReviewOptional = reviewRepository.findById(reviewId);</span>
+<span class="fc bfc" id="L96" title="All 2 branches covered.">        if (existingReviewOptional.isPresent()) {</span>
+<span class="fc" id="L97">            Review existingReview = existingReviewOptional.get();</span>
+<span class="fc" id="L98">            existingReview.setCourseRating(review.getCourseRating());</span>
+<span class="fc" id="L99">            existingReview.setReviewBody(review.getReviewBody());</span>
+<span class="fc" id="L100">            Review updatedReview = reviewRepository.save(existingReview);</span>
+<span class="fc" id="L101">            return new ResponseEntity&lt;&gt;(&quot;Changed the review to &quot; + updatedReview.getReviewBody(), HttpStatus.OK);</span>
+        } else {
+<span class="fc" id="L103">            return new ResponseEntity&lt;&gt;(&quot;Review not found&quot;, HttpStatus.NOT_FOUND);</span>
+        }
+    }
+    private CommentRepository commentRepository;
+
+    @Autowired
+    public void setCommentRepository(CommentRepository commentRepository) {
+<span class="fc" id="L110">        this.commentRepository = commentRepository;</span>
+<span class="fc" id="L111">    }</span>
+
+    @DeleteMapping(&quot;/{reviewId}&quot;)
+    public ResponseEntity&lt;String&gt; deleteReview(@PathVariable String reviewId) {
+<span class="fc" id="L115">        Review existingReview = reviewRepository.getReviewByReviewId(reviewId);</span>
+<span class="pc bpc" id="L116" title="1 of 2 branches missed.">        if (existingReview != null) {</span>
+            // Review exists, proceed with deleting
+
+<span class="nc" id="L119">            List&lt;Comment&gt; comments = commentRepository.getAllByReviewId(reviewId);</span>
+<span class="nc bnc" id="L120" title="All 2 branches missed.">            if (!comments.isEmpty()) {</span>
+                // Delete associated comments first
+<span class="nc" id="L122">                commentRepository.deleteAll(comments);</span>
+            }
+<span class="nc" id="L124">            reviewRepository.deleteByReviewId(reviewId);</span>
+<span class="nc" id="L125">            return ResponseEntity.ok(&quot;Review deleted successfully&quot;);</span>
+        } else {
+            // Review does not exist, return 404 Not Found
+<span class="fc" id="L128">            return new ResponseEntity&lt;&gt;(&quot;Review not found&quot;, HttpStatus.NOT_FOUND);</span>
+        }
+    }
+
+
+
+    @DeleteMapping(&quot;/course/{courseCode}&quot;)
+    public ResponseEntity&lt;String&gt; deleteReviewsByCourseCode(@PathVariable String courseCode) {
+<span class="fc bfc" id="L136" title="All 4 branches covered.">        if (courseCode == null || courseCode.isEmpty()) {</span>
+<span class="fc" id="L137">            return new ResponseEntity&lt;&gt;(&quot;Invalid course code provided&quot;, HttpStatus.BAD_REQUEST);</span>
+        }
+<span class="fc" id="L139">        Course course = courseRepository.findByCourseCode(courseCode);</span>
+<span class="fc bfc" id="L140" title="All 2 branches covered.">        if (course == null) {</span>
+<span class="fc" id="L141">            return new ResponseEntity&lt;&gt;(&quot;No course found with the provided course code&quot;, HttpStatus.NOT_FOUND);</span>
+        }
+
+<span class="fc" id="L144">        List&lt;Review&gt; reviews = reviewRepository.getAllByCourseCode(courseCode);</span>
+<span class="fc bfc" id="L145" title="All 2 branches covered.">        if (!reviews.isEmpty()) {</span>
+<span class="fc" id="L146">            reviewRepository.deleteAllByCourseCode(courseCode);</span>
+<span class="fc" id="L147">            String message = &quot;Successfully deleted all the reviews for the course with code &quot; + courseCode;</span>
+<span class="fc" id="L148">            return new ResponseEntity&lt;&gt;(message, HttpStatus.OK);</span>
+        } else {
+<span class="fc" id="L150">            return new ResponseEntity&lt;&gt;(&quot;No reviews found for the course with code &quot; + courseCode, HttpStatus.NOT_FOUND);</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
