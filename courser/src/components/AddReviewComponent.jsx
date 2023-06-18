@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-function AddReviewComponent({ courseCode, onAddReview }) {
+
+function AddReviewComponent({ courseCode, onAddReview, toggleAddReview }) {
     const [userId, setUserId] = useState('');
     const [courseRating, setCourseRating] = useState('');
     const [reviewBody, setReviewBody] = useState('');
@@ -22,6 +23,9 @@ function AddReviewComponent({ courseCode, onAddReview }) {
             setUserId('');
             setCourseRating('');
             setReviewBody('');
+
+            // Close the AddReviewComponent
+            toggleAddReview();
         } catch (error) {
             console.error('Error adding review:', error);
         }
@@ -79,4 +83,5 @@ function AddReviewComponent({ courseCode, onAddReview }) {
         </div>
     );
 }
+
 export default AddReviewComponent;

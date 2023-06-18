@@ -1,6 +1,89 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AddReviewComponent from './AddReviewComponent';
+function EditReviewComponent({ reviewId, onUpdateReview, toggleEditReview }) {
+    const [courseRating, setCourseRating] = useState('');
+    const [reviewBody, setReviewBody] = useState('');
+    const handleCancel = () => {
+        toggleEditReview();
+    };
+
+    useEffect(() => {
+        const fetchReviewData = async () => {
+            try {
+                const response = await axios.get(`/reviews/${reviewId}`);
+                const reviewData = response.data;
+                setCourseRating(reviewData.courseRating);
+                setReviewBody(reviewData.reviewBody);
+            } catch (error) {
+                console.error('Error fetching review:', error);
+            }
+        };
+
+        fetchReviewData();
+    }, [reviewId]);
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            const updatedReviewData = {
+                courseRating,
+                reviewBody,
+            };
+            toggleEditReview();
+
+            await axios.put(`/reviews/${reviewId}`, updatedReviewData);
+            onUpdateReview();
+
+            toggleEditReview();
+        } catch (error) {
+            console.error('Error updating review:', error);
+        }
+    };
+
+    return (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-lg p-8">
+                <h2 className="text-2xl font-bold mb-4">Edit Review</h2>
+                <form onSubmit={handleSubmit}>
+                    <div className="mb-4">
+                        <label className="block">
+                            Course Rating:
+                            <input
+                                type="number"
+                                min="1"
+                                max="5"
+                                value={courseRating}
+                                onChange={(e) => setCourseRating(e.target.value)}
+                                className="border border-gray-300 rounded px-2 py-1 mt-1"
+                            />
+                        </label>
+                    </div>
+                    <div className="mb-4">
+                        <label className="block">
+                            Review Body:
+                            <textarea
+                                value={reviewBody}
+                                onChange={(e) => setReviewBody(e.target.value)}
+                                className="border border-gray-300 rounded px-2 py-1 mt-1"
+                            ></textarea>
+                        </label>
+                    </div>
+                    <div className="flex justify-end">
+                        <button type="button" className="bg-blue-500 text-white px-4 py-2 rounded" onClick={handleSubmit}>
+                            Update
+                        </button>
+                        <button type="button" className="bg-red-500 text-white px-4 py-2 rounded" onClick={handleCancel}>
+                            Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    );
+}
+
 
 function CourseComponent() {
     const [courseCode, setCourseCode] = useState('');
@@ -9,12 +92,15 @@ function CourseComponent() {
     const [loadingCourse, setLoadingCourse] = useState(false);
     const [loadingReviews, setLoadingReviews] = useState(false);
     const [showAddReview, setShowAddReview] = useState(false);
+    const [showEditReview, setShowEditReview] = useState(false);
+    const [selectedReviewId, setSelectedReviewId] = useState(null);
 
     const toggleAddReview = () => {
-        if (course === null) {
-            setShowAddReview((prevState) => !prevState);
+        setShowAddReview((prevState) => !prevState);
+    };
 
-        }
+    const toggleEditReview = () => {
+        setShowEditReview((prevState) => !prevState);
     };
 
     useEffect(() => {
@@ -48,9 +134,8 @@ function CourseComponent() {
 
     const handleEditReview = async (reviewId) => {
         try {
-            const response = await axios.get(`/reviews/${reviewId}`);
-            const reviewData = response.data;
-            console.log('Edit Review:', reviewData);
+            setSelectedReviewId(reviewId);
+            setShowEditReview(true);
         } catch (error) {
             console.error('Error fetching review:', error);
         }
@@ -113,8 +198,10 @@ function CourseComponent() {
                         type="text"
                         value={courseCode}
                         onChange={(e) => setCourseCode(e.target.value)}
+                        placeholder="CSE33101"
                         className="border border-gray-300 rounded px-2 py-1"
                     />
+
                 </label>
                 <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">
                     Get Reviews
@@ -143,8 +230,7 @@ function CourseComponent() {
                             <span className="font-semibold">Program:</span> {course.program}
                         </p>
                         <p className="text-lg">
-                            <span className="font-semibold">Prerequisite:</span>{' '}
-                            {course.prerequisite || 'None'}
+                            <span className="font-semibold">Prerequisite:</span> {course.prerequisite || 'None'}
                         </p>
                         {course ? (
                             <button
@@ -171,13 +257,27 @@ function CourseComponent() {
                 <p>No reviews found.</p>
             )}
 
-
-
             {showAddReview && (
-                <AddReviewComponent courseCode={courseCode} onAddReview={fetchCourse} />
+                <AddReviewComponent
+                    courseCode={courseCode}
+                    onAddReview={fetchCourse}
+                    toggleAddReview={toggleAddReview}
+                />
+            )}
+
+            {showEditReview && (
+                <EditReviewComponent
+                    reviewId={selectedReviewId}
+                    onUpdateReview={() => {
+                        fetchCourse(courseCode);
+                        setShowEditReview(false);
+                    }}
+                    toggleEditReview={toggleEditReview}
+                />
             )}
         </div>
     );
 }
+
 
 export default CourseComponent;

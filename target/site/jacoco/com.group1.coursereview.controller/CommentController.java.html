@@ -9,6 +9,7 @@ import com.group1.coursereview.repository.ReviewRepository;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @RestController
 @RequestMapping(&quot;/reviews/{reviewId}/comments&quot;)
@@ -16,67 +17,70 @@ public class CommentController {
     private final CommentRepository commentRepository;
     private final ReviewRepository reviewRepository;
 
-<span class="fc" id="L19">    public CommentController(CommentRepository commentRepository, ReviewRepository reviewRepository) {</span>
-<span class="fc" id="L20">        this.commentRepository = commentRepository;</span>
-<span class="fc" id="L21">        this.reviewRepository = reviewRepository;</span>
-<span class="fc" id="L22">    }</span>
+<span class="fc" id="L20">    public CommentController(CommentRepository commentRepository, ReviewRepository reviewRepository) {</span>
+<span class="fc" id="L21">        this.commentRepository = commentRepository;</span>
+<span class="fc" id="L22">        this.reviewRepository = reviewRepository;</span>
+<span class="fc" id="L23">    }</span>
 
 
     @GetMapping
     public ResponseEntity&lt;List&lt;Comment&gt;&gt; getCommentsByReviewId(@PathVariable String reviewId) {
-<span class="fc" id="L27">        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);</span>
-<span class="fc bfc" id="L28" title="All 2 branches covered.">        if (reviewOptional != null) {</span>
-<span class="fc" id="L29">            List&lt;Comment&gt; comments = commentRepository.getAllByReviewId(reviewId);</span>
-<span class="fc" id="L30">            return ResponseEntity.ok(comments);</span>
+<span class="fc" id="L28">        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);</span>
+<span class="pc bpc" id="L29" title="1 of 2 branches missed.">        if (reviewOptional != null) {</span>
+<span class="nc" id="L30">            List&lt;Comment&gt; comments = commentRepository.getAllByReviewId(reviewId);</span>
+<span class="nc" id="L31">            return ResponseEntity.ok(comments);</span>
         } else {
-<span class="fc" id="L32">            return ResponseEntity.notFound().build();</span>
+<span class="fc" id="L33">            return ResponseEntity.notFound().build();</span>
         }
     }
 
-    @PostMapping
+    @PostMapping(&quot;/{reviewId}/comments&quot;)
     public ResponseEntity&lt;Comment&gt; addCommentToReview(@PathVariable String reviewId, @RequestBody Comment comment) {
-<span class="fc" id="L38">        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);</span>
-<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (reviewOptional != null) {</span>
-<span class="fc" id="L40">            comment.setReviewId(reviewId);</span>
-<span class="fc" id="L41">            Comment savedComment = commentRepository.save(comment);</span>
-<span class="fc" id="L42">            return ResponseEntity.ok(savedComment);</span>
+<span class="nc" id="L39">        Review review = reviewRepository.findById(reviewId).orElse(null);</span>
+<span class="nc bnc" id="L40" title="All 2 branches missed.">        if (review != null) {</span>
+<span class="nc" id="L41">            comment.setReviewId(reviewId);</span>
+<span class="nc" id="L42">            String commentId = UUID.randomUUID().toString(); // Generate a unique comment ID</span>
+<span class="nc" id="L43">            comment.setCommentId(commentId);</span>
+<span class="nc" id="L44">            Comment savedComment = commentRepository.save(comment);</span>
+<span class="nc" id="L45">            return ResponseEntity.ok(savedComment);</span>
         } else {
-<span class="fc" id="L44">            return ResponseEntity.notFound().build();</span>
+<span class="nc" id="L47">            return ResponseEntity.notFound().build();</span>
         }
     }
+
 
 
     @PutMapping(&quot;/{commentId}&quot;)
     public ResponseEntity&lt;Comment&gt; updateComment(@PathVariable String reviewId, @PathVariable String commentId, @RequestBody Comment updatedComment) {
-<span class="fc" id="L51">        Optional&lt;Review&gt; reviewOptional = reviewRepository.findById(reviewId);</span>
-<span class="fc bfc" id="L52" title="All 2 branches covered.">        if (reviewOptional.isPresent()) {</span>
-<span class="fc" id="L53">            Optional&lt;Comment&gt; commentOptional = commentRepository.findById(commentId);</span>
-<span class="fc bfc" id="L54" title="All 2 branches covered.">            if (commentOptional.isPresent()) {</span>
-<span class="fc" id="L55">                Comment comment = commentOptional.get();</span>
-<span class="fc" id="L56">                comment.setText(updatedComment.getText());</span>
-<span class="fc" id="L57">                Comment savedComment = commentRepository.save(comment);</span>
-<span class="fc" id="L58">                return ResponseEntity.ok(savedComment);</span>
+<span class="nc" id="L55">        Review review = reviewRepository.getReviewByReviewId(reviewId);</span>
+<span class="nc bnc" id="L56" title="All 2 branches missed.">        if (review != null) {</span>
+<span class="nc" id="L57">            Comment comment = commentRepository.getCommentByCommentId(commentId);</span>
+<span class="nc bnc" id="L58" title="All 2 branches missed.">            if (comment != null) {</span>
+<span class="nc" id="L59">                comment.setText(updatedComment.getText());</span>
+<span class="nc" id="L60">                Comment savedComment = commentRepository.save(comment);</span>
+<span class="nc" id="L61">                return ResponseEntity.ok(savedComment);</span>
             }
         }
-<span class="fc" id="L61">        return ResponseEntity.notFound().build();</span>
+<span class="nc" id="L64">        return ResponseEntity.notFound().build();</span>
     }
+
 
 
 
 
     @DeleteMapping(&quot;/{commentId}&quot;)
     public ResponseEntity&lt;String&gt; deleteComment(@PathVariable String reviewId, @PathVariable String commentId) {
-<span class="fc" id="L69">        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);</span>
-<span class="fc bfc" id="L70" title="All 2 branches covered.">        if (reviewOptional != null) {</span>
-<span class="fc" id="L71">            Optional&lt;Comment&gt; commentOptional = commentRepository.findById(commentId);</span>
-<span class="fc bfc" id="L72" title="All 2 branches covered.">            if (commentOptional.isPresent()) {</span>
-<span class="fc" id="L73">                commentRepository.deleteById(commentId);</span>
-<span class="fc" id="L74">                return ResponseEntity.ok(&quot;Comment deleted successfully&quot;);</span>
+<span class="fc" id="L73">        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);</span>
+<span class="fc bfc" id="L74" title="All 2 branches covered.">        if (reviewOptional != null) {</span>
+<span class="fc" id="L75">            Optional&lt;Comment&gt; commentOptional = commentRepository.findById(commentId);</span>
+<span class="fc bfc" id="L76" title="All 2 branches covered.">            if (commentOptional.isPresent()) {</span>
+<span class="fc" id="L77">                commentRepository.deleteById(commentId);</span>
+<span class="fc" id="L78">                return ResponseEntity.ok(&quot;Comment deleted successfully&quot;);</span>
             } else {
-<span class="fc" id="L76">                return ResponseEntity.notFound().build();</span>
+<span class="fc" id="L80">                return ResponseEntity.notFound().build();</span>
             }
         } else {
-<span class="fc" id="L79">            return ResponseEntity.notFound().build();</span>
+<span class="fc" id="L83">            return ResponseEntity.notFound().build();</span>
         }
     }
 

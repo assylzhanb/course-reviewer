@@ -9,4 +9,5 @@ import java.util.List;
 @Repository
 public interface CommentRepository extends MongoRepository<Comment, String> {
     List<Comment> getAllByReviewId(String reviewId);
+    Comment getCommentByCommentId(String commentId);
 }

@@ -8,21 +8,29 @@ public class Comment {
     @Id
     private String id;
     private String reviewId;
+    private String commentId;
     private String userId;
     private String text;
 
     public Comment() {}
 
-    public Comment(String reviewId, String userId, String text) {
+    public Comment(String reviewId, String commentId, String userId, String text) {
         this.reviewId = reviewId;
         this.userId = userId;
         this.text = text;
+        this.commentId = commentId;
     }
 
     // Getters and setters
 
     public String getId() {
         return id;
+    }
+    public String getCommentId(){
+        return commentId;
+    }
+    public void setCommentId(String commentId){
+        this.commentId =commentId;
     }
 
     public void setId(String id) {

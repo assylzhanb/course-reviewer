@@ -8,49 +8,57 @@ public class Comment {
     @Id
     private String id;
     private String reviewId;
+    private String commentId;
     private String userId;
     private String text;
 
-<span class="fc" id="L14">    public Comment() {}</span>
+<span class="fc" id="L15">    public Comment() {}</span>
 
-<span class="fc" id="L16">    public Comment(String reviewId, String userId, String text) {</span>
-<span class="fc" id="L17">        this.reviewId = reviewId;</span>
-<span class="fc" id="L18">        this.userId = userId;</span>
-<span class="fc" id="L19">        this.text = text;</span>
-<span class="fc" id="L20">    }</span>
+<span class="nc" id="L17">    public Comment(String reviewId, String commentId, String userId, String text) {</span>
+<span class="nc" id="L18">        this.reviewId = reviewId;</span>
+<span class="nc" id="L19">        this.userId = userId;</span>
+<span class="nc" id="L20">        this.text = text;</span>
+<span class="nc" id="L21">        this.commentId = commentId;</span>
+<span class="nc" id="L22">    }</span>
 
     // Getters and setters
 
     public String getId() {
-<span class="fc" id="L25">        return id;</span>
+<span class="fc" id="L27">        return id;</span>
     }
+    public String getCommentId(){
+<span class="nc" id="L30">        return commentId;</span>
+    }
+    public void setCommentId(String commentId){
+<span class="nc" id="L33">        this.commentId =commentId;</span>
+<span class="nc" id="L34">    }</span>
 
     public void setId(String id) {
-<span class="fc" id="L29">        this.id = id;</span>
-<span class="fc" id="L30">    }</span>
+<span class="fc" id="L37">        this.id = id;</span>
+<span class="fc" id="L38">    }</span>
 
     public String getReviewId() {
-<span class="fc" id="L33">        return reviewId;</span>
+<span class="fc" id="L41">        return reviewId;</span>
     }
 
     public void setReviewId(String reviewId) {
-<span class="fc" id="L37">        this.reviewId = reviewId;</span>
-<span class="fc" id="L38">    }</span>
+<span class="fc" id="L45">        this.reviewId = reviewId;</span>
+<span class="fc" id="L46">    }</span>
 
     public String getUserId() {
-<span class="fc" id="L41">        return userId;</span>
+<span class="fc" id="L49">        return userId;</span>
     }
 
     public void setUserId(String userId) {
-<span class="fc" id="L45">        this.userId = userId;</span>
-<span class="fc" id="L46">    }</span>
+<span class="fc" id="L53">        this.userId = userId;</span>
+<span class="fc" id="L54">    }</span>
 
     public String getText() {
-<span class="fc" id="L49">        return text;</span>
+<span class="fc" id="L57">        return text;</span>
     }
 
     public void setText(String text) {
-<span class="fc" id="L53">        this.text = text;</span>
-<span class="fc" id="L54">    }</span>
+<span class="fc" id="L61">        this.text = text;</span>
+<span class="fc" id="L62">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

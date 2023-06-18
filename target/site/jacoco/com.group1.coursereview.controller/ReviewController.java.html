@@ -92,17 +92,17 @@ import java.util.UUID;
 
     @PutMapping(&quot;/{reviewId}&quot;)
     public ResponseEntity&lt;String&gt; updateReview(@PathVariable String reviewId, @RequestBody Review review) {
-<span class="fc" id="L95">        Optional&lt;Review&gt; existingReviewOptional = reviewRepository.findById(reviewId);</span>
-<span class="fc bfc" id="L96" title="All 2 branches covered.">        if (existingReviewOptional.isPresent()) {</span>
-<span class="fc" id="L97">            Review existingReview = existingReviewOptional.get();</span>
-<span class="fc" id="L98">            existingReview.setCourseRating(review.getCourseRating());</span>
-<span class="fc" id="L99">            existingReview.setReviewBody(review.getReviewBody());</span>
-<span class="fc" id="L100">            Review updatedReview = reviewRepository.save(existingReview);</span>
-<span class="fc" id="L101">            return new ResponseEntity&lt;&gt;(&quot;Changed the review to &quot; + updatedReview.getReviewBody(), HttpStatus.OK);</span>
+<span class="nc" id="L95">        Review existingReview = reviewRepository.getReviewByReviewId(reviewId);</span>
+<span class="nc bnc" id="L96" title="All 2 branches missed.">        if (existingReview != null) {</span>
+<span class="nc" id="L97">            existingReview.setCourseRating(review.getCourseRating());</span>
+<span class="nc" id="L98">            existingReview.setReviewBody(review.getReviewBody());</span>
+<span class="nc" id="L99">            Review updatedReview = reviewRepository.save(existingReview);</span>
+<span class="nc" id="L100">            return new ResponseEntity&lt;&gt;(&quot;Changed the review to &quot; + updatedReview.getReviewBody(), HttpStatus.OK);</span>
         } else {
-<span class="fc" id="L103">            return new ResponseEntity&lt;&gt;(&quot;Review not found&quot;, HttpStatus.NOT_FOUND);</span>
+<span class="nc" id="L102">            return new ResponseEntity&lt;&gt;(&quot;Review not found&quot;, HttpStatus.NOT_FOUND);</span>
         }
     }
+
     private CommentRepository commentRepository;
 
     @Autowired

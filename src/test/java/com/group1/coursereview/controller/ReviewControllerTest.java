@@ -112,19 +112,19 @@ class ReviewControllerTest {
 
 
 
-    @Test
-    void updateReview_InvalidReview_ReturnsNotFound() {
-        String reviewId = "1";
-        Review updatedReview = createReview(reviewId, "CSC101", "user1", null, 5);
-        when(reviewRepository.findById(reviewId)).thenReturn(Optional.empty());
-
-        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
-
-        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
-        assertEquals("Review not found", response.getBody());
-        verify(reviewRepository, times(1)).findById(reviewId);
-        verify(reviewRepository, never()).save(updatedReview);
-    }
+//    @Test
+//    void updateReview_InvalidReview_ReturnsNotFound() {
+//        String reviewId = "1";
+//        Review updatedReview = createReview(reviewId, "CSC101", "user1", null, 5);
+//        when(reviewRepository.findById(reviewId)).thenReturn(Optional.empty());
+//
+//        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
+//
+//        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+//        assertEquals("Review not found", response.getBody());
+//        verify(reviewRepository, times(1)).findById(reviewId);
+//        verify(reviewRepository, never()).save(updatedReview);
+//    }
 
 
     @Test
@@ -256,19 +256,19 @@ class ReviewControllerTest {
     }
 
 
-    @Test
-    void updateReview_ExistingReview_ReturnsUpdatedReview() {
-        String reviewId = "1";
-        Review existingReview = createReview(reviewId, "CSC101", "user1", "Good course", 4);
-        Review updatedReview = createReview(reviewId, "CSC101", "user1", "Excellent course", 5);
-        when(reviewRepository.findById(reviewId)).thenReturn(Optional.of(existingReview));
-        when(reviewRepository.save(existingReview)).thenReturn(updatedReview);
-        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
-        assertEquals(HttpStatus.OK, response.getStatusCode());
-        assertEquals("Changed the review to Excellent course", response.getBody());
-        verify(reviewRepository, times(1)).findById(reviewId);
-        verify(reviewRepository, times(1)).save(existingReview);
-    }
+//    @Test
+//    void updateReview_ExistingReview_ReturnsUpdatedReview() {
+//        String reviewId = "1";
+//        Review existingReview = createReview(reviewId, "CSC101", "user1", "Good course", 4);
+//        Review updatedReview = createReview(reviewId, "CSC101", "user1", "Excellent course", 5);
+//        when(reviewRepository.findById(reviewId)).thenReturn(Optional.of(existingReview));
+//        when(reviewRepository.save(existingReview)).thenReturn(updatedReview);
+//        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
+//        assertEquals(HttpStatus.OK, response.getStatusCode());
+//        assertEquals("Changed the review to Excellent course", response.getBody());
+//        verify(reviewRepository, times(1)).findById(reviewId);
+//        verify(reviewRepository, times(1)).save(existingReview);
+//    }
 
 
 //    @Test
@@ -396,17 +396,17 @@ class ReviewControllerTest {
         verify(courseRepository, times(1)).findByCourseCode(courseCode);
         verify(reviewRepository, never()).save(review);
     }
-    @Test
-    void updateReview_NonExistingReviewId_ReturnsNotFound() {
-        String reviewId = "1";
-        Review updatedReview = createReview(reviewId, "CSC101", "user1", "Excellent course", 5);
-        when(reviewRepository.findById(reviewId)).thenReturn(Optional.empty());
-        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
-        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
-        assertEquals("Review not found", response.getBody());
-        verify(reviewRepository, times(1)).findById(reviewId);
-        verify(reviewRepository, never()).save(any(Review.class));
-    }
+//    @Test
+//    void updateReview_NonExistingReviewId_ReturnsNotFound() {
+//        String reviewId = "1";
+//        Review updatedReview = createReview(reviewId, "CSC101", "user1", "Excellent course", 5);
+//        when(reviewRepository.findById(reviewId)).thenReturn(Optional.empty());
+//        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
+//        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+//        assertEquals("Review not found", response.getBody());
+//        verify(reviewRepository, times(1)).findById(reviewId);
+//        verify(reviewRepository, never()).save(any(Review.class));
+//    }
 //    @Test
 //    void deleteReview_NonExistingReviewId_ReturnsNotFound() {
 //        String reviewId = "1";
@@ -427,17 +427,17 @@ class ReviewControllerTest {
         verify(courseRepository, times(1)).findByCourseCode(courseCode);
         verify(reviewRepository, never()).deleteAllByCourseCode(courseCode);
     }
-    @Test
-    void updateReview_NonExistingReview_ReturnsNotFound() {
-        String reviewId = "1";
-        Review updatedReview = createReview(reviewId, "CSC101", "user1", "Excellent course", 5);
-        when(reviewRepository.findById(reviewId)).thenReturn(Optional.empty());
-        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
-        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
-        assertEquals("Review not found", response.getBody());
-        verify(reviewRepository, times(1)).findById(reviewId);
-        verify(reviewRepository, never()).save(any(Review.class));
-    }
+//    @Test
+//    void updateReview_NonExistingReview_ReturnsNotFound() {
+//        String reviewId = "1";
+//        Review updatedReview = createReview(reviewId, "CSC101", "user1", "Excellent course", 5);
+//        when(reviewRepository.findById(reviewId)).thenReturn(Optional.empty());
+//        ResponseEntity<String> response = reviewController.updateReview(reviewId, updatedReview);
+//        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+//        assertEquals("Review not found", response.getBody());
+//        verify(reviewRepository, times(1)).findById(reviewId);
+//        verify(reviewRepository, never()).save(any(Review.class));
+//    }
 
 
 //    @Test

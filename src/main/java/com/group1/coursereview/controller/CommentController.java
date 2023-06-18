@@ -9,6 +9,7 @@ import com.group1.coursereview.repository.ReviewRepository;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/reviews/{reviewId}/comments")
@@ -33,11 +34,13 @@ public class CommentController {
         }
     }
 
-    @PostMapping
+    @PostMapping("/{reviewId}/comments")
     public ResponseEntity<Comment> addCommentToReview(@PathVariable String reviewId, @RequestBody Comment comment) {
-        Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);
-        if (reviewOptional != null) {
+        Review review = reviewRepository.findById(reviewId).orElse(null);
+        if (review != null) {
             comment.setReviewId(reviewId);
+            String commentId = UUID.randomUUID().toString(); // Generate a unique comment ID
+            comment.setCommentId(commentId);
             Comment savedComment = commentRepository.save(comment);
             return ResponseEntity.ok(savedComment);
         } else {
@@ -46,13 +49,13 @@ public class CommentController {
     }
 
 
+
     @PutMapping("/{commentId}")
     public ResponseEntity<Comment> updateComment(@PathVariable String reviewId, @PathVariable String commentId, @RequestBody Comment updatedComment) {
-        Optional<Review> reviewOptional = reviewRepository.findById(reviewId);
-        if (reviewOptional.isPresent()) {
-            Optional<Comment> commentOptional = commentRepository.findById(commentId);
-            if (commentOptional.isPresent()) {
-                Comment comment = commentOptional.get();
+        Review review = reviewRepository.getReviewByReviewId(reviewId);
+        if (review != null) {
+            Comment comment = commentRepository.getCommentByCommentId(commentId);
+            if (comment != null) {
                 comment.setText(updatedComment.getText());
                 Comment savedComment = commentRepository.save(comment);
                 return ResponseEntity.ok(savedComment);
@@ -60,6 +63,7 @@ public class CommentController {
         }
         return ResponseEntity.notFound().build();
     }
+
 
 
 

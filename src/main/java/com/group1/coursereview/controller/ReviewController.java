@@ -92,9 +92,8 @@ public class ReviewController {
 
     @PutMapping("/{reviewId}")
     public ResponseEntity<String> updateReview(@PathVariable String reviewId, @RequestBody Review review) {
-        Optional<Review> existingReviewOptional = reviewRepository.findById(reviewId);
-        if (existingReviewOptional.isPresent()) {
-            Review existingReview = existingReviewOptional.get();
+        Review existingReview = reviewRepository.getReviewByReviewId(reviewId);
+        if (existingReview != null) {
             existingReview.setCourseRating(review.getCourseRating());
             existingReview.setReviewBody(review.getReviewBody());
             Review updatedReview = reviewRepository.save(existingReview);
@@ -103,6 +102,7 @@ public class ReviewController {
             return new ResponseEntity<>("Review not found", HttpStatus.NOT_FOUND);
         }
     }
+
     private CommentRepository commentRepository;
 
     @Autowired
