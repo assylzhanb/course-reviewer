@@ -191,6 +191,7 @@ function CourseComponent() {
 
     return (
         <div className="container mx-auto py-8">
+            <h1 className="text-4xl font-bold mb-4">Course Reviews</h1>
             <form onSubmit={handleSubmit} className="mb-4">
                 <label className="mr-2">
                     Enter Course Code:
