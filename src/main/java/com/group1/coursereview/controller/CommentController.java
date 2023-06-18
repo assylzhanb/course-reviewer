@@ -13,6 +13,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/reviews/{reviewId}/comments")
+@CrossOrigin(origins = "*")
 public class CommentController {
     private final CommentRepository commentRepository;
     private final ReviewRepository reviewRepository;
@@ -34,9 +35,9 @@ public class CommentController {
         }
     }
 
-    @PostMapping("/{reviewId}/comments")
+    @PostMapping
     public ResponseEntity<Comment> addCommentToReview(@PathVariable String reviewId, @RequestBody Comment comment) {
-        Review review = reviewRepository.findById(reviewId).orElse(null);
+        Review review = reviewRepository.getReviewByReviewId(reviewId);
         if (review != null) {
             comment.setReviewId(reviewId);
             String commentId = UUID.randomUUID().toString(); // Generate a unique comment ID
@@ -47,6 +48,7 @@ public class CommentController {
             return ResponseEntity.notFound().build();
         }
     }
+
 
 
 
@@ -72,9 +74,9 @@ public class CommentController {
     public ResponseEntity<String> deleteComment(@PathVariable String reviewId, @PathVariable String commentId) {
         Review reviewOptional = reviewRepository.getReviewByReviewId(reviewId);
         if (reviewOptional != null) {
-            Optional<Comment> commentOptional = commentRepository.findById(commentId);
-            if (commentOptional.isPresent()) {
-                commentRepository.deleteById(commentId);
+            Comment commentOptional = commentRepository.getCommentByCommentId(commentId);
+            if (commentOptional != null) {
+                commentRepository.deleteByCommentId(commentId);
                 return ResponseEntity.ok("Comment deleted successfully");
             } else {
                 return ResponseEntity.notFound().build();

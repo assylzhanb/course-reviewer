@@ -1,6 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 cse364-project,com.group1.coursereview.controller,CourseController,0,25,0,0,0,5,0,3,0,3
-cse364-project,com.group1.coursereview.controller,CommentController,69,47,7,5,18,15,6,5,2,3
+cse364-project,com.group1.coursereview.controller,CommentController,83,29,10,2,23,10,8,3,2,3
 cse364-project,com.group1.coursereview.controller,ReviewController,78,139,8,20,17,30,7,14,2,5
 cse364-project,com.group1.coursereview.controller,ClientForwardController,2,3,0,0,1,1,1,1,1,1
 cse364-project,com.group1.coursereview.controller,UserController,5,188,3,31,1,41,3,19,0,5

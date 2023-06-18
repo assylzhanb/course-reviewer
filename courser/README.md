@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Course-Reviewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This is Group 1's project for CSE364 course. This is a course reviewing website which will be designed specifically for UNIST students.
 
-In the project directory, you can run:
+## How to run:
 
-### `npm start`
+```
+docker build -t image_name /path/to/Dockerfile
+docker run -p 8080:8080 -it image_name
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Now you can open http://localhost:8080/ on your browser and you will see the result
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Home Page
 
-### `npm test`
+The home page of Course-Reviewer displays a search bar where you can enter a course code to view its reviews. Follow these steps to search for course reviews:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. On the home page, you will see a search bar with the label "Enter Course Code."
+2. Enter the course code you want to search for (e.g., CSE33101) in the search bar.
+3. Click the "Get Reviews" button.
+4. The page will display the course details, including its title, code, school, professor, program, and prerequisite (if any).
+5. You will also see a list of reviews for the course if any exist.
+6. Each review displays the user ID, rating, and review body.
+7. You can edit or delete a review by clicking the corresponding buttons.
+8. To add a new review for the course, click the "Add Review" button.
 
-### `npm run build`
+## Add Review
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To add a new review for a course, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. After searching for a course and viewing its details, click the "Add Review" button.
+2. A form will appear where you can enter your review information.
+3. Fill in the required fields, including the rating (from 1 to 5) and the review body.
+4. Click the "Submit" button to add your review.
+5. The page will refresh, and your review will appear in the list of reviews for the course.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Edit Review
 
-### `npm run eject`
+To edit an existing review, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. After searching for a course and viewing its details, locate the review you want to edit.
+2. Click the "Edit" button next to the review.
+3. The review form will appear with the existing review information pre-filled.
+4. Modify the rating and review body as desired.
+5. Click the "Submit" button to save your changes.
+6. The page will refresh, and the updated review will appear in the list of reviews for the course.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Delete Review
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To delete a review, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. After searching for a course and viewing its details, locate the review you want to delete.
+2. Click the "Delete" button next to the review.
+3. A confirmation dialog will appear asking you to confirm the deletion.
+4. Click "OK" to proceed with the deletion.
+   The review will be removed from the list of reviews for the course.
 
-## Learn More
+## Comment on a Review
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To add a comment to a review, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. After searching for a course and viewing its details, locate the review you want to comment on.
+2. Click the "Comment" button next to the review.
+3. A comment section will appear below the review.
+4. Enter your comment in the provided input field.
+5. Click the "Submit" button to add your comment.
+6. The comment will appear below the review.
 
-### Code Splitting
+## View Comments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To view comments on a review, follow these steps:
 
-### Analyzing the Bundle Size
+1. After searching for a course and viewing its details, locate the review you want to view comments on.
+2. If there are any comments, a "View Comments" button will be displayed below the review.
+3. Click the "View Comments" button to expand the comment section and view all comments.
+4. To hide the comments, click the "Hide Comments" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Technical overview
 
-### Making a Progressive Web App
+Course-Reviewer combines the following technologies for an efficient user experience:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Frontend:
 
-### Advanced Configuration
+- React
+- Tailwind CSS
+- Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Backend
 
-### Deployment
+- Spring Boot
+- MongoDB
+- Hibernate Validator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## **Deployment**
 
-### `npm run build` fails to minify
+### Course-Reviewer utilizes a different deployment approach compared to the traditional method of using Tomcat with a WAR file. Instead, the project leverages the frontend-maven-plugin in combination with Docker for deployment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Using frontend-maven-plugin, Course-Reviewer ensures that the frontend (React) application is built and bundled during the Maven build process. This eliminates the need for manual frontend build steps and keeps the deployment process unified within the Maven lifecycle. The Dockerfile provided in the previous section takes advantage of the built frontend assets and deploys the entire application on port 8080.

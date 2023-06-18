@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AddReviewComponent from './AddReviewComponent';
+import CommentComponent from './CommentComponent';
+
 function EditReviewComponent({ reviewId, onUpdateReview, toggleEditReview }) {
     const [courseRating, setCourseRating] = useState('');
     const [reviewBody, setReviewBody] = useState('');
+
     const handleCancel = () => {
         toggleEditReview();
     };
@@ -31,11 +34,10 @@ function EditReviewComponent({ reviewId, onUpdateReview, toggleEditReview }) {
                 courseRating,
                 reviewBody,
             };
-            toggleEditReview();
 
+            toggleEditReview();
             await axios.put(`/reviews/${reviewId}`, updatedReviewData);
             onUpdateReview();
-
             toggleEditReview();
         } catch (error) {
             console.error('Error updating review:', error);
@@ -56,7 +58,7 @@ function EditReviewComponent({ reviewId, onUpdateReview, toggleEditReview }) {
                                 max="5"
                                 value={courseRating}
                                 onChange={(e) => setCourseRating(e.target.value)}
-                                className="border border-gray-300 rounded px-2 py-1 mt-1"
+                                className="border border-gray-300 rounded px-2 py-1 mt-1 transition duration-300 hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                             />
                         </label>
                     </div>
@@ -66,15 +68,15 @@ function EditReviewComponent({ reviewId, onUpdateReview, toggleEditReview }) {
                             <textarea
                                 value={reviewBody}
                                 onChange={(e) => setReviewBody(e.target.value)}
-                                className="border border-gray-300 rounded px-2 py-1 mt-1"
+                                className="border border-gray-300 rounded px-2 py-1 mt-1 transition duration-300 hover:bg-gray-100 focus:outline-none focus:bg-gray-100"
                             ></textarea>
                         </label>
                     </div>
                     <div className="flex justify-end">
-                        <button type="button" className="bg-blue-500 text-white px-4 py-2 rounded" onClick={handleSubmit}>
+                        <button type="button" className="bg-blue-500 text-white px-4 py-2 rounded transition duration-300 hover:bg-blue-600" onClick={handleSubmit}>
                             Update
                         </button>
-                        <button type="button" className="bg-red-500 text-white px-4 py-2 rounded" onClick={handleCancel}>
+                        <button type="button" className="bg-red-500 text-white px-4 py-2 rounded transition duration-300 hover:bg-red-600" onClick={handleCancel}>
                             Cancel
                         </button>
                     </div>
@@ -83,7 +85,6 @@ function EditReviewComponent({ reviewId, onUpdateReview, toggleEditReview }) {
         </div>
     );
 }
-
 
 function CourseComponent() {
     const [courseCode, setCourseCode] = useState('');
@@ -94,6 +95,11 @@ function CourseComponent() {
     const [showAddReview, setShowAddReview] = useState(false);
     const [showEditReview, setShowEditReview] = useState(false);
     const [selectedReviewId, setSelectedReviewId] = useState(null);
+    const [showComment, setShowComment] = useState(false);
+
+    const toggleComment = () => {
+        setShowComment((prevState) => !prevState);
+    };
 
     const toggleAddReview = () => {
         setShowAddReview((prevState) => !prevState);
@@ -153,28 +159,56 @@ function CourseComponent() {
         }
     };
 
+    const handleComment = (reviewId) => {
+        setSelectedReviewId(reviewId);
+        toggleComment();
+    };
+
     const renderReviews = (reviews) => {
         return (
             <div className="grid gap-4">
                 {reviews.map((review) => (
-                    <div key={review.reviewId} className="border rounded p-4">
+                    <div key={review.reviewId} className="border rounded p-4 transition duration-300 hover:shadow-md">
                         <p className="text-lg font-semibold">User ID: {review.userId}</p>
                         <p className="text-lg">Rating: {review.courseRating}</p>
                         <p className="text-lg">Review: {review.reviewBody}</p>
                         <div className="mt-4 flex space-x-4">
                             <button
-                                className="bg-blue-500 text-white px-4 py-2 rounded"
+                                className="bg-blue-500 text-white px-4 py-2 rounded transition duration-300 hover:bg-blue-600"
                                 onClick={() => handleEditReview(review.reviewId)}
                             >
                                 Edit
                             </button>
                             <button
-                                className="bg-red-500 text-white px-4 py-2 rounded"
+                                className="bg-red-500 text-white px-4 py-2 rounded transition duration-300 hover:bg-red-600"
                                 onClick={() => handleDeleteReview(review.reviewId)}
                             >
                                 Delete
                             </button>
+                            <button
+                                className="bg-gray-500 text-white px-4 py-2 rounded transition duration-300 hover:bg-gray-600"
+                                onClick={() => handleComment(review.reviewId)}
+                            >
+                                Comment
+                            </button>
                         </div>
+                        {review.reviewId === selectedReviewId && showEditReview && (
+                            <EditReviewComponent
+                                reviewId={selectedReviewId}
+                                onUpdateReview={() => {
+                                    fetchCourse(courseCode);
+                                    setShowEditReview(false);
+                                }}
+                                toggleEditReview={toggleEditReview}
+                            />
+                        )}
+                        {review.reviewId === selectedReviewId && showComment && (
+                            <CommentComponent
+                                reviewId={selectedReviewId}
+                                showComment={showComment}
+                                toggleComment={toggleComment}
+                            />
+                        )}
                     </div>
                 ))}
             </div>
@@ -202,7 +236,6 @@ function CourseComponent() {
                         placeholder="CSE33101"
                         className="border border-gray-300 rounded px-2 py-1"
                     />
-
                 </label>
                 <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">
                     Get Reviews
@@ -213,7 +246,7 @@ function CourseComponent() {
                 {loadingCourse ? (
                     <p>Loading course...</p>
                 ) : course ? (
-                    <div className="border rounded p-4">
+                    <div className="border rounded p-4 transition duration-300 hover:shadow-md">
                         <h2 className="text-2xl font-bold mb-2">Course Details</h2>
                         <p className="text-lg">
                             <span className="font-semibold">Title:</span> {course.courseTitle}
@@ -235,7 +268,7 @@ function CourseComponent() {
                         </p>
                         {course ? (
                             <button
-                                className="bg-blue-500 text-white px-4 py-2 rounded"
+                                className="bg-blue-500 text-white px-4 py-2 rounded transition duration-300 hover:bg-blue-600"
                                 onClick={toggleAddReview}
                             >
                                 Add Review
@@ -279,6 +312,5 @@ function CourseComponent() {
         </div>
     );
 }
-
 
 export default CourseComponent;
