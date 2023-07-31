@@ -1,19 +1,16 @@
-FROM ubuntu:22.04
+FROM ubuntu:latest
 
+RUN apt-get update && \
+    apt-get install -y vim git openjdk-17-jdk maven curl nodejs npm
 
-RUN apt-get update && apt-get install -y \
-    vim \
-    git \
-    openjdk-17-jdk \
-    maven \
-    curl 
+WORKDIR /app
 
+RUN git clone https://github.com/assylzhanb/course-reviewer.git
+RUN git pull
+RUN git restore .
 
-WORKDIR /root/project
+RUN mvn clean package
 
+EXPOSE 8080
 
-ADD run.sh /root/project/run.sh
-RUN chmod +x /root/project/run.sh
-
-
-CMD ["/bin/bash"]
+CMD ["mvn", "spring-boot:run"]

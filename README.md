@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This is Group 1's project for CSE364 course. This is a course reviewing website which will be designed specifically for UNIST students.
+This is a course reviewing website which will be designed specifically for UNIST students.
 
 ## How to run:
 
